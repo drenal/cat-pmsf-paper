@@ -1,0 +1,233 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Jun  4 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    coleoptera1 (AVX, 425 GB RAM)
+Command: /scratch/local/bin/iqtree2 -nt 16 -s microsporidia.phy -m LG+R8 -B 5000 --wbtl -fs lg_microsporidia_icc_chain1.sitefreq
+Seed:    382930 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun  4 12:17:08 2020
+Kernel:  AVX - 16 threads (16 CPU cores detected)
+
+Reading alignment file microsporidia.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 40 sequences with 24294 columns, 22984 distinct patterns
+17551 parsimony-informative, 3036 singleton sites, 3707 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  Aeropyrum0    3.78%    failed      0.00%
+   2  Arabidopsi    7.07%    failed      0.71%
+   3  Archaeoglo    4.39%    failed      0.00%
+   4  Babesia_bo   52.26%    failed      0.00%
+   5  Candida_al    2.05%    failed      0.00%
+   6  Chlamydomo   26.72%    failed      0.00%
+   7  Ciliophora   15.97%    failed      0.00%
+   8  Cryptococc    1.25%    failed      0.00%
+   9  Cryptospor    9.78%    failed      0.00%
+  10  Dictyostel    1.55%    failed      0.00%
+  11  Drosophila    6.64%    failed      0.12%
+  12  Dunaliella   69.50%    failed      0.00%
+  13  Encephalit    5.96%    failed      0.00%
+  14  Glomus_int   77.45%    failed      0.33%
+  15  Gymnosperm   34.46%    passed     28.22%
+  16  Hydrozoa00   37.98%    failed      0.00%
+  17  Mammalians    4.03%    failed      0.01%
+  18  Methanococ   11.04%    failed      0.00%
+  19  Neurospora    0.58%    failed      0.03%
+  20  Oryza_sati   12.24%    passed      8.52%
+  21  Physcomitr   35.06%    failed      1.24%
+  22  Phytophtho    0.42%    failed      0.01%
+  23  Plasmodium    5.75%    failed      0.00%
+  24  Pyrobaculu   17.39%    failed      0.00%
+  25  Pyrococcus    0.57%    failed      0.00%
+  26  Rhodophyta   38.86%    failed      0.00%
+  27  Saccharomy    1.22%    failed      0.00%
+  28  Schizosacc    1.21%    failed      0.01%
+  29  Sulfolobus    4.23%    failed      0.00%
+  30  Thalassios    5.10%    failed      0.00%
+  31  Theileria0   24.99%    failed      0.00%
+  32  Toxoplasma   26.26%    failed      0.00%
+  33  Tunicates0   17.55%    failed      0.00%
+  34  Ustilago_m    0.39%    failed      0.00%
+  35  Chytridiom   65.78%    failed      0.00%
+  36  Eimeria000   65.15%    failed      0.00%
+  37  Mastigamoe   71.67%    failed      0.00%
+  38  Monosiga_b   58.12%    failed      0.00%
+  39  Phaeodacty   60.92%    failed      0.00%
+  40  Phaeophyce   80.01%    failed      0.00%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        24.13%  38 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Reading site-specific state frequency file lg_microsporidia_icc_chain1.sitefreq ...
+Regrouping alignment sites...
+24294 distinct per-site state frequency vectors detected
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.848 seconds
+Generating 5000 samples for ultrafast bootstrap (seed: 382930)...
+
+NOTE: 1892 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -616484.287
+2. Current log-likelihood: -597979.467
+3. Current log-likelihood: -597493.719
+4. Current log-likelihood: -597470.366
+5. Current log-likelihood: -597455.966
+6. Current log-likelihood: -597445.721
+7. Current log-likelihood: -597437.694
+8. Current log-likelihood: -597431.000
+9. Current log-likelihood: -597425.316
+10. Current log-likelihood: -597420.485
+11. Current log-likelihood: -597416.468
+12. Current log-likelihood: -597413.107
+13. Current log-likelihood: -597410.301
+14. Current log-likelihood: -597408.214
+15. Current log-likelihood: -597406.803
+16. Current log-likelihood: -597405.896
+17. Current log-likelihood: -597405.380
+18. Current log-likelihood: -597405.021
+19. Current log-likelihood: -597404.780
+20. Current log-likelihood: -597404.579
+21. Current log-likelihood: -597404.453
+22. Current log-likelihood: -597404.346
+23. Current log-likelihood: -597404.231
+Optimal log-likelihood: -597404.064
+Site proportion and rates:  (0.165,0.074) (0.162,0.195) (0.121,0.394) (0.129,0.570) (0.118,0.859) (0.144,1.379) (0.130,2.729) (0.031,5.795)
+Parameters optimization took 23 rounds (4818.921 sec)
+Computing ML distances based on estimated model parameters... 170.607 sec
+Computing BIONJ tree...
+0.025 seconds
+Log-likelihood of BIONJ tree: -597724.429
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 119.906 second
+Computing log-likelihood of 98 initial trees ... 689.356 seconds
+Current best score: -597404.064
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -597206.836
+Iteration 10 / LogL: -597211.934 / Time: 3h:24m:23s
+Iteration 20 / LogL: -597215.445 / Time: 3h:53m:46s
+Finish initializing candidate tree set (2)
+Current best tree score: -597206.836 / CPU time: 9083.037
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -597211.189 / Time: 4h:18m:53s (10h:33m:47s left)
+Iteration 40 / LogL: -597222.059 / Time: 4h:41m:48s (7h:20m:45s left)
+Iteration 50 / LogL: -597208.051 / Time: 5h:7m:10s (5h:19m:41s left)
+Log-likelihood cutoff on original alignment: -597236.702
+UFBoot trees printed to microsporidia.phy.ufboot
+Iteration 60 / LogL: -597211.876 / Time: 5h:28m:51s (3h:48m:31s left)
+Iteration 70 / LogL: -597208.067 / Time: 5h:50m:35s (2h:37m:30s left)
+Iteration 80 / LogL: -597210.594 / Time: 6h:12m:49s (1h:39m:6s left)
+Iteration 90 / LogL: -597207.783 / Time: 6h:35m:29s (0h:48m:52s left)
+Iteration 100 / LogL: -597207.053 / Time: 6h:59m:35s (0h:4m:14s left)
+Log-likelihood cutoff on original alignment: -597237.268
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UFBoot trees printed to microsporidia.phy.ufboot
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 7h:4m:34s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -597206.836
+2. Current log-likelihood: -597206.718
+3. Current log-likelihood: -597206.576
+4. Current log-likelihood: -597206.439
+5. Current log-likelihood: -597206.302
+6. Current log-likelihood: -597206.175
+7. Current log-likelihood: -597206.051
+8. Current log-likelihood: -597205.932
+9. Current log-likelihood: -597205.813
+10. Current log-likelihood: -597205.696
+11. Current log-likelihood: -597205.604
+12. Current log-likelihood: -597205.525
+13. Current log-likelihood: -597205.422
+14. Current log-likelihood: -597205.321
+15. Current log-likelihood: -597205.242
+16. Current log-likelihood: -597205.179
+17. Current log-likelihood: -597205.113
+18. Current log-likelihood: -597205.062
+19. Current log-likelihood: -597205.017
+20. Current log-likelihood: -597204.970
+21. Current log-likelihood: -597204.927
+22. Current log-likelihood: -597204.872
+23. Current log-likelihood: -597204.828
+24. Current log-likelihood: -597204.789
+25. Current log-likelihood: -597204.752
+26. Current log-likelihood: -597204.727
+27. Current log-likelihood: -597204.686
+28. Current log-likelihood: -597204.661
+29. Current log-likelihood: -597204.626
+30. Current log-likelihood: -597204.602
+31. Current log-likelihood: -597204.578
+32. Current log-likelihood: -597204.549
+33. Current log-likelihood: -597204.524
+34. Current log-likelihood: -597204.500
+35. Current log-likelihood: -597204.476
+36. Current log-likelihood: -597204.453
+37. Current log-likelihood: -597204.431
+38. Current log-likelihood: -597204.402
+39. Current log-likelihood: -597204.379
+40. Current log-likelihood: -597204.357
+41. Current log-likelihood: -597204.335
+42. Current log-likelihood: -597204.313
+43. Current log-likelihood: -597204.292
+44. Current log-likelihood: -597204.271
+45. Current log-likelihood: -597204.239
+46. Current log-likelihood: -597204.218
+47. Current log-likelihood: -597204.198
+48. Current log-likelihood: -597204.179
+49. Current log-likelihood: -597204.159
+50. Current log-likelihood: -597204.140
+51. Current log-likelihood: -597204.120
+52. Current log-likelihood: -597204.096
+53. Current log-likelihood: -597204.076
+54. Current log-likelihood: -597204.057
+55. Current log-likelihood: -597204.038
+56. Current log-likelihood: -597204.026
+57. Current log-likelihood: -597204.009
+58. Current log-likelihood: -597203.992
+59. Current log-likelihood: -597203.974
+60. Current log-likelihood: -597203.951
+61. Current log-likelihood: -597203.933
+62. Current log-likelihood: -597203.922
+63. Current log-likelihood: -597203.906
+64. Current log-likelihood: -597203.892
+Optimal log-likelihood: -597203.880
+Site proportion and rates:  (0.123,0.058) (0.217,0.182) (0.133,0.433) (0.136,0.620) (0.112,0.939) (0.136,1.518) (0.119,2.925) (0.024,6.356)
+Parameters optimization took 64 rounds (7668.656 sec)
+BEST SCORE FOUND : -597203.880
+Creating bootstrap support values...
+Split supports printed to NEXUS file microsporidia.phy.splits.nex
+Total tree length: 17.548
+
+Total number of iterations: 102
+CPU time used for tree search: 316758.547 sec (87h:59m:18s)
+Wall-clock time used for tree search: 20530.841 sec (5h:42m:10s)
+Total CPU time used: 498002.424 sec (138h:20m:2s)
+Total wall-clock time used: 33146.230 sec (9h:12m:26s)
+UFBoot trees printed to microsporidia.phy.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file microsporidia.phy.splits.nex...
+40 taxa and 90 splits.
+Consensus tree written to microsporidia.phy.contree
+Reading input trees file microsporidia.phy.contree
+Log-likelihood of consensus tree: -597203.879
+
+Analysis results written to: 
+  IQ-TREE report:                microsporidia.phy.iqtree
+  Maximum-likelihood tree:       microsporidia.phy.treefile
+  Likelihood distances:          microsporidia.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          microsporidia.phy.splits.nex
+  Consensus tree:                microsporidia.phy.contree
+  UFBoot trees:                  microsporidia.phy.ufboot
+  Screen log file:               microsporidia.phy.log
+
+Date and Time: Thu Jun  4 21:31:08 2020

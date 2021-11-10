@@ -1,0 +1,305 @@
+IQ-TREE multicore version 1.6.5 for Linux 64-bit built May 14 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius01 (AVX512, FMA3, 376 GB RAM)
+Command: /scratch/local/bin/iqtree -nt 12 -s allconcsimion.reduced_outgroup.fasta -m LG+G4 -wslr
+Seed:    452286 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Dec 16 22:54:46 2020
+Kernel:  AVX+FMA - 12 threads (48 CPU cores detected)
+
+Reading alignment file allconcsimion.reduced_outgroup.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 90 sequences with 401632 columns, 394553 distinct patterns
+307085 parsimony-informative, 34458 singleton sites, 60089 constant sites
+                               Gap/Ambiguity  Composition  p-value
+   1  Leuconia_nivea                  66.80%    failed      0.00%
+   2  Ircinia_fasciculata             61.03%    failed      0.00%
+   3  Aiptasia_pallida                26.81%    failed      0.00%
+   4  Diaphanoeca_grandis_RI_01       29.05%    failed      0.00%
+   5  Pelagia_noctiluca               47.63%    failed      0.00%
+   6  Aurelia_aurita                  29.79%    failed      0.00%
+   7  Sycon_coactum                   67.03%    failed      0.00%
+   8  Chondrilla_nucula               60.06%    failed      0.00%
+   9  Spongilla_lacustris             47.27%    failed      0.00%
+  10  Cestum_veneris                  64.28%    failed      0.00%
+  11  Capitella_teleta                 9.22%    failed      0.00%
+  12  Choanoeca_perplexa_11           26.51%    failed      0.00%
+  13  Pleurobrachia_species            9.99%    failed      0.00%
+  14  Salpingoeca_qvevrii_09          25.79%    failed      0.00%
+  15  Coeloplana_species              11.01%    failed      0.00%
+  16  Salpingoeca_dolichothecata_16   25.89%    failed      0.00%
+  17  Bolocera_tuedia                 57.09%    failed      0.00%
+  18  Salpingoeca_infusionum_12       30.27%    failed      0.00%
+  19  Beroe_sp.                       78.28%    failed      0.00%
+  20  Euplokamis_dunlapae             48.92%    failed      0.00%
+  21  Homo_sapiens                    17.03%    failed      0.00%
+  22  Montastraea_faveolata           27.80%    failed      0.00%
+  23  Clytia_hemisphaerica            40.50%    failed      0.00%
+  24  Pleraplysilla_spinifera         52.22%    failed      0.00%
+  25  Stephanoeca_diplocostata_AUFR   25.65%    failed      0.00%
+  26  Grantia_compressa               61.92%    failed      0.00%
+  27  Plakina_jani                    48.23%    failed      0.00%
+  28  Craspedacusta_sowerbyi          32.23%    failed      0.00%
+  29  Aphrocallistes_vastus           62.52%    failed      0.00%
+  30  Ephydatia_muelleri              38.71%    failed      0.00%
+  31  Nanomia_bijuga                  26.03%    failed      0.00%
+  32  Oscarella_carmela               52.49%    failed      0.00%
+  33  Sycon_ciliatum                  64.49%    failed      0.00%
+  34  Mnemiopsis_leidyi                8.65%    failed      0.00%
+  35  Hydractinia_polyclina           26.42%    failed      0.00%
+  36  Liriope_tetraphylla             36.85%    failed      0.00%
+  37  Vallicula_multiformis           10.67%    failed      0.00%
+  38  Acanthoeca_spectabilis_VA_02    28.67%    failed      0.00%
+  39  Daphnia_pulex                   21.18%    failed      0.00%
+  40  Kirkpatrickia_variolosa         40.23%    failed      0.00%
+  41  Bolinopsis_infundibulum         54.19%    failed      0.00%
+  42  Pennatula_rubra                 84.36%    failed      0.00%
+  43  Oscarella_species               25.38%    failed      0.00%
+  44  Lucernariopsis_campanulata      39.96%    failed      0.00%
+  45  Edwardsiella_lineata            38.15%    failed      0.00%
+  46  Salpingoeca_macrocollata_06     25.33%    failed      0.00%
+  47  Hyalonema_populiferum           82.76%    failed      0.00%
+  48  Ixodes_scapularis               38.22%    failed      0.00%
+  49  Rossella_fibulata               45.70%    failed      0.00%
+  50  Latrunculia_apicalis            47.42%    failed      0.00%
+  51  Corticium_candelabrum           50.49%    failed      0.00%
+  52  Dryodora_glandiformis           37.48%    failed      0.00%
+  53  Monosiga_brevicollis_mx1        34.51%    failed      0.00%
+  54  Petrosia_ficiformis             30.14%    failed      0.00%
+  55  Helobdella_robusta              21.52%    failed      0.00%
+  56  Branchiostoma_floridae          17.55%    failed      0.00%
+  57  Saccoglossus_kowalevskii        10.24%    failed      0.00%
+  58  Mycale_phyllophila              42.72%    failed      0.00%
+  59  Euplectella_aspergillum         51.21%    failed      0.00%
+  60  Salpingoeca_rosetta             28.06%    failed      0.00%
+  61  Strongylocentrotus_purpuratus   18.73%    failed      0.00%
+  62  Amphimedon_queenslandica        21.49%    failed      0.00%
+  63  Lampea_pancerina                12.29%    failed      0.00%
+  64  Atolla_vanhoeffeni              60.73%    failed      0.00%
+  65  Gorgonia_ventalina              41.38%    failed      0.00%
+  66  Sympagella_nux                  40.40%    failed      0.00%
+  67  Acanthoeca_sp._10tr             32.85%    failed      0.00%
+  68  Plumapathes_pennacea            36.85%    failed      0.00%
+  69  Didymoeca_costata_10            30.00%    failed      0.00%
+  70  Periphylla_periphylla           69.99%    failed      0.00%
+  71  Salpingoeca_punica_03           30.71%    failed      0.00%
+  72  Trichoplax_adhaerens            14.76%    failed      0.00%
+  73  Leucosolenia_complicata         67.92%    failed      0.00%
+  74  Clathrina_coriacea              75.71%    failed      0.00%
+  75  Antipathes_caribbeana           36.50%    failed      0.00%
+  76  Stomolophus_meleagris           29.57%    failed      0.00%
+  77  Tribolium_castaneum             23.61%    failed      0.00%
+  78  Codosiga_hollandica_17          33.48%    failed      0.00%
+  79  Nematostella_vectensis          36.66%    failed      0.00%
+  80  Salpingoeca_urceolata_04        25.85%    failed      0.00%
+  81  Hormiphora_californensis        23.69%    failed      0.00%
+  82  Mylnosiga_fluctuans_19          31.96%    failed      0.00%
+  83  Porites_australiensis           35.82%    failed      0.00%
+  84  Crassostrea_gigas               17.61%    failed      0.00%
+  85  Alatina_alata                   33.44%    failed      0.00%
+  86  Salpingoeca_helianthica_18      27.80%    failed      0.00%
+  87  Salpingoeca_roanoka_13          24.26%    failed      0.00%
+  88  Aplysia_californica             10.44%    failed      0.00%
+  89  Hydra_magnipapillata            33.15%    failed      0.00%
+  90  Beroe_abyssicola                26.21%    failed      0.00%
+WARNING: 21 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           37.27%  90 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000248984 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 46.276 seconds
+
+NOTE: 21945 MB RAM (21 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -19440769.040
+2. Current log-likelihood: -19025373.631
+3. Current log-likelihood: -19024518.625
+4. Current log-likelihood: -19024517.081
+Optimal log-likelihood: -19024517.019
+Gamma shape alpha: 0.755
+Parameters optimization took 4 rounds (246.746 sec)
+Computing ML distances based on estimated model parameters... 110.878 sec
+Computing BIONJ tree...
+0.007 seconds
+Log-likelihood of BIONJ tree: -19035816.805
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 
+******************************************************
+CHECKPOINT: Resuming analysis from allconcsimion.reduced_outgroup.fasta.ckp.gz
+
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 21 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius24 (AVX512, FMA3, 187 GB RAM)
+Command: /scratch/local/bin/iqtree2_icc -nt 48 -s allconcsimion.reduced_outgroup.fasta -m LG+G4 -wslr
+Seed:    406425 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Dec 16 23:33:09 2020
+Kernel:  AVX+FMA - 48 threads (48 CPU cores detected)
+
+WARNING: Command-line argument `48` differs from checkpoint `12`
+WARNING: Command-line differs from checkpoint!
+Reading alignment file allconcsimion.reduced_outgroup.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 90 sequences with 401632 columns, 394553 distinct patterns
+307085 parsimony-informative, 34458 singleton sites, 60089 constant sites
+                               Gap/Ambiguity  Composition  p-value
+   1  Leuconia_nivea                  66.80%    failed      0.00%
+   2  Ircinia_fasciculata             61.03%    failed      0.00%
+   3  Aiptasia_pallida                26.81%    failed      0.00%
+   4  Diaphanoeca_grandis_RI_01       29.05%    failed      0.00%
+   5  Pelagia_noctiluca               47.63%    failed      0.00%
+   6  Aurelia_aurita                  29.79%    failed      0.00%
+   7  Sycon_coactum                   67.03%    failed      0.00%
+   8  Chondrilla_nucula               60.06%    failed      0.00%
+   9  Spongilla_lacustris             47.27%    failed      0.00%
+  10  Cestum_veneris                  64.28%    failed      0.00%
+  11  Capitella_teleta                 9.22%    failed      0.00%
+  12  Choanoeca_perplexa_11           26.51%    failed      0.00%
+  13  Pleurobrachia_species            9.99%    failed      0.00%
+  14  Salpingoeca_qvevrii_09          25.79%    failed      0.00%
+  15  Coeloplana_species              11.01%    failed      0.00%
+  16  Salpingoeca_dolichothecata_16   25.89%    failed      0.00%
+  17  Bolocera_tuedia                 57.09%    failed      0.00%
+  18  Salpingoeca_infusionum_12       30.27%    failed      0.00%
+  19  Beroe_sp.                       78.28%    failed      0.00%
+  20  Euplokamis_dunlapae             48.92%    failed      0.00%
+  21  Homo_sapiens                    17.03%    failed      0.00%
+  22  Montastraea_faveolata           27.80%    failed      0.00%
+  23  Clytia_hemisphaerica            40.50%    failed      0.00%
+  24  Pleraplysilla_spinifera         52.22%    failed      0.00%
+  25  Stephanoeca_diplocostata_AUFR   25.65%    failed      0.00%
+  26  Grantia_compressa               61.92%    failed      0.00%
+  27  Plakina_jani                    48.23%    failed      0.00%
+  28  Craspedacusta_sowerbyi          32.23%    failed      0.00%
+  29  Aphrocallistes_vastus           62.52%    failed      0.00%
+  30  Ephydatia_muelleri              38.71%    failed      0.00%
+  31  Nanomia_bijuga                  26.03%    failed      0.00%
+  32  Oscarella_carmela               52.49%    failed      0.00%
+  33  Sycon_ciliatum                  64.49%    failed      0.00%
+  34  Mnemiopsis_leidyi                8.65%    failed      0.00%
+  35  Hydractinia_polyclina           26.42%    failed      0.00%
+  36  Liriope_tetraphylla             36.85%    failed      0.00%
+  37  Vallicula_multiformis           10.67%    failed      0.00%
+  38  Acanthoeca_spectabilis_VA_02    28.67%    failed      0.00%
+  39  Daphnia_pulex                   21.18%    failed      0.00%
+  40  Kirkpatrickia_variolosa         40.23%    failed      0.00%
+  41  Bolinopsis_infundibulum         54.19%    failed      0.00%
+  42  Pennatula_rubra                 84.36%    failed      0.00%
+  43  Oscarella_species               25.38%    failed      0.00%
+  44  Lucernariopsis_campanulata      39.96%    failed      0.00%
+  45  Edwardsiella_lineata            38.15%    failed      0.00%
+  46  Salpingoeca_macrocollata_06     25.33%    failed      0.00%
+  47  Hyalonema_populiferum           82.76%    failed      0.00%
+  48  Ixodes_scapularis               38.22%    failed      0.00%
+  49  Rossella_fibulata               45.70%    failed      0.00%
+  50  Latrunculia_apicalis            47.42%    failed      0.00%
+  51  Corticium_candelabrum           50.49%    failed      0.00%
+  52  Dryodora_glandiformis           37.48%    failed      0.00%
+  53  Monosiga_brevicollis_mx1        34.51%    failed      0.00%
+  54  Petrosia_ficiformis             30.14%    failed      0.00%
+  55  Helobdella_robusta              21.52%    failed      0.00%
+  56  Branchiostoma_floridae          17.55%    failed      0.00%
+  57  Saccoglossus_kowalevskii        10.24%    failed      0.00%
+  58  Mycale_phyllophila              42.72%    failed      0.00%
+  59  Euplectella_aspergillum         51.21%    failed      0.00%
+  60  Salpingoeca_rosetta             28.06%    failed      0.00%
+  61  Strongylocentrotus_purpuratus   18.73%    failed      0.00%
+  62  Amphimedon_queenslandica        21.49%    failed      0.00%
+  63  Lampea_pancerina                12.29%    failed      0.00%
+  64  Atolla_vanhoeffeni              60.73%    failed      0.00%
+  65  Gorgonia_ventalina              41.38%    failed      0.00%
+  66  Sympagella_nux                  40.40%    failed      0.00%
+  67  Acanthoeca_sp._10tr             32.85%    failed      0.00%
+  68  Plumapathes_pennacea            36.85%    failed      0.00%
+  69  Didymoeca_costata_10            30.00%    failed      0.00%
+  70  Periphylla_periphylla           69.99%    failed      0.00%
+  71  Salpingoeca_punica_03           30.71%    failed      0.00%
+  72  Trichoplax_adhaerens            14.76%    failed      0.00%
+  73  Leucosolenia_complicata         67.92%    failed      0.00%
+  74  Clathrina_coriacea              75.71%    failed      0.00%
+  75  Antipathes_caribbeana           36.50%    failed      0.00%
+  76  Stomolophus_meleagris           29.57%    failed      0.00%
+  77  Tribolium_castaneum             23.61%    failed      0.00%
+  78  Codosiga_hollandica_17          33.48%    failed      0.00%
+  79  Nematostella_vectensis          36.66%    failed      0.00%
+  80  Salpingoeca_urceolata_04        25.85%    failed      0.00%
+  81  Hormiphora_californensis        23.69%    failed      0.00%
+  82  Mylnosiga_fluctuans_19          31.96%    failed      0.00%
+  83  Porites_australiensis           35.82%    failed      0.00%
+  84  Crassostrea_gigas               17.61%    failed      0.00%
+  85  Alatina_alata                   33.44%    failed      0.00%
+  86  Salpingoeca_helianthica_18      27.80%    failed      0.00%
+  87  Salpingoeca_roanoka_13          24.26%    failed      0.00%
+  88  Aplysia_californica             10.44%    failed      0.00%
+  89  Hydra_magnipapillata            33.15%    failed      0.00%
+  90  Beroe_abyssicola                26.21%    failed      0.00%
+WARNING: 21 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           37.27%  90 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000248984 for long alignment
+
+CHECKPOINT: Initial tree restored
+
+NOTE: 21945 MB RAM (21 GB) is required!
+CHECKPOINT: Model parameters restored, LogL: -19024516.543
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.248367 sec (of wall-clock time) 11.594233 sec(of CPU time)
+Computing RapidNJ tree took 0.059275 sec (of wall-clock time) 2.194618 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -19058889.050
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3952.752 second
+Computing log-likelihood of 98 initial trees ... 660.201 seconds
+Current best score: -19024516.543
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -19023175.870
+Iteration 10 / LogL: -19023255.719 / Time: 1h:34m:22s
+Iteration 20 / LogL: -19023259.321 / Time: 1h:51m:18s
+Finish initializing candidate tree set (4)
+Current best tree score: -19023175.870 / CPU time: 6591.682
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -19023536.665 / Time: 2h:10m:34s (5h:19m:40s left)
+Iteration 40 / LogL: -19023233.362 / Time: 2h:30m:33s (3h:55m:29s left)
+Iteration 50 / LogL: -19023247.239 / Time: 2h:48m:32s (2h:55m:24s left)
+Iteration 60 / LogL: -19024546.089 / Time: 3h:7m:0s (2h:9m:56s left)
+Iteration 70 / LogL: -19023295.615 / Time: 3h:26m:32s (1h:32m:47s left)
+Iteration 80 / LogL: -19023543.104 / Time: 3h:44m:55s (0h:59m:47s left)
+Iteration 90 / LogL: -19023633.758 / Time: 4h:2m:42s (0h:29m:59s left)
+Iteration 100 / LogL: -19023610.229 / Time: 4h:20m:55s (0h:2m:38s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 4h:24m:24s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -19023175.870
+Optimal log-likelihood: -19023175.870
+Gamma shape alpha: 0.755
+Parameters optimization took 1 rounds (15.267 sec)
+BEST SCORE FOUND : -19023175.870
+Site log-likelihoods per category printed to allconcsimion.reduced_outgroup.fasta.sitelh
+Total tree length: 19.062
+
+Total number of iterations: 102
+CPU time used for tree search: 580807.065 sec (161h:20m:7s)
+Wall-clock time used for tree search: 15777.867 sec (4h:22m:57s)
+Total CPU time used: 585669.618 sec (162h:41m:9s)
+Total wall-clock time used: 15881.679 sec (4h:24m:41s)
+
+Analysis results written to: 
+  IQ-TREE report:                allconcsimion.reduced_outgroup.fasta.iqtree
+  Maximum-likelihood tree:       allconcsimion.reduced_outgroup.fasta.treefile
+  Likelihood distances:          allconcsimion.reduced_outgroup.fasta.mldist
+  Site log-likelihoods:          allconcsimion.reduced_outgroup.fasta.sitelh
+  Screen log file:               allconcsimion.reduced_outgroup.fasta.log
+
+Date and Time: Thu Dec 17 03:57:57 2020

@@ -1,0 +1,133 @@
+IQ-TREE 2.0.6 built Jun  4 2020
+
+Input file name: platyhelminths.phy
+Type of analysis: tree reconstruction
+Random seed number: 774736
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 32 sequences with 35371 amino-acid sites
+Number of constant sites: 11233 (= 31.7577% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 11233 (= 31.7577% of all sites)
+Number of parsimony informative sites: 19112
+Number of distinct site patterns: 30500
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.6247
+
+ Category  Relative_rate  Proportion
+  1         0.0582         0.2500
+  2         0.3257         0.2500
+  3         0.8934         0.2500
+  4         2.7226         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -638606.1605 (s.e. 2754.2075)
+Unconstrained log-likelihood (without tree): -361350.6573
+Number of free parameters (#branches + #model parameters): 62
+Akaike information criterion (AIC) score: 1277336.3211
+Corrected Akaike information criterion (AICc) score: 1277336.5423
+Bayesian information criterion (BIC) score: 1277861.6872
+
+Total tree length (sum of branch lengths): 5.4271
+Sum of internal branch lengths: 1.4970 (27.5836% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'S0japonicu' is drawn at root
+
++--S0japonicu
+|
++--Schistosom
+|
+|  +-----Fasciola0h
++--|
+   |   +-----------Echinococc
+   +---|
+       |   +------------------Dugesia0ja
+       +---|
+           |                          +----Coleoptera
+           |                       +--|
+           |                       |  +---Apis0melli
+           |                    +--|
+           |                    |  |  +--Siphonapte
+           |                    |  +--|
+           |                    |     +----Bombyx0mor
+           |                 +--|
+           |                 |  |     +--Drosophila
+           |                 |  |  +--|
+           |                 |  |  |  +--Glossina0m
+           |                 |  +--|
+           |                 |     +----Anopheles0
+           |              +--|
+           |              |  +--------Hemiptera0
+           |           +--|
+           |           |  +-----------Crustacea0
+           |        +--|
+           |        |  +-------Chelicerat
+           |     +--|
+           |     |  |     +--------Echinoderm
+           |     |  |  +--|
+           |     |  |  |  +-------Cephalocho
+           |     |  +--|
+           |     |     |  +-----------Urochordat
+           |     |     +--|
+           |     |        |   +--Mammalia00
+           |     |        +---|
+           |     |            +--Actinopter
+           +-----|
+                 |                                  +---Neurospora
+                 |                               +--|
+                 |                               |  +----Magnaporth
+                 |                            +--|
+                 |                            |  +----Gibberella
+                 |                      +-----|
+                 |                      |     +-----Eurotiomyc
+                 |                   +--|
+                 |                   |  |        +-------Candida0al
+                 |                   |  +--------|
+                 |                   |           +--------Saccharomy
+                 |                +--|
+                 |                |  +-------------Schizosacc
+                 |             +--|
+                 |             |  |   +----------Ustilago0m
+                 |             |  +---|
+                 |             |      |  +-------Homobasidi
+                 |             |      +--|
+                 |             |         +----------Cryptococc
+                 |          +--|
+                 |          |  +---------Glomales00
+                 +----------|
+                            +--------------Chytridiom
+
+Tree in newick format:
+
+(S0japonicu:0.0273184310,Schistosom:0.0263660410,(Fasciola0h:0.0984745605,(Echinococc:0.1925984413,(Dugesia0ja:0.2988778879,((((((((Coleoptera:0.0801687936,Apis0melli:0.0756515664):0.0150638795,(Siphonapte:0.0548054465,Bombyx0mor:0.0898633792):0.0120909697):0.0150890372,((Drosophila:0.0477445504,Glossina0m:0.0507576317):0.0533369677,Anopheles0:0.0924710814):0.0421525475):0.0131966559,Hemiptera0:0.1501179162):0.0389504836,Crustacea0:0.1943414589):0.0245394863,Chelicerat:0.1357716808):0.0293210762,((Echinoderm:0.1537574741,Cephalocho:0.1281032614):0.0169552112,(Urochordat:0.1939537711,(Mammalia00:0.0372899625,Actinopter:0.0465264075):0.0762892871):0.0198979017):0.0260709808):0.0338796276,((((((((Neurospora:0.0696618037,Magnaporth:0.0787165199):0.0210307645,Gibberella:0.0852288589):0.0482004429,Eurotiomyc:0.1009146877):0.1081007595,(Candida0al:0.1261415927,Saccharomy:0.1467623327):0.1438814974):0.0468250904,Schizosacc:0.2262920503):0.0549930587,(Ustilago0m:0.1873806890,(Homobasidi:0.1326151472,Cryptococc:0.1879377773):0.0371943640):0.0696783150):0.0448369188,Glomales00:0.1637632738):0.0227416894,Chytridiom:0.2497067244):0.1885234464):0.0948787025):0.0758613214):0.0709973422):0.0524012580);
+
+TIME STAMP
+----------
+
+Date and time: Mon Aug  3 12:14:11 2020
+Total CPU time used: 9296.53 seconds (2h:34m:56s)
+Total wall-clock time used: 584.646 seconds (0h:9m:44s)
+

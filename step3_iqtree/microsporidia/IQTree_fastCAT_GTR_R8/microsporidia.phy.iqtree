@@ -1,0 +1,263 @@
+IQ-TREE 2.0.6 built Jun  4 2020
+
+Input file name: microsporidia.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (5000 replicates)
+Random seed number: 423716
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used site-specific frequency model please also cite: 
+
+Huai-Chun Wang, Edward Susko, Bui Quang Minh, and Andrew J. Roger (2018)
+Modeling site heterogeneity with posterior mean site frequency profiles
+accelerates accurate phylogenomic estimation. Syst. Biol., 67:216–235.
+https://doi.org/10.1093/sysbio/syx068
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 40 sequences with 24294 amino-acid sites
+Number of constant sites: 3707 (= 15.2589% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 3707 (= 15.2589% of all sites)
+Number of parsimony informative sites: 17551
+Number of distinct site patterns: 24294
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: gtr_microsporidia_icc_chain1.exchangeabilities+SSF+F+R8
+
+State frequencies: (site specific frequencies)
+
+Model of rate heterogeneity: FreeRate with 8 categories
+Site proportion and rates:  (0.1709,0.0862) (0.1571,0.2036) (0.1272,0.4015) (0.1275,0.5710) (0.1358,0.9307) (0.1331,1.4975) (0.1184,2.7640) (0.0300,5.8835)
+
+ Category  Relative_rate  Proportion
+  1         0.0862         0.1709
+  2         0.2036         0.1571
+  3         0.4015         0.1272
+  4         0.5710         0.1275
+  5         0.9307         0.1358
+  6         1.4975         0.1331
+  7         2.7640         0.1184
+  8         5.8835         0.0300
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -594515.4304 (s.e. 2858.2379)
+Unconstrained log-likelihood (without tree): -245320.4399
+Number of free parameters (#branches + #model parameters): 110
+Akaike information criterion (AIC) score: 1189250.8608
+Corrected Akaike information criterion (AICc) score: 1189251.8706
+Bayesian information criterion (BIC) score: 1190141.6391
+
+Total tree length (sum of branch lengths): 17.8815
+Sum of internal branch lengths: 6.3837 (35.7000% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Aeropyrum0' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----Aeropyrum0
+|
+|                                                         +--Arabidopsi
+|                                                      +--| (100)
+|                                                      |  +--Oryza_sati
+|                                                   +--| (100)
+|                                                   |  +--Gymnosperm
+|                                                +--| (100)
+|                                                |  +--Physcomitr
+|                                             +--| (100)
+|                                             |  |  +--Chlamydomo
+|                                             |  +--| (100)
+|                                             |     +--Dunaliella
+|                                          +--| (100)
+|                                          |  +--Rhodophyta
+|                                       +--| (38)
+|                                       |  |                 +--Babesia_bo
+|                                       |  |              +--| (100)
+|                                       |  |              |  +--Theileria0
+|                                       |  |           +--| (100)
+|                                       |  |           |  +--Plasmodium
+|                                       |  |        +--| (100)
+|                                       |  |        |  |  +--Toxoplasma
+|                                       |  |        |  +--| (100)
+|                                       |  |        |     +--Eimeria000
+|                                       |  |     +--| (100)
+|                                       |  |     |  +--Cryptospor
+|                                       |  |  +--| (100)
+|                                       |  |  |  +----Ciliophora
+|                                       |  +--| (96)
+|                                       |     |  +--Phytophtho
+|                                       |     +--| (100)
+|                                       |        |     +--Thalassios
+|                                       |        |  +--| (100)
+|                                       |        |  |  +--Phaeodacty
+|                                       |        +--| (100)
+|                                       |           +--Phaeophyce
+|      +--------------------------------| (100)
+|      |                                |                          +--Candida_al
+|      |                                |                       +--| (100)
+|      |                                |                       |  +--Saccharomy
+|      |                                |                    +--| (100)
+|      |                                |                    |  +--Neurospora
+|      |                                |                 +--| (100)
+|      |                                |                 |  +--Schizosacc
+|      |                                |              +--| (100)
+|      |                                |              |  |  +--Cryptococc
+|      |                                |              |  +--| (100)
+|      |                                |              |     +--Ustilago_m
+|      |                                |           +--| (94)
+|      |                                |           |  +--Glomus_int
+|      |                                |        +--| (100)
+|      |                                |        |  +--Chytridiom
+|      |                                |     +--| (100)
+|      |                                |     |  +-----------------Encephalit
+|      |                                |  +--| (100)
+|      |                                |  |  |        +--Drosophila
+|      |                                |  |  |     +--| (100)
+|      |                                |  |  |     |  |  +--Mammalians
+|      |                                |  |  |     |  +--| (100)
+|      |                                |  |  |     |     +--Tunicates0
+|      |                                |  |  |  +--| (100)
+|      |                                |  |  |  |  +--Hydrozoa00
+|      |                                |  |  +--| (100)
+|      |                                |  |     +--Monosiga_b
+|      |                                +--| (99)
+|      |                                   |  +--Dictyostel
+|      |                                   +--| (100)
+|      |                                      +--Mastigamoe
+|  +---| (100)
+|  |   |     +-----Archaeoglo
+|  |   |  +--| (100)
+|  |   |  |  +---Methanococ
+|  |   +--| (100)
+|  |      +---Pyrococcus
++--| (100)
+|  +--------Pyrobaculu
+|
++-----Sulfolobus
+
+Tree in newick format:
+
+(Aeropyrum0:0.6506858234,(((((((((Arabidopsi:0.0599303801,Oryza_sati:0.0679407799)100:0.0285450151,Gymnosperm:0.0431378574)100:0.0333293356,Physcomitr:0.0625406650)100:0.0810691206,(Chlamydomo:0.0990396888,Dunaliella:0.1269942045)100:0.1090139403)100:0.0885469373,Rhodophyta:0.3154211339)100:0.0288169277,((((((Babesia_bo:0.1525330607,Theileria0:0.1356442166)100:0.1998260071,Plasmodium:0.3194190014)100:0.0703455003,(Toxoplasma:0.0991449635,Eimeria000:0.1554131128)100:0.0831790849)100:0.0560543696,Cryptospor:0.2969499696)100:0.1964745222,Ciliophora:0.5851534283)100:0.0662397942,(Phytophtho:0.1733937333,((Thalassios:0.1027991115,Phaeodacty:0.1209151972)100:0.1867009563,Phaeophyce:0.1785471534)100:0.0265746593)100:0.1189465864)96:0.0337758619)38:0.0036533357,(((((((((Candida_al:0.0900087291,Saccharomy:0.1050230734)100:0.1306336692,Neurospora:0.1828736138)100:0.0507148692,Schizosacc:0.1819717929)100:0.0581646111,(Cryptococc:0.1789298589,Ustilago_m:0.1359753987)100:0.0714256264)100:0.0394819982,Glomus_int:0.1325690687)94:0.0154626122,Chytridiom:0.2079430832)100:0.0394598432,Encephalit:1.8063195579)100:0.0501111341,(((Drosophila:0.1988662357,(Mammalians:0.0961818726,Tunicates0:0.1565135618)100:0.0236274119)100:0.0310268881,Hydrozoa00:0.1891276461)100:0.0448022914,Monosiga_b:0.2820887180)100:0.0716078036)100:0.0462368012,(Dictyostel:0.3388032446,Mastigamoe:0.3798843030)100:0.0374524951)99:0.0230286390)100:3.3127391410,((Archaeoglo:0.6485397578,Methanococ:0.4712096453)100:0.1187244591,Pyrococcus:0.4437861694)100:0.1861898493)100:0.4038856217,Pyrobaculu:0.9177892414)100:0.2178146029,Sulfolobus:0.6077757102);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 5000 bootstrap trees
+Log-likelihood of consensus tree: -594515.341485
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----Aeropyrum0
+|
+|                                                         +--Arabidopsi
+|                                                      +--| (100)
+|                                                      |  +--Oryza_sati
+|                                                   +--| (100)
+|                                                   |  +--Gymnosperm
+|                                                +--| (100)
+|                                                |  +--Physcomitr
+|                                             +--| (100)
+|                                             |  |  +--Chlamydomo
+|                                             |  +--| (100)
+|                                             |     +--Dunaliella
+|                                          +--| (100)
+|                                          |  +--Rhodophyta
+|                                       +--| (45)
+|                                       |  |                          +--Candida_al
+|                                       |  |                       +--| (100)
+|                                       |  |                       |  +--Saccharomy
+|                                       |  |                    +--| (100)
+|                                       |  |                    |  +--Neurospora
+|                                       |  |                 +--| (100)
+|                                       |  |                 |  +--Schizosacc
+|                                       |  |              +--| (100)
+|                                       |  |              |  |  +--Cryptococc
+|                                       |  |              |  +--| (100)
+|                                       |  |              |     +--Ustilago_m
+|                                       |  |           +--| (94)
+|                                       |  |           |  +--Glomus_int
+|                                       |  |        +--| (100)
+|                                       |  |        |  +--Chytridiom
+|                                       |  |     +--| (100)
+|                                       |  |     |  +-----------------Encephalit
+|                                       |  |  +--| (100)
+|                                       |  |  |  |        +--Drosophila
+|                                       |  |  |  |     +--| (100)
+|                                       |  |  |  |     |  |  +--Mammalians
+|                                       |  |  |  |     |  +--| (100)
+|                                       |  |  |  |     |     +--Tunicates0
+|                                       |  |  |  |  +--| (100)
+|                                       |  |  |  |  |  +--Hydrozoa00
+|                                       |  |  |  +--| (100)
+|                                       |  |  |     +--Monosiga_b
+|                                       |  +--| (99)
+|                                       |     |  +--Dictyostel
+|                                       |     +--| (100)
+|                                       |        +--Mastigamoe
+|      +--------------------------------| (100)
+|      |                                |                 +--Babesia_bo
+|      |                                |              +--| (100)
+|      |                                |              |  +--Theileria0
+|      |                                |           +--| (100)
+|      |                                |           |  +--Plasmodium
+|      |                                |        +--| (100)
+|      |                                |        |  |  +--Toxoplasma
+|      |                                |        |  +--| (100)
+|      |                                |        |     +--Eimeria000
+|      |                                |     +--| (100)
+|      |                                |     |  +--Cryptospor
+|      |                                |  +--| (100)
+|      |                                |  |  +----Ciliophora
+|      |                                +--| (96)
+|      |                                   |  +--Phytophtho
+|      |                                   +--| (100)
+|      |                                      |     +--Thalassios
+|      |                                      |  +--| (100)
+|      |                                      |  |  +--Phaeodacty
+|      |                                      +--| (100)
+|      |                                         +--Phaeophyce
+|  +---| (100)
+|  |   |     +-----Archaeoglo
+|  |   |  +--| (100)
+|  |   |  |  +---Methanococ
+|  |   +--| (100)
+|  |      +---Pyrococcus
++--| (100)
+|  +--------Pyrobaculu
+|
++-----Sulfolobus
+
+
+Consensus tree in newick format: 
+
+(Aeropyrum0:0.6514633080,(((((((((Arabidopsi:0.0599982956,Oryza_sati:0.0680247515)100:0.0285757072,Gymnosperm:0.0431876851)100:0.0333674576,Physcomitr:0.0626135642)100:0.0811746837,(Chlamydomo:0.0991683237,Dunaliella:0.1271582887)100:0.1091174785)100:0.0886510942,Rhodophyta:0.3158360967)100:0.0288511758,(((((((((Candida_al:0.0901281495,Saccharomy:0.1051828766)100:0.1308249338,Neurospora:0.1831446537)100:0.0507826399,Schizosacc:0.1822388500)100:0.0582465178,(Cryptococc:0.1791882895,Ustilago_m:0.1361751347)100:0.0715237478)100:0.0395262469,Glomus_int:0.1327641968)94:0.0154471725,Chytridiom:0.2082585379)100:0.0395819771,Encephalit:1.8089361470)100:0.0501653905,(((Drosophila:0.1991432979,(Mammalians:0.0963113927,Tunicates0:0.1567312535)100:0.0236544690)100:0.0310732457,Hydrozoa00:0.1893914363)100:0.0448688073,Monosiga_b:0.2824960937)100:0.0716849959)100:0.0463056389,(Dictyostel:0.3393930004,Mastigamoe:0.3804758382)100:0.0374015782)99:0.0266862608)45:0.0060448643,((((((Babesia_bo:0.1526931435,Theileria0:0.1358084327)100:0.2000391333,Plasmodium:0.3197961384)100:0.0703935445,(Toxoplasma:0.0992552530,Eimeria000:0.1556065933)100:0.0832506798)100:0.0561178975,Cryptospor:0.2972898553)100:0.1967350105,Ciliophora:0.5858904489)100:0.0661955425,(Phytophtho:0.1735925556,((Thalassios:0.1029164559,Phaeodacty:0.1210708412)100:0.1869437376,Phaeophyce:0.1787983966)100:0.0265536281)100:0.1191068988)96:0.0277619379)100:3.3165826097,((Archaeoglo:0.6493831719,Methanococ:0.4718794044)100:0.1188723559,Pyrococcus:0.4443559193)100:0.1863276982)100:0.4043694466,Pyrobaculu:0.9190004162)100:0.2181230248,Sulfolobus:0.6086073279);
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun  4 20:24:35 2020
+Total CPU time used: 441029.2078 seconds (122h:30m:29s)
+Total wall-clock time used: 29161.64234 seconds (8h:6m:1s)
+

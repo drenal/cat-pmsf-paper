@@ -1,0 +1,125 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Jun  4 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius01 (AVX512, FMA3, 376 GB RAM)
+Command: /scratch/local/bin/iqtree2 -nt 16 -s nematode.phy -m LG+G4 -wslr
+Seed:    767212 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug  3 12:02:21 2020
+Kernel:  AVX+FMA - 16 threads (16 CPU cores detected)
+
+Reading alignment file nematode.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+WARNING: 5 sites contain only gaps or ambiguous characters.
+Alignment has 37 sequences with 35371 columns, 31066 distinct patterns
+19983 parsimony-informative, 4844 singleton sites, 10544 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  Caenorhabd    0.49%    failed      0.90%
+   2  C0briggsae    7.85%    failed      0.83%
+   3  Ancylostom   32.33%    failed      0.01%
+   4  Pristionch   53.17%    failed      0.00%
+   5  Brugia_mal   39.48%    failed      0.00%
+   6  Ascaris0su   58.17%    failed      0.00%
+   7  Meloidogyn   32.40%    failed      0.04%
+   8  Heteroderi   25.10%    passed     13.12%
+   9  Strongyloi   32.34%    failed      0.00%
+  10  Trichoceph   51.77%    failed      0.00%
+  11  Coleoptera   56.91%    failed      0.00%
+  12  Apis0melli   51.29%    passed     59.00%
+  13  Siphonapte   72.76%    failed      0.00%
+  14  Bombyx0mor   23.44%    passed     25.07%
+  15  Drosophila    0.58%    failed      2.57%
+  16  Glossina0m   44.77%    passed     25.06%
+  17  Anopheles0    2.69%    failed      0.47%
+  18  Hemiptera0   54.27%    failed      0.00%
+  19  Crustacea0   48.27%    failed      0.00%
+  20  Chelicerat   52.22%    failed      0.00%
+  21  Echinoderm   22.63%    failed      4.87%
+  22  Cephalocho   52.37%    failed      0.00%
+  23  Urochordat    4.33%    failed      0.00%
+  24  Mammalia00    0.21%    failed      0.01%
+  25  Actinopter    5.50%    failed      0.63%
+  26  Neurospora    0.74%    failed      0.00%
+  27  Magnaporth    4.71%    failed      0.00%
+  28  Gibberella   20.23%    failed      0.00%
+  29  Eurotiomyc   39.14%    failed      0.00%
+  30  Candida0al    4.40%    failed      0.00%
+  31  Saccharomy    0.38%    failed      0.00%
+  32  Schizosacc    0.27%    failed      0.00%
+  33  Ustilago0m    8.20%    failed      0.00%
+  34  Homobasidi   12.03%    failed      0.00%
+  35  Cryptococc    3.73%    failed      0.00%
+  36  Glomales00   77.71%    failed      0.00%
+  37  Chytridiom   63.31%    failed      0.00%
+WARNING: 11 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        28.65%  33 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.225 seconds
+
+NOTE: 710 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -741966.082
+2. Current log-likelihood: -727385.760
+3. Current log-likelihood: -727293.048
+Optimal log-likelihood: -727292.967
+Gamma shape alpha: 0.630
+Parameters optimization took 3 rounds (4.523 sec)
+Computing ML distances based on estimated model parameters... 1.086 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -727794.524
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 32.033 second
+Computing log-likelihood of 98 initial trees ... 38.222 seconds
+Current best score: -727292.967
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -727291.458
+Iteration 10 / LogL: -727292.849 / Time: 0h:2m:11s
+Iteration 20 / LogL: -727292.888 / Time: 0h:3m:10s
+Finish initializing candidate tree set (3)
+Current best tree score: -727291.458 / CPU time: 183.220
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -727298.667 / Time: 0h:4m:13s (0h:10m:21s left)
+Iteration 40 / LogL: -727324.870 / Time: 0h:5m:25s (0h:8m:29s left)
+Iteration 50 / LogL: -727293.879 / Time: 0h:6m:32s (0h:6m:48s left)
+Iteration 60 / LogL: -727295.267 / Time: 0h:7m:35s (0h:5m:16s left)
+Iteration 70 / LogL: -727293.109 / Time: 0h:8m:50s (0h:3m:58s left)
+Iteration 80 / LogL: -727294.141 / Time: 0h:10m:5s (0h:2m:40s left)
+Iteration 90 / LogL: -727326.235 / Time: 0h:11m:15s (0h:1m:23s left)
+Iteration 100 / LogL: -727292.575 / Time: 0h:12m:27s (0h:0m:7s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:12m:42s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -727291.458
+Optimal log-likelihood: -727291.457
+Gamma shape alpha: 0.630
+Parameters optimization took 1 rounds (1.017 sec)
+BEST SCORE FOUND : -727291.457
+Site log-likelihoods per category printed to nematode.phy.sitelh
+Total tree length: 6.114
+
+Total number of iterations: 102
+CPU time used for tree search: 11897.164 sec (3h:18m:17s)
+Wall-clock time used for tree search: 754.386 sec (0h:12m:34s)
+Total CPU time used: 12036.510 sec (3h:20m:36s)
+Total wall-clock time used: 763.353 sec (0h:12m:43s)
+
+Analysis results written to: 
+  IQ-TREE report:                nematode.phy.iqtree
+  Maximum-likelihood tree:       nematode.phy.treefile
+  Likelihood distances:          nematode.phy.mldist
+  Site log-likelihoods:          nematode.phy.sitelh
+  Screen log file:               nematode.phy.log
+
+Date and Time: Mon Aug  3 12:15:05 2020

@@ -1,0 +1,181 @@
+IQ-TREE multicore version 1.6.5 for Linux 64-bit built May 14 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius06 (AVX512, FMA3, 187 GB RAM)
+Command: /scratch/local/bin/iqtree -nt 24 -m LG -s allconcsimion.fasta
+Seed:    810420 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May  7 17:59:59 2020
+Kernel:  AVX+FMA - 24 threads (48 CPU cores detected)
+
+Reading alignment file allconcsimion.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 97 sequences with 401632 columns, 395378 distinct patterns
+310886 parsimony-informative, 34104 singleton sites, 56642 constant sites
+                                 Gap/Ambiguity  Composition  p-value
+   1  Leuconia_nivea                    66.80%    failed      0.00%
+   2  Ircinia_fasciculata               61.03%    failed      0.00%
+   3  Aiptasia_pallida                  26.81%    failed      0.00%
+   4  Diaphanoeca_grandis_RI_01         29.05%    failed      0.00%
+   5  Pelagia_noctiluca                 47.63%    failed      0.00%
+   6  Aurelia_aurita                    29.79%    failed      0.00%
+   7  Sycon_coactum                     67.03%    failed      0.00%
+   8  Sphaeroforma_arctica_JP610        71.08%    failed      0.00%
+   9  Chondrilla_nucula                 60.06%    failed      0.00%
+  10  Spongilla_lacustris               47.27%    failed      0.00%
+  11  Cestum_veneris                    64.28%    failed      0.00%
+  12  Capitella_teleta                   9.22%    failed      0.00%
+  13  Abeoforma_whisleri                70.97%    failed      0.00%
+  14  Choanoeca_perplexa_11             26.51%    failed      0.00%
+  15  Pleurobrachia_species              9.99%    failed      0.00%
+  16  Amoebidium_parasiticum_JAP72      60.96%    failed      0.00%
+  17  Salpingoeca_qvevrii_09            25.79%    failed      0.00%
+  18  Coeloplana_species                11.01%    failed      0.00%
+  19  Creolimax_fragrantissima          71.12%    failed      0.00%
+  20  Salpingoeca_dolichothecata_16     25.89%    failed      0.00%
+  21  Bolocera_tuedia                   57.09%    failed      0.00%
+  22  Salpingoeca_infusionum_12         30.27%    failed      0.00%
+  23  Beroe_sp.                         78.28%    failed      0.00%
+  24  Euplokamis_dunlapae               48.92%    failed      0.00%
+  25  Homo_sapiens                      17.03%    failed      0.00%
+  26  Montastraea_faveolata             27.80%    failed      0.00%
+  27  Clytia_hemisphaerica              40.50%    failed      0.00%
+  28  Pleraplysilla_spinifera           52.22%    failed      0.00%
+  29  Stephanoeca_diplocostata_AUFR     25.65%    failed      0.00%
+  30  Grantia_compressa                 61.92%    failed      0.00%
+  31  Capsaspora_owczarzaki_atcc30864   29.98%    failed      0.00%
+  32  Plakina_jani                      48.23%    failed      0.00%
+  33  Craspedacusta_sowerbyi            32.23%    failed      0.00%
+  34  Aphrocallistes_vastus             62.52%    failed      0.00%
+  35  Ephydatia_muelleri                38.71%    failed      0.00%
+  36  Nanomia_bijuga                    26.03%    failed      0.00%
+  37  Oscarella_carmela                 52.49%    failed      0.00%
+  38  Sycon_ciliatum                    64.49%    failed      0.00%
+  39  Mnemiopsis_leidyi                  8.65%    failed      0.00%
+  40  Ministeria_vibrans                76.58%    failed      0.00%
+  41  Hydractinia_polyclina             26.42%    failed      0.00%
+  42  Liriope_tetraphylla               36.85%    failed      0.00%
+  43  Vallicula_multiformis             10.67%    failed      0.00%
+  44  Acanthoeca_spectabilis_VA_02      28.67%    failed      0.00%
+  45  Daphnia_pulex                     21.18%    failed      0.00%
+  46  Kirkpatrickia_variolosa           40.23%    failed      0.00%
+  47  Bolinopsis_infundibulum           54.19%    failed      0.00%
+  48  Pennatula_rubra                   84.36%    failed      0.00%
+  49  Oscarella_species                 25.38%    failed      0.00%
+  50  Lucernariopsis_campanulata        39.96%    failed      0.00%
+  51  Edwardsiella_lineata              38.15%    failed      0.00%
+  52  Salpingoeca_macrocollata_06       25.33%    failed      0.00%
+  53  Hyalonema_populiferum             82.76%    failed      0.00%
+  54  Ixodes_scapularis                 38.22%    failed      0.00%
+  55  Rossella_fibulata                 45.70%    failed      0.00%
+  56  Latrunculia_apicalis              47.42%    failed      0.00%
+  57  Corticium_candelabrum             50.49%    failed      0.00%
+  58  Dryodora_glandiformis             37.48%    failed      0.00%
+  59  Monosiga_brevicollis_mx1          34.51%    failed      0.00%
+  60  Petrosia_ficiformis               30.14%    failed      0.00%
+  61  Helobdella_robusta                21.52%    failed      0.00%
+  62  Branchiostoma_floridae            17.55%    failed      0.00%
+  63  Saccoglossus_kowalevskii          10.24%    failed      0.00%
+  64  Mycale_phyllophila                42.72%    failed      0.00%
+  65  Euplectella_aspergillum           51.21%    failed      0.00%
+  66  Salpingoeca_rosetta               28.06%    failed      0.00%
+  67  Strongylocentrotus_purpuratus     18.73%    failed      0.00%
+  68  Amphimedon_queenslandica          21.49%    failed      0.00%
+  69  Lampea_pancerina                  12.29%    failed      0.00%
+  70  Atolla_vanhoeffeni                60.73%    failed      0.00%
+  71  Gorgonia_ventalina                41.38%    failed      0.00%
+  72  Sympagella_nux                    40.40%    failed      0.00%
+  73  Acanthoeca_sp._10tr               32.85%    failed      0.00%
+  74  Plumapathes_pennacea              36.85%    failed      0.00%
+  75  Didymoeca_costata_10              30.00%    failed      0.00%
+  76  Periphylla_periphylla             69.99%    failed      0.00%
+  77  Salpingoeca_punica_03             30.71%    failed      0.00%
+  78  Trichoplax_adhaerens              14.76%    failed      0.00%
+  79  Pirum_gemmata                     72.12%    failed      0.00%
+  80  Leucosolenia_complicata           67.92%    failed      0.00%
+  81  Clathrina_coriacea                75.71%    failed      0.00%
+  82  Antipathes_caribbeana             36.50%    failed      0.00%
+  83  Stomolophus_meleagris             29.57%    failed      0.00%
+  84  Tribolium_castaneum               23.61%    failed      0.00%
+  85  Codosiga_hollandica_17            33.48%    failed      0.00%
+  86  Nematostella_vectensis            36.66%    failed      0.00%
+  87  Salpingoeca_urceolata_04          25.85%    failed      0.00%
+  88  Hormiphora_californensis          23.69%    failed      0.00%
+  89  Mylnosiga_fluctuans_19            31.96%    failed      0.00%
+  90  Porites_australiensis             35.82%    failed      0.00%
+  91  Crassostrea_gigas                 17.61%    failed      0.00%
+  92  Alatina_alata                     33.44%    failed      0.00%
+  93  Salpingoeca_helianthica_18        27.80%    failed      0.00%
+  94  Salpingoeca_roanoka_13            24.26%    failed      0.00%
+  95  Aplysia_californica               10.44%    failed      0.00%
+  96  Hydra_magnipapillata              33.15%    failed      0.00%
+  97  Beroe_abyssicola                  26.21%    failed      0.00%
+WARNING: 27 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                             39.25%  97 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000248984 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 43.436 seconds
+
+NOTE: 5925 MB RAM (5 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22000516.178
+Optimal log-likelihood: -21416047.203
+Parameters optimization took 1 rounds (19.970 sec)
+Computing ML distances based on estimated model parameters... 178.573 sec
+Computing BIONJ tree...
+0.009 seconds
+Log-likelihood of BIONJ tree: -21435738.642
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4317.908 second
+Computing log-likelihood of 98 initial trees ... 645.653 seconds
+Current best score: -21416047.203
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21414808.596
+Iteration 10 / LogL: -21414817.526 / Time: 1h:31m:0s
+Iteration 20 / LogL: -21414808.852 / Time: 1h:39m:50s
+Finish initializing candidate tree set (5)
+Current best tree score: -21414808.596 / CPU time: 5893.131
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -21414801.102
+Iteration 30 / LogL: -21415713.433 / Time: 1h:49m:18s (4h:25m:46s left)
+Iteration 40 / LogL: -21414829.808 / Time: 1h:59m:19s (3h:5m:28s left)
+Iteration 50 / LogL: -21415364.350 / Time: 2h:9m:14s (2h:13m:43s left)
+Iteration 60 / LogL: -21415820.300 / Time: 2h:19m:21s (1h:36m:19s left)
+Iteration 70 / LogL: -21419219.660 / Time: 2h:29m:1s (1h:6m:36s left)
+Iteration 80 / LogL: -21414810.392 / Time: 2h:38m:48s (0h:42m:0s left)
+Iteration 90 / LogL: -21414826.564 / Time: 2h:48m:32s (0h:20m:44s left)
+Iteration 100 / LogL: -21415323.217 / Time: 2h:58m:57s (0h:1m:47s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 3h:0m:45s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21414801.102
+Optimal log-likelihood: -21414801.093
+Parameters optimization took 1 rounds (5.551 sec)
+BEST SCORE FOUND : -21414801.093
+Total tree length: 16.608
+
+Total number of iterations: 102
+CPU time used for tree search: 162876.959 sec (45h:14m:36s)
+Wall-clock time used for tree search: 10748.487 sec (2h:59m:8s)
+Total CPU time used: 164268.719 sec (45h:37m:48s)
+Total wall-clock time used: 10851.437 sec (3h:0m:51s)
+
+Analysis results written to: 
+  IQ-TREE report:                allconcsimion.fasta.iqtree
+  Maximum-likelihood tree:       allconcsimion.fasta.treefile
+  Likelihood distances:          allconcsimion.fasta.mldist
+  Screen log file:               allconcsimion.fasta.log
+
+Date and Time: Thu May  7 21:01:00 2020

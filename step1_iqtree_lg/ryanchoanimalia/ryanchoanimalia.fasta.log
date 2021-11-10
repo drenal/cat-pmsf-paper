@@ -1,0 +1,146 @@
+IQ-TREE multicore version 1.6.5 for Linux 64-bit built May 14 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius06 (AVX512, FMA3, 187 GB RAM)
+Command: /scratch/local/bin/iqtree -nt 24 -m LG -s ryanchoanimalia.fasta
+Seed:    137379 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May  7 17:42:29 2020
+Kernel:  AVX+FMA - 24 threads (48 CPU cores detected)
+
+Reading alignment file ryanchoanimalia.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 2426 sites contain only gaps or ambiguous characters.
+Alignment has 61 sequences with 88384 columns, 80837 distinct patterns
+52785 parsimony-informative, 17322 singleton sites, 18277 constant sites
+                               Gap/Ambiguity  Composition  p-value
+   1  Oscarella_carmela               85.53%    failed      0.01%
+   2  Asterina_pectinifera            66.93%    failed      0.06%
+   3  Strongylocentrotus_purpuratus   25.73%    passed     52.58%
+   4  Capitella_telata                13.97%    failed      0.35%
+   5  Branchiostoma_floridae          75.06%    failed      0.00%
+   6  Helobdella_robusta              11.90%    failed      0.00%
+   7  Lottia_gigantea                 12.00%    failed      0.00%
+   8  Saccoglossus_kowalevskii        20.12%    passed      5.93%
+   9  Drosophila_melanogaster          9.97%    failed      0.00%
+  10  Anoplodactylus_eroticus         85.99%    failed      0.00%
+  11  Daphnia_pulex                   12.84%    failed      0.00%
+  12  Petromyzon_marinus              53.47%    failed      0.00%
+  13  Ciona_intestinalis              18.96%    failed      0.00%
+  14  Acropora_palmata                61.09%    failed      0.56%
+  15  Acropora_millepora              30.90%    failed      0.03%
+  16  Nematostella_vectensis          17.01%    failed      0.16%
+  17  Anemonia_viridis                70.80%    failed      0.00%
+  18  Monosiga_brevicollis            19.10%    failed      0.00%
+  19  Salpingoeca_rosetta             21.64%    failed      0.00%
+  20  Amphimedon_queenslandica        19.70%    failed      0.00%
+  21  Lubomirskia_baicalensis         90.64%    failed      0.00%
+  22  Mnemiopsis_leidyi               17.25%    failed      0.00%
+  23  Hydra_magnipapillata            23.09%    failed      0.00%
+  24  Trichoplax_adhaerens            14.80%    failed      0.00%
+  25  Cyanea_capillata                91.88%    failed      0.00%
+  26  Crassostrea_virginica           75.27%    failed      0.00%
+  27  Schmidtea_mediterranea          48.54%    failed      0.00%
+  28  Cerebratulus_lacteus            88.58%    failed      0.00%
+  29  Ephydatia_muelleri              89.00%    failed      0.00%
+  30  Pleurobrachia_pileus            74.17%    failed      0.25%
+  31  Suberites_domuncula             86.52%    failed      0.00%
+  32  Hydractinia_echinata            87.20%    failed      0.13%
+  33  Clytia_hemisphaerica            51.77%    failed      0.00%
+  34  Metridium_senile                73.78%    failed      0.35%
+  35  Porites_astreoides              89.12%    passed     22.47%
+  36  Montastraea_faveolata           65.39%    failed      0.08%
+  37  Halocynthia_roretzi             57.72%    failed      0.01%
+  38  Euprymna_scolopes               68.18%    failed      0.00%
+  39  Boophilus_microplus             46.43%    failed      0.00%
+  40  Isodiametra_pulchra             88.17%    failed      2.99%
+  41  Symsagittifera_roscoffensis     83.35%    failed      0.28%
+  42  Monosiga_ovata                  58.38%    failed      0.00%
+  43  Oscarella_lobularis             93.95%    failed      0.15%
+  44  Gallus_gallus                   25.84%    failed      0.00%
+  45  Meara_stichopi                  92.16%    failed      0.00%
+  46  Terebratalia_transversa         82.97%    failed      0.00%
+  47  Euperipatoides_kanangrensis     88.86%    failed      0.01%
+  48  Xiphinema_index                 75.44%    failed      0.02%
+  49  Oopsacas_minuta                 92.50%    failed      0.00%
+  50  Convolutriloba_longifissura     91.85%    failed      0.00%
+  51  Mertensiid_sp                   92.42%    failed      0.00%
+  52  Paraplanocera_oligoglena        90.14%    failed      0.00%
+  53  Nemertoderma_westbladi          78.81%    failed      0.00%
+  54  Echinoderes_horni               88.15%    failed      0.00%
+  55  Ptychodera_flava                89.24%    failed      0.00%
+  56  Podocoryna_carnea               88.87%    failed      0.26%
+  57  Sycon_raphanus                  90.59%    failed      0.00%
+  58  Xenoturbella_bocki              87.63%    failed      0.00%
+  59  Carteriospongia_foliascens      94.13%    failed      1.47%
+  60  Aiptasia_pallida                95.00%    failed      1.72%
+  61  Leucetta_chagosensis            95.85%    failed      0.00%
+WARNING: 42 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           62.89%  58 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 2.597 seconds
+
+NOTE: 762 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2579975.083
+Optimal log-likelihood: -2439417.669
+Parameters optimization took 1 rounds (4.955 sec)
+Computing ML distances based on estimated model parameters... 9.782 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.004 seconds
+Log-likelihood of BIONJ tree: -2443076.343
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 321.159 second
+Computing log-likelihood of 98 initial trees ... 72.552 seconds
+Current best score: -2439417.669
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2439239.447
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2438894.310
+Iteration 10 / LogL: -2439446.997 / Time: 0h:7m:38s
+Iteration 20 / LogL: -2439525.552 / Time: 0h:8m:23s
+Finish initializing candidate tree set (13)
+Current best tree score: -2438894.310 / CPU time: 487.382
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2439086.468 / Time: 0h:9m:45s (0h:24m:6s left)
+Iteration 40 / LogL: -2438947.485 / Time: 0h:11m:1s (0h:17m:27s left)
+Iteration 50 / LogL: -2438938.297 / Time: 0h:12m:18s (0h:13m:0s left)
+Iteration 60 / LogL: -2438946.461 / Time: 0h:13m:30s (0h:9m:35s left)
+Iteration 70 / LogL: -2439012.742 / Time: 0h:14m:40s (0h:6m:46s left)
+Iteration 80 / LogL: -2438990.128 / Time: 0h:15m:55s (0h:4m:25s left)
+Iteration 90 / LogL: -2438981.030 / Time: 0h:17m:6s (0h:2m:18s left)
+Iteration 100 / LogL: -2438903.032 / Time: 0h:18m:18s (0h:0m:22s left)
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:18m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2438894.310
+Optimal log-likelihood: -2438894.197
+Parameters optimization took 1 rounds (1.598 sec)
+BEST SCORE FOUND : -2438894.197
+Total tree length: 13.749
+
+Total number of iterations: 103
+CPU time used for tree search: 19672.052 sec (5h:27m:52s)
+Wall-clock time used for tree search: 1102.153 sec (0h:18m:22s)
+Total CPU time used: 20044.809 sec (5h:34m:4s)
+Total wall-clock time used: 1120.355 sec (0h:18m:40s)
+
+Analysis results written to: 
+  IQ-TREE report:                ryanchoanimalia.fasta.iqtree
+  Maximum-likelihood tree:       ryanchoanimalia.fasta.treefile
+  Likelihood distances:          ryanchoanimalia.fasta.mldist
+  Screen log file:               ryanchoanimalia.fasta.log
+
+Date and Time: Thu May  7 18:01:10 2020

@@ -1,0 +1,121 @@
+IQ-TREE multicore version 1.6.5 for Linux 64-bit built May 14 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius04 (AVX512, FMA3, 187 GB RAM)
+Command: /scratch/local/bin/iqtree -nt 24 -m LG -s microsporidia.phy
+Seed:    283221 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May  7 16:52:58 2020
+Kernel:  AVX+FMA - 24 threads (48 CPU cores detected)
+
+Reading alignment file microsporidia.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 40 sequences with 24294 columns, 22984 distinct patterns
+17551 parsimony-informative, 3036 singleton sites, 3707 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  Aeropyrum0    3.78%    failed      0.00%
+   2  Arabidopsi    7.07%    failed      0.71%
+   3  Archaeoglo    4.39%    failed      0.00%
+   4  Babesia_bo   52.26%    failed      0.00%
+   5  Candida_al    2.05%    failed      0.00%
+   6  Chlamydomo   26.72%    failed      0.00%
+   7  Ciliophora   15.97%    failed      0.00%
+   8  Cryptococc    1.25%    failed      0.00%
+   9  Cryptospor    9.78%    failed      0.00%
+  10  Dictyostel    1.55%    failed      0.00%
+  11  Drosophila    6.64%    failed      0.12%
+  12  Dunaliella   69.50%    failed      0.00%
+  13  Encephalit    5.96%    failed      0.00%
+  14  Glomus_int   77.45%    failed      0.33%
+  15  Gymnosperm   34.46%    passed     28.22%
+  16  Hydrozoa00   37.98%    failed      0.00%
+  17  Mammalians    4.03%    failed      0.01%
+  18  Methanococ   11.04%    failed      0.00%
+  19  Neurospora    0.58%    failed      0.03%
+  20  Oryza_sati   12.24%    passed      8.52%
+  21  Physcomitr   35.06%    failed      1.24%
+  22  Phytophtho    0.42%    failed      0.01%
+  23  Plasmodium    5.75%    failed      0.00%
+  24  Pyrobaculu   17.39%    failed      0.00%
+  25  Pyrococcus    0.57%    failed      0.00%
+  26  Rhodophyta   38.86%    failed      0.00%
+  27  Saccharomy    1.22%    failed      0.00%
+  28  Schizosacc    1.21%    failed      0.01%
+  29  Sulfolobus    4.23%    failed      0.00%
+  30  Thalassios    5.10%    failed      0.00%
+  31  Theileria0   24.99%    failed      0.00%
+  32  Toxoplasma   26.26%    failed      0.00%
+  33  Tunicates0   17.55%    failed      0.00%
+  34  Ustilago_m    0.39%    failed      0.00%
+  35  Chytridiom   65.78%    failed      0.00%
+  36  Eimeria000   65.15%    failed      0.00%
+  37  Mastigamoe   71.67%    failed      0.00%
+  38  Monosiga_b   58.12%    failed      0.00%
+  39  Phaeodacty   60.92%    failed      0.00%
+  40  Phaeophyce   80.01%    failed      0.00%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        24.13%  38 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.264 seconds
+
+NOTE: 142 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -784686.077
+Optimal log-likelihood: -765566.102
+Parameters optimization took 1 rounds (0.304 sec)
+Computing ML distances based on estimated model parameters... 0.854 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -766104.750
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 25.386 second
+Computing log-likelihood of 98 initial trees ... 11.862 seconds
+Current best score: -765566.102
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -765566.094
+Iteration 10 / LogL: -765566.893 / Time: 0h:0m:45s
+Iteration 20 / LogL: -765571.873 / Time: 0h:0m:54s
+Finish initializing candidate tree set (1)
+Current best tree score: -765566.094 / CPU time: 53.097
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -765587.226 / Time: 0h:1m:4s (0h:2m:36s left)
+Iteration 40 / LogL: -765566.804 / Time: 0h:1m:14s (0h:1m:55s left)
+Iteration 50 / LogL: -765835.933 / Time: 0h:1m:23s (0h:1m:26s left)
+Iteration 60 / LogL: -765567.195 / Time: 0h:1m:31s (0h:1m:3s left)
+Iteration 70 / LogL: -765566.489 / Time: 0h:1m:42s (0h:0m:45s left)
+Iteration 80 / LogL: -765818.637 / Time: 0h:1m:51s (0h:0m:29s left)
+Iteration 90 / LogL: -765836.747 / Time: 0h:2m:2s (0h:0m:15s left)
+Iteration 100 / LogL: -765566.302 / Time: 0h:2m:11s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:2m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -765566.094
+Optimal log-likelihood: -765566.094
+Parameters optimization took 1 rounds (0.107 sec)
+BEST SCORE FOUND : -765566.094
+Total tree length: 8.175
+
+Total number of iterations: 102
+CPU time used for tree search: 2609.126 sec (0h:43m:29s)
+Wall-clock time used for tree search: 133.076 sec (0h:2m:13s)
+Total CPU time used: 2629.143 sec (0h:43m:49s)
+Total wall-clock time used: 134.203 sec (0h:2m:14s)
+
+Analysis results written to: 
+  IQ-TREE report:                microsporidia.phy.iqtree
+  Maximum-likelihood tree:       microsporidia.phy.treefile
+  Likelihood distances:          microsporidia.phy.mldist
+  Screen log file:               microsporidia.phy.log
+
+Date and Time: Thu May  7 16:55:12 2020
