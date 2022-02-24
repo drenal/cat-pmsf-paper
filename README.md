@@ -4,7 +4,7 @@ In this repository all the necessary code and datasets have been uploaded to rep
 
 Structure of the repository:
 - [datasets](datasets/) : empirical datasets analysed in the paper
-- [scripts](scripts/) : scripts necessary to perform CAT-PMSF pipeline an a dataset
+- [scripts](scripts/) : scripts necessary to perform CAT-PMSF pipeline on a dataset
 - [step1_iqtree_lg](step1_iqtree_lg/) : results of CAT-PMSF's 1st step applied on the empirical datasets
 - [step2_pb](step2_pb/) : results of CAT-PMSF's 2nd step applied on the empirical datasets
 - [step3_iqtree](step3_iqtree/): : results of CAT-PMSF's 3rd step applied on the empirical datasets
