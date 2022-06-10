@@ -1,0 +1,91 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    meganeura (AVX2, FMA3, 31 GB RAM)
+Command: iqtree2 -nt 4 -s CPMSF/felsenstein_p0.5_q0.1_n10000.fasta -m LG+F+G4
+Seed:    896952 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Feb 24 08:08:57 2021
+Kernel:  AVX+FMA - 4 threads (16 CPU cores detected)
+
+Reading alignment file CPMSF/felsenstein_p0.5_q0.1_n10000.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 4 sequences with 10000 columns, 2587 distinct patterns
+518 parsimony-informative, 4638 singleton sites, 4844 constant sites
+   Gap/Ambiguity  Composition  p-value
+   1  2    0.00%    passed     74.85%
+   2  3    0.00%    passed     57.19%
+   3  5    0.00%    passed     54.85%
+   4  6    0.00%    passed     86.64%
+****  TOTAL    0.00%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -67486.033
+2. Current log-likelihood: -67038.825
+3. Current log-likelihood: -67027.599
+4. Current log-likelihood: -67027.495
+Optimal log-likelihood: -67027.483
+Gamma shape alpha: 0.621
+Parameters optimization took 4 rounds (0.121 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.001412 sec (of wall-clock time) 0.005641 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.000068 sec (of wall-clock time) 0.000194 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -67027.483
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.172 second
+Computing log-likelihood of 2 initial trees ... 0.012 seconds
+Current best score: -67027.483
+
+Do NNI search on 3 best initial trees
+Finish initializing candidate tree set (3)
+Current best tree score: -67027.483 / CPU time: 0.248
+Number of iterations: 3
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -67027.483
+UPDATE BEST LOG-LIKELIHOOD: -67027.483
+Iteration 10 / LogL: -67027.603 / Time: 0h:0m:0s
+Iteration 20 / LogL: -67105.464 / Time: 0h:0m:0s
+UPDATE BEST LOG-LIKELIHOOD: -67027.483
+Iteration 30 / LogL: -67105.464 / Time: 0h:0m:0s (0h:0m:2s left)
+Iteration 40 / LogL: -67213.971 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 50 / LogL: -67213.971 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 60 / LogL: -67027.603 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 70 / LogL: -67105.464 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 80 / LogL: -67213.971 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 90 / LogL: -67105.464 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 100 / LogL: -67213.971 / Time: 0h:0m:2s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -67027.483
+Optimal log-likelihood: -67027.483
+Gamma shape alpha: 0.621
+Parameters optimization took 1 rounds (0.016 sec)
+BEST SCORE FOUND : -67027.483
+Total tree length: 1.413
+
+Total number of iterations: 101
+CPU time used for tree search: 9.686 sec (0h:0m:9s)
+Wall-clock time used for tree search: 2.497 sec (0h:0m:2s)
+Total CPU time used: 10.410 sec (0h:0m:10s)
+Total wall-clock time used: 2.685 sec (0h:0m:2s)
+
+Analysis results written to: 
+  IQ-TREE report:                CPMSF/felsenstein_p0.5_q0.1_n10000.fasta.iqtree
+  Maximum-likelihood tree:       CPMSF/felsenstein_p0.5_q0.1_n10000.fasta.treefile
+  Likelihood distances:          CPMSF/felsenstein_p0.5_q0.1_n10000.fasta.mldist
+  Screen log file:               CPMSF/felsenstein_p0.5_q0.1_n10000.fasta.log
+
+Date and Time: Wed Feb 24 08:09:00 2021

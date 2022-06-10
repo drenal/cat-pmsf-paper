@@ -1,6 +1,6 @@
 # Datasets and scripts for the paper Compositionally constrained sites drive long branch attraction
 
-In this repository all the necessary code and datasets have been uploaded to reproduce the results described in the paper Compositionally constrained sites drive long branch attraction and to run the introduced CAT-PMSF pipeline on arbitary datasets.
+In [this repository](https://github.com/drenal/cat-pmsf-paper) all the necessary code and datasets have been uploaded to reproduce the results described in the paper Compositionally constrained sites drive long branch attraction and to run the introduced CAT-PMSF pipeline on arbitary datasets.
 
 Structure of the repository:
 - [datasets](datasets/) : empirical datasets analysed in the paper
