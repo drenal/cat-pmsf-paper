@@ -1,0 +1,34 @@
+
+Number of comparisons left = 5Number of comparisons left = 4Number of comparisons left = 3Number of comparisons left = 2Number of comparisons left = 1Number of comparisons left = 0
+
+--------------------------------------------------------------------
+   SUMMARY OF ANALYSIS WITH HOMO 2.1
+
+   All estimates ................................ felsenstein_p05_q01_204800_Summary.csv
+   Estimates of P values (Bowker 1948) .......... felsenstein_p05_q01_204800_P-values.csv
+   Test results (Bonferroni 1936) ............... felsenstein_p05_q01_204800_Bonferroni.csv
+   Test results (Holm 1979) ..................... felsenstein_p05_q01_204800_Holm.csv
+   Test results (Benjamini & Yekutieli 2001) .... felsenstein_p05_q01_204800_Benja-Yekut.csv
+   p distances .................................. felsenstein_p05_q01_204800_p-distances.nex
+   Estimates of d_Bowker ........................ felsenstein_p05_q01_204800_delta_Bowker.nex
+   Estimates of d_Euclidean (Full Sym.) ......... felsenstein_p05_q01_204800_delta_EFS.nex
+   Estimates of d_Euclidean (Mar. Sym.) ......... felsenstein_p05_q01_204800_delta_EMS.nex
+
+   Positions in alignment ....................... 204800
+   Number of tests .............................. 6
+   Smallest P value ............................. 2.237696e-02
+   Level of significance (tau) .................. 0.050000
+   Proportion of P values below tau ............. 0.166667
+   Tests rejected (Bonferroni 1936) ............. 0
+   Tests rejected (Holm 1979) ................... 0
+   Tests rejected (Benjamini & Yekutieli 2001) .. 0
+   Min(delta_Bowker) ............................ 0.002148
+   Max(delta_Bowker) ............................ 0.002437
+   Min(delta_EuclideanFS) ....................... 0.001062
+   Max(delta_EuclideanFS) ....................... 0.001759
+   Min(delta_EuclideanMS) ....................... 0.001865
+   Max(delta_EuclideanMS) ....................... 0.002458
+   Min(p distance) .............................. 0.244277
+   Max(p distance) .............................. 0.571719
+--------------------------------------------------------------------
+

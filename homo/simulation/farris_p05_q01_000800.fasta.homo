@@ -1,0 +1,34 @@
+
+Number of comparisons left = 5Number of comparisons left = 4Number of comparisons left = 3Number of comparisons left = 2Number of comparisons left = 1Number of comparisons left = 0
+
+--------------------------------------------------------------------
+   SUMMARY OF ANALYSIS WITH HOMO 2.1
+
+   All estimates ................................ farris_p05_q01_000800_Summary.csv
+   Estimates of P values (Bowker 1948) .......... farris_p05_q01_000800_P-values.csv
+   Test results (Bonferroni 1936) ............... farris_p05_q01_000800_Bonferroni.csv
+   Test results (Holm 1979) ..................... farris_p05_q01_000800_Holm.csv
+   Test results (Benjamini & Yekutieli 2001) .... farris_p05_q01_000800_Benja-Yekut.csv
+   p distances .................................. farris_p05_q01_000800_p-distances.nex
+   Estimates of d_Bowker ........................ farris_p05_q01_000800_delta_Bowker.nex
+   Estimates of d_Euclidean (Full Sym.) ......... farris_p05_q01_000800_delta_EFS.nex
+   Estimates of d_Euclidean (Mar. Sym.) ......... farris_p05_q01_000800_delta_EMS.nex
+
+   Positions in alignment ....................... 800
+   Number of tests .............................. 6
+   Smallest P value ............................. 4.699851e-02
+   Level of significance (tau) .................. 0.050000
+   Proportion of P values below tau ............. 0.166667
+   Tests rejected (Bonferroni 1936) ............. 0
+   Tests rejected (Holm 1979) ................... 0
+   Tests rejected (Benjamini & Yekutieli 2001) .. 0
+   Min(delta_Bowker) ............................ 0.034684
+   Max(delta_Bowker) ............................ 0.039128
+   Min(delta_EuclideanFS) ....................... 0.015155
+   Max(delta_EuclideanFS) ....................... 0.026751
+   Min(delta_EuclideanMS) ....................... 0.019605
+   Max(delta_EuclideanMS) ....................... 0.030311
+   Min(p distance) .............................. 0.156250
+   Max(p distance) .............................. 0.536250
+--------------------------------------------------------------------
+
