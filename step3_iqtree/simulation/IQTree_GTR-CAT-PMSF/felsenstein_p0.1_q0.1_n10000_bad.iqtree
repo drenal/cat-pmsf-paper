@@ -1,0 +1,85 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 21 2020
+
+Input file name: felsenstein_p0.1_q0.1_n10000.phylip
+Type of analysis: tree reconstruction
+Random seed number: 807810
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used site-specific frequency model please also cite: 
+
+Huai-Chun Wang, Edward Susko, Bui Quang Minh, and Andrew J. Roger (2018)
+Modeling site heterogeneity with posterior mean site frequency profiles
+accelerates accurate phylogenomic estimation. Syst. Biol., 67:216–235.
+https://doi.org/10.1093/sysbio/syx068
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 4 sequences with 10000 amino-acid sites
+Number of constant sites: 6888 (= 68.88% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 6888 (= 68.88% of all sites)
+Number of parsimony informative sites: 563
+Number of distinct site patterns: 10000
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: gtr_felsenstein_p0.1_q0.1_n10000_bad.exchangeabilities+SSF+F+G4
+
+State frequencies: (site specific frequencies)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.1627
+
+ Category  Relative_rate  Proportion
+  1         0.0001         0.2500
+  2         0.0154         0.2500
+  3         0.2798         0.2500
+  4         3.7047         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -19010.6235 (s.e. 183.1579)
+Unconstrained log-likelihood (without tree): -92103.4037
+Number of free parameters (#branches + #model parameters): 25
+Akaike information criterion (AIC) score: 38071.2470
+Corrected Akaike information criterion (AICc) score: 38071.3773
+Bayesian information criterion (BIC) score: 38251.5055
+
+Total tree length (sum of branch lengths): 18.8038
+Sum of internal branch lengths: 10.0000 (53.1808% of tree length)
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon '2' is drawn at root
+
++-------------2
+|
++-----------------3
+|
+|                                                   +------5
++---------------------------------------------------|
+                                                    +-----6
+
+Tree in newick format:
+
+(2:2.7614055705,3:3.5331945724,(5:1.3418003222,6:1.1673884965):9.9999983830);
+
+TIME STAMP
+----------
+
+Date and time: Wed Aug 17 13:29:13 2022
+Total CPU time used: 266.717 seconds (0h:4m:26s)
+Total wall-clock time used: 73.9271 seconds (0h:1m:13s)
+
