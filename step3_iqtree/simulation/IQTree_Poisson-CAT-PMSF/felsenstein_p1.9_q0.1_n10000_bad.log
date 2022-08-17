@@ -1,0 +1,126 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 21 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius14 (AVX512, FMA3, 187 GB RAM)
+Command: /scratch/local/bin/iqtree2 -nt 4 -s felsenstein_p1.9_q0.1_n10000.phylip -m Poisson+G4 -fs felsenstein_p1.9_q0.1_n10000_bad.sitefreq -wslr --prefix felsenstein_p1.9_q0.1_n10000_bad
+Seed:    881391 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 17 10:48:07 2022
+Kernel:  AVX+FMA - 4 threads (4 CPU cores detected)
+
+Reading alignment file felsenstein_p1.9_q0.1_n10000.phylip ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 4 sequences with 10000 columns, 3832 distinct patterns
+689 parsimony-informative, 6459 singleton sites, 2852 constant sites
+   Gap/Ambiguity  Composition  p-value
+   1  2    0.00%    passed     99.85%
+   2  3    0.00%    passed     99.75%
+   3  5    0.00%    passed    100.00%
+   4  6    0.00%    passed     99.65%
+****  TOTAL    0.00%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Reading site-specific state frequency file felsenstein_p1.9_q0.1_n10000_bad.sitefreq ...
+Regrouping alignment sites...
+9999 distinct per-site state frequency vectors detected
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+
+NOTE: 117 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -56887.442
+2. Current log-likelihood: -55797.022
+3. Current log-likelihood: -55783.699
+4. Current log-likelihood: -55775.728
+5. Current log-likelihood: -55771.158
+6. Current log-likelihood: -55768.472
+7. Current log-likelihood: -55766.786
+8. Current log-likelihood: -55765.718
+9. Current log-likelihood: -55765.047
+10. Current log-likelihood: -55764.604
+11. Current log-likelihood: -55764.309
+12. Current log-likelihood: -55764.109
+13. Current log-likelihood: -55763.998
+Optimal log-likelihood: -55763.872
+Gamma shape alpha: 0.668
+Parameters optimization took 13 rounds (6.244 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.190331 sec (of wall-clock time) 0.588499 sec(of CPU time)
+Computing RapidNJ tree took 0.000569 sec (of wall-clock time) 0.001298 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -55763.866
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.459 second
+Computing log-likelihood of 2 initial trees ... 0.255 seconds
+Current best score: -55763.866
+
+Do NNI search on 3 best initial trees
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -55761.916
+Finish initializing candidate tree set (3)
+Current best tree score: -55761.916 / CPU time: 4.582
+Number of iterations: 3
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -55761.791
+Iteration 10 / LogL: -55763.726 / Time: 0h:0m:17s
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -55761.732
+Iteration 20 / LogL: -55761.732 / Time: 0h:0m:23s
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -55761.705
+Iteration 30 / LogL: -55763.086 / Time: 0h:0m:29s (0h:1m:11s left)
+UPDATE BEST LOG-LIKELIHOOD: -55761.699
+Iteration 40 / LogL: -55761.699 / Time: 0h:0m:34s (0h:0m:53s left)
+UPDATE BEST LOG-LIKELIHOOD: -55761.696
+UPDATE BEST LOG-LIKELIHOOD: -55761.693
+Iteration 50 / LogL: -55761.693 / Time: 0h:0m:39s (0h:0m:40s left)
+UPDATE BEST LOG-LIKELIHOOD: -55761.691
+UPDATE BEST LOG-LIKELIHOOD: -55761.689
+UPDATE BEST LOG-LIKELIHOOD: -55761.688
+UPDATE BEST LOG-LIKELIHOOD: -55761.687
+UPDATE BEST LOG-LIKELIHOOD: -55761.687
+UPDATE BEST LOG-LIKELIHOOD: -55761.686
+Iteration 60 / LogL: -55763.086 / Time: 0h:0m:44s (0h:0m:29s left)
+UPDATE BEST LOG-LIKELIHOOD: -55761.686
+Iteration 70 / LogL: -55763.700 / Time: 0h:0m:48s (0h:0m:21s left)
+UPDATE BEST LOG-LIKELIHOOD: -55761.686
+UPDATE BEST LOG-LIKELIHOOD: -55761.686
+Iteration 80 / LogL: -55763.087 / Time: 0h:0m:53s (0h:0m:13s left)
+UPDATE BEST LOG-LIKELIHOOD: -55761.685
+UPDATE BEST LOG-LIKELIHOOD: -55761.685
+UPDATE BEST LOG-LIKELIHOOD: -55761.685
+UPDATE BEST LOG-LIKELIHOOD: -55761.685
+Iteration 90 / LogL: -55763.700 / Time: 0h:0m:57s (0h:0m:6s left)
+Iteration 100 / LogL: -55761.787 / Time: 0h:1m:1s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:1m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -55761.685
+Optimal log-likelihood: -55761.681
+Gamma shape alpha: 0.658
+Parameters optimization took 1 rounds (0.252 sec)
+BEST SCORE FOUND : -55761.681
+Site log-likelihoods per category printed to felsenstein_p1.9_q0.1_n10000_bad.sitelh
+Total tree length: 4.966
+
+Total number of iterations: 101
+CPU time used for tree search: 212.189 sec (0h:3m:32s)
+Wall-clock time used for tree search: 53.091 sec (0h:0m:53s)
+Total CPU time used: 245.616 sec (0h:4m:5s)
+Total wall-clock time used: 62.599 sec (0h:1m:2s)
+
+Analysis results written to: 
+  IQ-TREE report:                felsenstein_p1.9_q0.1_n10000_bad.iqtree
+  Maximum-likelihood tree:       felsenstein_p1.9_q0.1_n10000_bad.treefile
+  Likelihood distances:          felsenstein_p1.9_q0.1_n10000_bad.mldist
+  Site log-likelihoods:          felsenstein_p1.9_q0.1_n10000_bad.sitelh
+  Screen log file:               felsenstein_p1.9_q0.1_n10000_bad.log
+
+Date and Time: Wed Aug 17 10:49:10 2022

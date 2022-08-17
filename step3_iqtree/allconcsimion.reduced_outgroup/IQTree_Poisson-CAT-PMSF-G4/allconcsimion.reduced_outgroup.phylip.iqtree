@@ -1,0 +1,460 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 21 2020
+
+Input file name: allconcsimion.reduced_outgroup.phylip
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 360302
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used site-specific frequency model please also cite: 
+
+Huai-Chun Wang, Edward Susko, Bui Quang Minh, and Andrew J. Roger (2018)
+Modeling site heterogeneity with posterior mean site frequency profiles
+accelerates accurate phylogenomic estimation. Syst. Biol., 67:216–235.
+https://doi.org/10.1093/sysbio/syx068
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 90 sequences with 401632 amino-acid sites
+Number of constant sites: 60089 (= 14.9612% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 60089 (= 14.9612% of all sites)
+Number of parsimony informative sites: 307085
+Number of distinct site patterns: 401632
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Poisson+SSF+F+G4
+
+State frequencies: (site specific frequencies)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.5264
+
+ Category  Relative_rate  Proportion
+  1         0.2294         0.2500
+  2         0.5929         0.2500
+  3         1.0519         0.2500
+  4         2.1258         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -16007334.3660 (s.e. 20579.6187)
+Unconstrained log-likelihood (without tree): -5182374.7819
+Number of free parameters (#branches + #model parameters): 197
+Akaike information criterion (AIC) score: 32015062.7320
+Corrected Akaike information criterion (AICc) score: 32015062.9263
+Bayesian information criterion (BIC) score: 32017210.6804
+
+Total tree length (sum of branch lengths): 33.9022
+Sum of internal branch lengths: 13.8951 (40.9858% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Leuconia_nivea' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Leuconia_nivea
+|
+|                                 +--Ircinia_fasciculata
+|                           +-----| (100)
+|                           |     +--Pleraplysilla_spinifera
+|                        +--| (100)
+|                        |  +--------Chondrilla_nucula
+|                     +--| (100)
+|                     |  |          +--Spongilla_lacustris
+|                     |  |     +----| (100)
+|                     |  |     |    +--Ephydatia_muelleri
+|                     |  |  +--| (100)
+|                     |  |  |  |     +--Kirkpatrickia_variolosa
+|                     |  |  |  |  +--| (100)
+|                     |  |  |  |  |  +--Latrunculia_apicalis
+|                     |  |  |  +--| (100)
+|                     |  |  |     +--Mycale_phyllophila
+|                     |  +--| (100)
+|                     |     |  +--Petrosia_ficiformis
+|                     |     +--| (100)
+|                     |        +----Amphimedon_queenslandica
+|                  +--| (100)
+|                  |  |                      +--Aphrocallistes_vastus
+|                  |  |                   +--| (100)
+|                  |  |                   |  |     +--Rossella_fibulata
+|                  |  |                   |  |  +--| (100)
+|                  |  |                   |  |  |  +--Sympagella_nux
+|                  |  |                   |  +--| (100)
+|                  |  |                   |     +--Euplectella_aspergillum
+|                  |  +-------------------| (100)
+|                  |                      +-----Hyalonema_populiferum
+|               +--| (100)
+|               |  |                          +--Aiptasia_pallida
+|               |  |                       +--| (100)
+|               |  |                       |  +--Bolocera_tuedia
+|               |  |                    +--| (100)
+|               |  |                    |  |  +--Edwardsiella_lineata
+|               |  |                    |  +--| (100)
+|               |  |                    |     +--Nematostella_vectensis
+|               |  |                 +--| (100)
+|               |  |                 |  |     +--Montastraea_faveolata
+|               |  |                 |  |  +--| (100)
+|               |  |                 |  |  |  +--Porites_australiensis
+|               |  |                 |  +--| (100)
+|               |  |                 |     |  +--Plumapathes_pennacea
+|               |  |                 |     +--| (100)
+|               |  |                 |        +--Antipathes_caribbeana
+|               |  |              +--| (100)
+|               |  |              |  |   +--Pennatula_rubra
+|               |  |              |  +---| (100)
+|               |  |              |      +--Gorgonia_ventalina
+|               |  |           +--| (100)
+|               |  |           |  |           +--Pelagia_noctiluca
+|               |  |           |  |        +--| (100)
+|               |  |           |  |        |  |  +--Aurelia_aurita
+|               |  |           |  |        |  +--| (100)
+|               |  |           |  |        |     +--Stomolophus_meleagris
+|               |  |           |  |     +--| (100)
+|               |  |           |  |     |  |  +--Atolla_vanhoeffeni
+|               |  |           |  |     |  +--| (100)
+|               |  |           |  |     |     +--Periphylla_periphylla
+|               |  |           |  |  +--| (100)
+|               |  |           |  |  |  +---Alatina_alata
+|               |  |           |  +--| (100)
+|               |  |           |     |           +--Clytia_hemisphaerica
+|               |  |           |     |        +--| (100)
+|               |  |           |     |        |  |  +---Nanomia_bijuga
+|               |  |           |     |        |  +--| (100)
+|               |  |           |     |        |     +--Hydractinia_polyclina
+|               |  |           |     |     +--| (100)
+|               |  |           |     |     |  +---Hydra_magnipapillata
+|               |  |           |     |  +--| (100)
+|               |  |           |     |  |  |  +--Craspedacusta_sowerbyi
+|               |  |           |     |  |  +--| (100)
+|               |  |           |     |  |     +--Liriope_tetraphylla
+|               |  |           |     +--| (100)
+|               |  |           |        +-----Lucernariopsis_campanulata
+|               |  |        +--| (100)
+|               |  |        |  |           +---Capitella_teleta
+|               |  |        |  |        +--| (100)
+|               |  |        |  |        |  +---------Helobdella_robusta
+|               |  |        |  |     +--| (100)
+|               |  |        |  |     |  |  +---Crassostrea_gigas
+|               |  |        |  |     |  +--| (100)
+|               |  |        |  |     |     +----Aplysia_californica
+|               |  |        |  |  +--| (100)
+|               |  |        |  |  |  |     +------Daphnia_pulex
+|               |  |        |  |  |  |  +--| (100)
+|               |  |        |  |  |  |  |  +-------Tribolium_castaneum
+|               |  |        |  |  |  +--| (100)
+|               |  |        |  |  |     +------Ixodes_scapularis
+|               |  |        |  +--| (100)
+|               |  |        |     |     +------Homo_sapiens
+|               |  |        |     |  +--| (100)
+|               |  |        |     |  |  +---Branchiostoma_floridae
+|               |  |        |     +--| (100)
+|               |  |        |        |  +---Saccoglossus_kowalevskii
+|               |  |        |        +--| (100)
+|               |  |        |           +-----Strongylocentrotus_purpuratus
+|               |  |     +--| (100)
+|               |  |     |  +-----------Trichoplax_adhaerens
+|               |  |  +--| (88)
+|               |  |  |  |                                           +--Cestum_veneris
+|               |  |  |  |                                        +--| (100)
+|               |  |  |  |                                        |  +--Mnemiopsis_leidyi
+|               |  |  |  |                                     +--| (100)
+|               |  |  |  |                                     |  +--Bolinopsis_infundibulum
+|               |  |  |  |                                  +--| (100)
+|               |  |  |  |                                  |  |  +--Beroe_sp.
+|               |  |  |  |                                  |  +--| (100)
+|               |  |  |  |                                  |     +--Beroe_abyssicola
+|               |  |  |  |                               +--| (100)
+|               |  |  |  |                               |  +--Dryodora_glandiformis
+|               |  |  |  |                            +--| (100)
+|               |  |  |  |                            |  |  +--Pleurobrachia_species
+|               |  |  |  |                            |  +--| (100)
+|               |  |  |  |                            |     +--Hormiphora_californensis
+|               |  |  |  |                         +--| (100)
+|               |  |  |  |                         |  |  +--Coeloplana_species
+|               |  |  |  |                         |  +--| (100)
+|               |  |  |  |                         |     +--Vallicula_multiformis
+|               |  |  |  |                      +--| (100)
+|               |  |  |  |                      |  +--Lampea_pancerina
+|               |  |  |  +----------------------| (100)
+|               |  |  |                         +--Euplokamis_dunlapae
+|               |  +--| (100)
+|               |     |                                 +------Diaphanoeca_grandis_RI_01
+|               |     |                              +--| (100)
+|               |     |                              |  |  +---Stephanoeca_diplocostata_AUFR
+|               |     |                              |  +--| (100)
+|               |     |                              |     |   +--Acanthoeca_spectabilis_VA_02
+|               |     |                              |     +---| (100)
+|               |     |                              |         +--Acanthoeca_sp._10tr
+|               |     |                       +------| (100)
+|               |     |                       |      +--------Didymoeca_costata_10
+|               |     |                    +--| (100)
+|               |     |                    |  +---------Salpingoeca_dolichothecata_16
+|               |     +--------------------| (100)
+|               |                          |                    +----Choanoeca_perplexa_11
+|               |                          |                +---| (100)
+|               |                          |                |   +-----Monosiga_brevicollis_mx1
+|               |                          |        +-------| (100)
+|               |                          |        |       |  +---------Salpingoeca_infusionum_12
+|               |                          |        |       +--| (100)
+|               |                          |        |          |    +--Salpingoeca_rosetta
+|               |                          |        |          +----| (100)
+|               |                          |        |               +--Salpingoeca_roanoka_13
+|               |                          |     +--| (50)
+|               |                          |     |  |  +---------Salpingoeca_qvevrii_09
+|               |                          |     |  +--| (100)
+|               |                          |     |     +--------Salpingoeca_urceolata_04
+|               |                          |  +--| (100)
+|               |                          |  |  |     +------Salpingoeca_macrocollata_06
+|               |                          |  |  |  +--| (100)
+|               |                          |  |  |  |  +------Salpingoeca_punica_03
+|               |                          |  |  +--| (100)
+|               |                          |  |     |      +---Mylnosiga_fluctuans_19
+|               |                          |  |     +------| (100)
+|               |                          |  |            +----Salpingoeca_helianthica_18
+|               |                          +--| (58)
+|               |                             +----------------Codosiga_hollandica_17
+|       +-------| (100)
+|       |       |      +--Plakina_jani
+|       |       |   +--| (100)
+|       |       |   |  +--Corticium_candelabrum
+|       |       +---| (100)
+|       |           |  +--Oscarella_carmela
+|       |           +--| (100)
+|       |              +--Oscarella_species
+|  +----| (100)
+|  |    +--Clathrina_coriacea
++--| (100)
+|  +--Leucosolenia_complicata
+|
+|     +--Sycon_coactum
+|  +--| (100)
+|  |  +--Sycon_ciliatum
++--| (100)
+   +--Grantia_compressa
+
+Tree in newick format:
+
+(Leuconia_nivea:0.1201908859,((((((((Ircinia_fasciculata:0.0629895913,Pleraplysilla_spinifera:0.0864306691)100:0.3586921396,Chondrilla_nucula:0.5547630201)100:0.0324539557,(((Spongilla_lacustris:0.0496996025,Ephydatia_muelleri:0.0555885616)100:0.3039894872,((Kirkpatrickia_variolosa:0.1166965127,Latrunculia_apicalis:0.1117676921)100:0.0640330324,Mycale_phyllophila:0.2100935630)100:0.1871549215)100:0.0394616555,(Petrosia_ficiformis:0.1928900332,Amphimedon_queenslandica:0.2918333825)100:0.2126157258)100:0.1165511562)100:0.1494104406,((Aphrocallistes_vastus:0.1399445954,((Rossella_fibulata:0.0665085011,Sympagella_nux:0.0685280215)100:0.0632328990,Euplectella_aspergillum:0.1071185584)100:0.0579859373)100:0.2045881149,Hyalonema_populiferum:0.3921660337)100:1.1813359930)100:0.1843170066,(((((((((Aiptasia_pallida:0.0951095265,Bolocera_tuedia:0.0941048336)100:0.0645869819,(Edwardsiella_lineata:0.0665293788,Nematostella_vectensis:0.0857619153)100:0.0593913883)100:0.0770808636,((Montastraea_faveolata:0.0548194451,Porites_australiensis:0.0618308434)100:0.1036541834,(Plumapathes_pennacea:0.0458722216,Antipathes_caribbeana:0.0534468266)100:0.1225573290)100:0.0273115558)100:0.0815503248,(Pennatula_rubra:0.1360069219,Gorgonia_ventalina:0.1069236902)100:0.2663293104)100:0.0505834623,((((Pelagia_noctiluca:0.1302077467,(Aurelia_aurita:0.0870592416,Stomolophus_meleagris:0.1296920415)100:0.0471396881)100:0.1219807769,(Atolla_vanhoeffeni:0.0457260668,Periphylla_periphylla:0.0440478823)100:0.1539352733)100:0.0376252499,Alatina_alata:0.2572699916)100:0.0208337440,((((Clytia_hemisphaerica:0.2318273118,(Nanomia_bijuga:0.2342792117,Hydractinia_polyclina:0.1376419364)100:0.0169447393)100:0.0198280851,Hydra_magnipapillata:0.2639942433)100:0.0737020936,(Craspedacusta_sowerbyi:0.1906356744,Liriope_tetraphylla:0.1650680438)100:0.0568818002)100:0.1619103358,Lucernariopsis_campanulata:0.3562307883)100:0.0147827378)100:0.2235052378)100:0.0864733051,((((Capitella_teleta:0.2686053958,Helobdella_robusta:0.6344742987)100:0.0814962150,(Crassostrea_gigas:0.2356142922,Aplysia_californica:0.3093275099)100:0.0761358809)100:0.0623813878,((Daphnia_pulex:0.4198346750,Tribolium_castaneum:0.4732988393)100:0.1187107709,Ixodes_scapularis:0.4066600852)100:0.1497319166)100:0.0663134710,((Homo_sapiens:0.4175721257,Branchiostoma_floridae:0.2639679404)100:0.0356602163,(Saccoglossus_kowalevskii:0.2338912693,Strongylocentrotus_purpuratus:0.3644409271)100:0.0640120636)100:0.0127403654)100:0.1263550904)100:0.0204311820,Trichoplax_adhaerens:0.7390665606)100:0.0274839007,((((((((Cestum_veneris:0.0353788599,Mnemiopsis_leidyi:0.0368366607)100:0.0099023506,Bolinopsis_infundibulum:0.0513424321)100:0.0470142367,(Beroe_sp.:0.0597926587,Beroe_abyssicola:0.0505294885)100:0.0729574889)100:0.0178411984,Dryodora_glandiformis:0.1469230533)100:0.0245216585,(Pleurobrachia_species:0.0698262462,Hormiphora_californensis:0.0622599697)100:0.1570976587)100:0.0586419552,(Coeloplana_species:0.1027387692,Vallicula_multiformis:0.1232294560)100:0.1449856729)100:0.0147687103,Lampea_pancerina:0.1179462693)100:0.1332665199,Euplokamis_dunlapae:0.1338549259)100:1.3653299120)88:0.0058921842,((((Diaphanoeca_grandis_RI_01:0.4178073114,(Stephanoeca_diplocostata_AUFR:0.2882509757,(Acanthoeca_spectabilis_VA_02:0.1220608114,Acanthoeca_sp._10tr:0.1428170998)100:0.2857659290)100:0.1044659961)100:0.1762367131,Didymoeca_costata_10:0.5528079446)100:0.4160766197,Salpingoeca_dolichothecata_16:0.5919493532)100:0.0221327310,(((((Choanoeca_perplexa_11:0.2983104822,Monosiga_brevicollis_mx1:0.3817149383)100:0.2794889033,(Salpingoeca_infusionum_12:0.5869706140,(Salpingoeca_rosetta:0.1813855975,Salpingoeca_roanoka_13:0.1599169936)100:0.3437101932)100:0.1489639561)100:0.4872534864,(Salpingoeca_qvevrii_09:0.5813421769,Salpingoeca_urceolata_04:0.5731969462)100:0.0398439227)50:0.0164456946,((Salpingoeca_macrocollata_06:0.4217004618,Salpingoeca_punica_03:0.4435933959)100:0.1578926810,(Mylnosiga_fluctuans_19:0.2543091097,Salpingoeca_helianthica_18:0.3380953740)100:0.4364614236)100:0.1055210296)100:0.0430306215,Codosiga_hollandica_17:1.0138042153)58:0.0020752018)100:1.2593895650)100:0.0625219527)100:0.0458112885,((Plakina_jani:0.0942301324,Corticium_candelabrum:0.1220501179)100:0.1762482947,(Oscarella_carmela:0.1319999962,Oscarella_species:0.1505665928)100:0.2139117707)100:0.2578265108)100:0.5036842054,Clathrina_coriacea:0.2227515846)100:0.2954657650,Leucosolenia_complicata:0.1351982594)100:0.0270795009,((Sycon_coactum:0.0915438752,Sycon_ciliatum:0.1006554979)100:0.0261466613,Grantia_compressa:0.1493917608)100:0.0235843669);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -16007334.36681762
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Leuconia_nivea
+|
+|                                 +--Ircinia_fasciculata
+|                           +-----| (100)
+|                           |     +--Pleraplysilla_spinifera
+|                        +--| (100)
+|                        |  +--------Chondrilla_nucula
+|                     +--| (100)
+|                     |  |          +--Spongilla_lacustris
+|                     |  |     +----| (100)
+|                     |  |     |    +--Ephydatia_muelleri
+|                     |  |  +--| (100)
+|                     |  |  |  |     +--Kirkpatrickia_variolosa
+|                     |  |  |  |  +--| (100)
+|                     |  |  |  |  |  +--Latrunculia_apicalis
+|                     |  |  |  +--| (100)
+|                     |  |  |     +--Mycale_phyllophila
+|                     |  +--| (100)
+|                     |     |  +--Petrosia_ficiformis
+|                     |     +--| (100)
+|                     |        +----Amphimedon_queenslandica
+|                  +--| (100)
+|                  |  |                      +--Aphrocallistes_vastus
+|                  |  |                   +--| (100)
+|                  |  |                   |  |     +--Rossella_fibulata
+|                  |  |                   |  |  +--| (100)
+|                  |  |                   |  |  |  +--Sympagella_nux
+|                  |  |                   |  +--| (100)
+|                  |  |                   |     +--Euplectella_aspergillum
+|                  |  +-------------------| (100)
+|                  |                      +-----Hyalonema_populiferum
+|               +--| (100)
+|               |  |                          +--Aiptasia_pallida
+|               |  |                       +--| (100)
+|               |  |                       |  +--Bolocera_tuedia
+|               |  |                    +--| (100)
+|               |  |                    |  |  +--Edwardsiella_lineata
+|               |  |                    |  +--| (100)
+|               |  |                    |     +--Nematostella_vectensis
+|               |  |                 +--| (100)
+|               |  |                 |  |     +--Montastraea_faveolata
+|               |  |                 |  |  +--| (100)
+|               |  |                 |  |  |  +--Porites_australiensis
+|               |  |                 |  +--| (100)
+|               |  |                 |     |  +--Plumapathes_pennacea
+|               |  |                 |     +--| (100)
+|               |  |                 |        +--Antipathes_caribbeana
+|               |  |              +--| (100)
+|               |  |              |  |   +--Pennatula_rubra
+|               |  |              |  +---| (100)
+|               |  |              |      +--Gorgonia_ventalina
+|               |  |           +--| (100)
+|               |  |           |  |           +--Pelagia_noctiluca
+|               |  |           |  |        +--| (100)
+|               |  |           |  |        |  |  +--Aurelia_aurita
+|               |  |           |  |        |  +--| (100)
+|               |  |           |  |        |     +--Stomolophus_meleagris
+|               |  |           |  |     +--| (100)
+|               |  |           |  |     |  |  +--Atolla_vanhoeffeni
+|               |  |           |  |     |  +--| (100)
+|               |  |           |  |     |     +--Periphylla_periphylla
+|               |  |           |  |  +--| (100)
+|               |  |           |  |  |  +---Alatina_alata
+|               |  |           |  +--| (100)
+|               |  |           |     |           +--Clytia_hemisphaerica
+|               |  |           |     |        +--| (100)
+|               |  |           |     |        |  |  +---Nanomia_bijuga
+|               |  |           |     |        |  +--| (100)
+|               |  |           |     |        |     +--Hydractinia_polyclina
+|               |  |           |     |     +--| (100)
+|               |  |           |     |     |  +---Hydra_magnipapillata
+|               |  |           |     |  +--| (100)
+|               |  |           |     |  |  |  +--Craspedacusta_sowerbyi
+|               |  |           |     |  |  +--| (100)
+|               |  |           |     |  |     +--Liriope_tetraphylla
+|               |  |           |     +--| (100)
+|               |  |           |        +-----Lucernariopsis_campanulata
+|               |  |        +--| (100)
+|               |  |        |  |           +---Capitella_teleta
+|               |  |        |  |        +--| (100)
+|               |  |        |  |        |  +---------Helobdella_robusta
+|               |  |        |  |     +--| (100)
+|               |  |        |  |     |  |  +---Crassostrea_gigas
+|               |  |        |  |     |  +--| (100)
+|               |  |        |  |     |     +----Aplysia_californica
+|               |  |        |  |  +--| (100)
+|               |  |        |  |  |  |     +------Daphnia_pulex
+|               |  |        |  |  |  |  +--| (100)
+|               |  |        |  |  |  |  |  +-------Tribolium_castaneum
+|               |  |        |  |  |  +--| (100)
+|               |  |        |  |  |     +------Ixodes_scapularis
+|               |  |        |  +--| (100)
+|               |  |        |     |     +------Homo_sapiens
+|               |  |        |     |  +--| (100)
+|               |  |        |     |  |  +---Branchiostoma_floridae
+|               |  |        |     +--| (100)
+|               |  |        |        |  +---Saccoglossus_kowalevskii
+|               |  |        |        +--| (100)
+|               |  |        |           +-----Strongylocentrotus_purpuratus
+|               |  |     +--| (100)
+|               |  |     |  +-----------Trichoplax_adhaerens
+|               |  |  +--| (88)
+|               |  |  |  |                                           +--Cestum_veneris
+|               |  |  |  |                                        +--| (100)
+|               |  |  |  |                                        |  +--Mnemiopsis_leidyi
+|               |  |  |  |                                     +--| (100)
+|               |  |  |  |                                     |  +--Bolinopsis_infundibulum
+|               |  |  |  |                                  +--| (100)
+|               |  |  |  |                                  |  |  +--Beroe_sp.
+|               |  |  |  |                                  |  +--| (100)
+|               |  |  |  |                                  |     +--Beroe_abyssicola
+|               |  |  |  |                               +--| (100)
+|               |  |  |  |                               |  +--Dryodora_glandiformis
+|               |  |  |  |                            +--| (100)
+|               |  |  |  |                            |  |  +--Pleurobrachia_species
+|               |  |  |  |                            |  +--| (100)
+|               |  |  |  |                            |     +--Hormiphora_californensis
+|               |  |  |  |                         +--| (100)
+|               |  |  |  |                         |  |  +--Coeloplana_species
+|               |  |  |  |                         |  +--| (100)
+|               |  |  |  |                         |     +--Vallicula_multiformis
+|               |  |  |  |                      +--| (100)
+|               |  |  |  |                      |  +--Lampea_pancerina
+|               |  |  |  +----------------------| (100)
+|               |  |  |                         +--Euplokamis_dunlapae
+|               |  +--| (100)
+|               |     |                                 +------Diaphanoeca_grandis_RI_01
+|               |     |                              +--| (100)
+|               |     |                              |  |  +---Stephanoeca_diplocostata_AUFR
+|               |     |                              |  +--| (100)
+|               |     |                              |     |   +--Acanthoeca_spectabilis_VA_02
+|               |     |                              |     +---| (100)
+|               |     |                              |         +--Acanthoeca_sp._10tr
+|               |     |                       +------| (100)
+|               |     |                       |      +--------Didymoeca_costata_10
+|               |     |                    +--| (100)
+|               |     |                    |  +---------Salpingoeca_dolichothecata_16
+|               |     +--------------------| (100)
+|               |                          |                    +----Choanoeca_perplexa_11
+|               |                          |                +---| (100)
+|               |                          |                |   +-----Monosiga_brevicollis_mx1
+|               |                          |        +-------| (100)
+|               |                          |        |       |  +---------Salpingoeca_infusionum_12
+|               |                          |        |       +--| (100)
+|               |                          |        |          |    +--Salpingoeca_rosetta
+|               |                          |        |          +----| (100)
+|               |                          |        |               +--Salpingoeca_roanoka_13
+|               |                          |     +--| (50)
+|               |                          |     |  |  +---------Salpingoeca_qvevrii_09
+|               |                          |     |  +--| (100)
+|               |                          |     |     +--------Salpingoeca_urceolata_04
+|               |                          |  +--| (100)
+|               |                          |  |  |     +------Salpingoeca_macrocollata_06
+|               |                          |  |  |  +--| (100)
+|               |                          |  |  |  |  +------Salpingoeca_punica_03
+|               |                          |  |  +--| (100)
+|               |                          |  |     |      +---Mylnosiga_fluctuans_19
+|               |                          |  |     +------| (100)
+|               |                          |  |            +----Salpingoeca_helianthica_18
+|               |                          +--| (58)
+|               |                             +----------------Codosiga_hollandica_17
+|       +-------| (100)
+|       |       |      +--Plakina_jani
+|       |       |   +--| (100)
+|       |       |   |  +--Corticium_candelabrum
+|       |       +---| (100)
+|       |           |  +--Oscarella_carmela
+|       |           +--| (100)
+|       |              +--Oscarella_species
+|  +----| (100)
+|  |    +--Clathrina_coriacea
++--| (100)
+|  +--Leucosolenia_complicata
+|
+|     +--Sycon_coactum
+|  +--| (100)
+|  |  +--Sycon_ciliatum
++--| (100)
+   +--Grantia_compressa
+
+
+Consensus tree in newick format: 
+
+(Leuconia_nivea:0.1201895822,((((((((Ircinia_fasciculata:0.0629896697,Pleraplysilla_spinifera:0.0864292506)100:0.3586861544,Chondrilla_nucula:0.5547551127)100:0.0324569073,(((Spongilla_lacustris:0.0496995240,Ephydatia_muelleri:0.0555875975)100:0.3039862795,((Kirkpatrickia_variolosa:0.1166953247,Latrunculia_apicalis:0.1117665110)100:0.0640322587,Mycale_phyllophila:0.2100912859)100:0.1871528476)100:0.0394615777,(Petrosia_ficiformis:0.1928885798,Amphimedon_queenslandica:0.2918295900)100:0.2126135084)100:0.1165490543)100:0.1494045376,((Aphrocallistes_vastus:0.1399446702,((Rossella_fibulata:0.0665076595,Sympagella_nux:0.0685270990)100:0.0632321077,Euplectella_aspergillum:0.1071176803)100:0.0579842735)100:0.2045597419,Hyalonema_populiferum:0.3921939712)100:1.1813534894)100:0.1843205185,(((((((((Aiptasia_pallida:0.0951080861,Bolocera_tuedia:0.0941034820)100:0.0645864176,(Edwardsiella_lineata:0.0665284488,Nematostella_vectensis:0.0857606154)100:0.0593906475)100:0.0770797548,((Montastraea_faveolata:0.0548187778,Porites_australiensis:0.0618299253)100:0.1036526402,(Plumapathes_pennacea:0.0458715589,Antipathes_caribbeana:0.0534460530)100:0.1225556693)100:0.0273112524)100:0.0815488015,(Pennatula_rubra:0.1360061303,Gorgonia_ventalina:0.1069206857)100:0.2663275689)100:0.0505839159,((((Pelagia_noctiluca:0.1302060095,(Aurelia_aurita:0.0870582069,Stomolophus_meleagris:0.1296899556)100:0.0471389452)100:0.1219786200,(Atolla_vanhoeffeni:0.0457254289,Periphylla_periphylla:0.0440472166)100:0.1539331002)100:0.0376253081,Alatina_alata:0.2572659774)100:0.0208338967,((((Clytia_hemisphaerica:0.2318235664,(Nanomia_bijuga:0.2342754140,Hydractinia_polyclina:0.1376397914)100:0.0169443902)100:0.0198285590,Hydra_magnipapillata:0.2639898316)100:0.0737008358,(Craspedacusta_sowerbyi:0.1906325709,Liriope_tetraphylla:0.1650651433)100:0.0568814504)100:0.1619079847,Lucernariopsis_campanulata:0.3562250449)100:0.0147821481)100:0.2235016508)100:0.0864709556,((((Capitella_teleta:0.2685997739,Helobdella_robusta:0.6344638131)100:0.0814981563,(Crassostrea_gigas:0.2356112379,Aplysia_californica:0.3093230450)100:0.0761350183)100:0.0623801228,((Daphnia_pulex:0.4198281221,Tribolium_castaneum:0.4732910872)100:0.1187108847,Ixodes_scapularis:0.4066538615)100:0.1497304487)100:0.0663126606,((Homo_sapiens:0.4175651915,Branchiostoma_floridae:0.2639630879)100:0.0356615052,(Saccoglossus_kowalevskii:0.2338873421,Strongylocentrotus_purpuratus:0.3644352339)100:0.0640123666)100:0.0127400041)100:0.1263517990)100:0.0204470899,Trichoplax_adhaerens:0.7390473486)100:0.0274609852,((((((((Cestum_veneris:0.0353782518,Mnemiopsis_leidyi:0.0368358817)100:0.0099029252,Bolinopsis_infundibulum:0.0513416544)100:0.0470134791,(Beroe_sp.:0.0597918833,Beroe_abyssicola:0.0505285353)100:0.0729571112)100:0.0178409320,Dryodora_glandiformis:0.1469214461)100:0.0245213429,(Pleurobrachia_species:0.0698255853,Hormiphora_californensis:0.0622592675)100:0.1570958986)100:0.0586411310,(Coeloplana_species:0.1027377349,Vallicula_multiformis:0.1232279945)100:0.1449842872)100:0.0147698741,Lampea_pancerina:0.1179445932)100:0.1335018325,Euplokamis_dunlapae:0.1335865746)100:1.3651983047)88:0.0058977481,((((Diaphanoeca_grandis_RI_01:0.4178022109,(Stephanoeca_diplocostata_AUFR:0.2882476273,(Acanthoeca_spectabilis_VA_02:0.1220600412,Acanthoeca_sp._10tr:0.1428148918)100:0.2857620167)100:0.1044648633)100:0.1762338947,Didymoeca_costata_10:0.5528010223)100:0.4160699285,Salpingoeca_dolichothecata_16:0.5919397434)100:0.0221363239,(((((Choanoeca_perplexa_11:0.2983080011,Monosiga_brevicollis_mx1:0.3817097329)100:0.2794856724,(Salpingoeca_infusionum_12:0.5869637117,(Salpingoeca_rosetta:0.1813852077,Salpingoeca_roanoka_13:0.1599144283)100:0.3437054881)100:0.1489628675)100:0.4872470757,(Salpingoeca_qvevrii_09:0.5813335448,Salpingoeca_urceolata_04:0.5731881810)100:0.0398457439)50:0.0164449657,((Salpingoeca_macrocollata_06:0.4216954576,Salpingoeca_punica_03:0.4435870960)100:0.1578914229,(Mylnosiga_fluctuans_19:0.2543072115,Salpingoeca_helianthica_18:0.3380906383)100:0.4364553281)100:0.1055197364)100:0.0430298788,Codosiga_hollandica_17:1.0137894354)58:0.0020734267)100:1.2593728153)100:0.0625232621)100:0.0458139512,((Plakina_jani:0.0942294972,Corticium_candelabrum:0.1220484955)100:0.1762464738,(Oscarella_carmela:0.1319989488,Oscarella_species:0.1505646490)100:0.2139096123)100:0.2578215127)100:0.5036782258,Clathrina_coriacea:0.2227507222)100:0.2954615768,Leucosolenia_complicata:0.1351975109)100:0.0270786174,((Sycon_coactum:0.0915430856,Sycon_ciliatum:0.1006542915)100:0.0261464605,Grantia_compressa:0.1493903672)100:0.0235839690);
+
+TIME STAMP
+----------
+
+Date and time: Tue Feb 16 21:46:31 2021
+Total CPU time used: 1783055.759 seconds (495h:17m:35s)
+Total wall-clock time used: 37473.80902 seconds (10h:24m:33s)
+

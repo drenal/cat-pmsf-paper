@@ -1,0 +1,344 @@
+IQ-TREE 2.0.6 built Jun  4 2020
+
+Input file name: ryanchoanimalia.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (5000 replicates)
+Random seed number: 197767
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used site-specific frequency model please also cite: 
+
+Huai-Chun Wang, Edward Susko, Bui Quang Minh, and Andrew J. Roger (2018)
+Modeling site heterogeneity with posterior mean site frequency profiles
+accelerates accurate phylogenomic estimation. Syst. Biol., 67:216–235.
+https://doi.org/10.1093/sysbio/syx068
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 61 sequences with 88384 amino-acid sites
+Number of constant sites: 18277 (= 20.6791% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 18277 (= 20.6791% of all sites)
+Number of parsimony informative sites: 52785
+Number of distinct site patterns: 88384
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+SSF+F+G4
+
+State frequencies: (site specific frequencies)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7864
+
+ Category  Relative_rate  Proportion
+  1         0.0927         0.2500
+  2         0.4016         0.2500
+  3         0.9531         0.2500
+  4         2.5526         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1856258.1335 (s.e. 5063.0810)
+Unconstrained log-likelihood (without tree): -1006644.8162
+Number of free parameters (#branches + #model parameters): 139
+Akaike information criterion (AIC) score: 3712794.2670
+Corrected Akaike information criterion (AICc) score: 3712794.7081
+Bayesian information criterion (BIC) score: 3714099.4000
+
+Total tree length (sum of branch lengths): 32.7270
+Sum of internal branch lengths: 9.0717 (27.7192% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Oscarella_carmela' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Oscarella_carmela
+|
+|                                      +---Asterina_pectinifera
+|                                   +--| (100)
+|                                   |  +----Strongylocentrotus_purpuratus
+|                                +--| (100)
+|                                |  |  +--Saccoglossus_kowalevskii
+|                                |  +--| (100)
+|                                |     +--Ptychodera_flava
+|                             +--| (51)
+|                             |  +---------Xenoturbella_bocki
+|                          +--| (89)
+|                          |  |  +-----Branchiostoma_floridae
+|                          |  +--| (99)
+|                          |     |     +-----Petromyzon_marinus
+|                          |     |  +--| (100)
+|                          |     |  |  +--Gallus_gallus
+|                          |     +--| (100)
+|                          |        |      +-----Ciona_intestinalis
+|                          |        +------| (100)
+|                          |               +------Halocynthia_roretzi
+|                       +--| (100)
+|                       |  |                 +-----Capitella_telata
+|                       |  |              +--| (100)
+|                       |  |              |  +----------Helobdella_robusta
+|                       |  |           +--| (98)
+|                       |  |           |  |  +----Cerebratulus_lacteus
+|                       |  |           |  +--| (91)
+|                       |  |           |     +----Terebratalia_transversa
+|                       |  |        +--| (100)
+|                       |  |        |  |     +-----Lottia_gigantea
+|                       |  |        |  |  +--| (100)
+|                       |  |        |  |  |  +-----Crassostrea_virginica
+|                       |  |        |  +--| (100)
+|                       |  |        |     +-------Euprymna_scolopes
+|                       |  |     +--| (100)
+|                       |  |     |  |       +----------------------------Schmidtea_mediterranea
+|                       |  |     |  +-------| (100)
+|                       |  |     |          +---------Paraplanocera_oligoglena
+|                       |  |  +--| (100)
+|                       |  |  |  |              +------------Drosophila_melanogaster
+|                       |  |  |  |           +--| (100)
+|                       |  |  |  |           |  +-------Daphnia_pulex
+|                       |  |  |  |        +--| (100)
+|                       |  |  |  |        |  |  +-----Anoplodactylus_eroticus
+|                       |  |  |  |        |  +--| (100)
+|                       |  |  |  |        |     +-------Boophilus_microplus
+|                       |  |  |  |     +--| (100)
+|                       |  |  |  |     |  +----Euperipatoides_kanangrensis
+|                       |  |  |  |  +--| (92)
+|                       |  |  |  |  |  +------------------Xiphinema_index
+|                       |  |  |  +--| (100)
+|                       |  |  |     +----------Echinoderes_horni
+|                       |  +--| (100)
+|                       |     |                     +-------------Isodiametra_pulchra
+|                       |     |  +------------------| (100)
+|                       |     |  |                  |      +--Symsagittifera_roscoffensis
+|                       |     |  |                  +------| (100)
+|                       |     |  |                         +---Convolutriloba_longifissura
+|                       |     +--| (97)
+|                       |        |    +------------------Meara_stichopi
+|                       |        +----| (100)
+|                       |             +------------Nemertoderma_westbladi
+|                    +--| (99)
+|                    |  |           +--Acropora_palmata
+|                    |  |        +--| (100)
+|                    |  |        |  +--Acropora_millepora
+|                    |  |     +--| (100)
+|                    |  |     |  |  +--Porites_astreoides
+|                    |  |     |  +--| (100)
+|                    |  |     |     +--Montastraea_faveolata
+|                    |  |  +--| (100)
+|                    |  |  |  |  +--Nematostella_vectensis
+|                    |  |  |  +--| (100)
+|                    |  |  |     |  +--Anemonia_viridis
+|                    |  |  |     +--| (100)
+|                    |  |  |        |  +--Metridium_senile
+|                    |  |  |        +--| (100)
+|                    |  |  |           +----Aiptasia_pallida
+|                    |  +--| (100)
+|                    |     |         +-----Hydra_magnipapillata
+|                    |     |      +--| (100)
+|                    |     |      |  |  +--Hydractinia_echinata
+|                    |     |      |  +--| (100)
+|                    |     |      |     +--Podocoryna_carnea
+|                    |     |   +--| (100)
+|                    |     |   |  +------Clytia_hemisphaerica
+|                    |     +---| (100)
+|                    |         +-----Cyanea_capillata
+|                 +--| (79)
+|                 |  +-------------Trichoplax_adhaerens
+|              +--| (59)
+|              |  |                          +--Mnemiopsis_leidyi
+|              |  |                       +--| (99)
+|              |  |                       |  +--Mertensiid_sp
+|              |  +-----------------------| (100)
+|              |                          +--Pleurobrachia_pileus
+|           +--| (98)
+|           |  |                           +-----------------Monosiga_brevicollis
+|           |  |                +----------| (100)
+|           |  |                |          +------------------Salpingoeca_rosetta
+|           |  +----------------| (100)
+|           |                   +-----------------Monosiga_ovata
+|        +--| (99)
+|        |  |        +---------Amphimedon_queenslandica
+|        |  |     +--| (100)
+|        |  |     |  |         +--Lubomirskia_baicalensis
+|        |  |     |  |  +------| (100)
+|        |  |     |  |  |      +--Ephydatia_muelleri
+|        |  |     |  +--| (98)
+|        |  |     |     +-----Suberites_domuncula
+|        |  |  +--| (95)
+|        |  |  |  +------------Carteriospongia_foliascens
+|        |  +--| (100)
+|        |     +----------------------------Oopsacas_minuta
++--------| (100)
+|        |     +---------Sycon_raphanus
+|        +-----| (100)
+|              +------Leucetta_chagosensis
+|
++--Oscarella_lobularis
+
+Tree in newick format:
+
+(Oscarella_carmela:0.1854459603,(((((((((((Asterina_pectinifera:0.2374476829,Strongylocentrotus_purpuratus:0.2781738769)100:0.1251736166,(Saccoglossus_kowalevskii:0.1489051862,Ptychodera_flava:0.1160669189)100:0.0930106910)100:0.0377923567,Xenoturbella_bocki:0.5007831159)51:0.0155470744,(Branchiostoma_floridae:0.3302696106,((Petromyzon_marinus:0.3113849299,Gallus_gallus:0.1544866313)100:0.1565112486,(Ciona_intestinalis:0.3438786959,Halocynthia_roretzi:0.3598466561)100:0.3688542137)100:0.0317196125)99:0.0271209204)89:0.0089891406,((((((Capitella_telata:0.2985926554,Helobdella_robusta:0.5787475700)100:0.0542746572,(Cerebratulus_lacteus:0.2833667514,Terebratalia_transversa:0.2812073995)91:0.0127158871)98:0.0124296125,((Lottia_gigantea:0.2989330709,Crassostrea_virginica:0.3251084079)100:0.0270337621,Euprymna_scolopes:0.4157005870)100:0.0403396577)100:0.0162591166,(Schmidtea_mediterranea:1.4338045616,Paraplanocera_oligoglena:0.5066812495)100:0.4353012955)100:0.0417325186,(((((Drosophila_melanogaster:0.6752209478,Daphnia_pulex:0.3991266994)100:0.0913197229,(Anoplodactylus_eroticus:0.3042878051,Boophilus_microplus:0.4248563516)100:0.0221492268)100:0.0405542260,Euperipatoides_kanangrensis:0.2626020291)100:0.0393811773,Xiphinema_index:0.9427616685)92:0.0067073318,Echinoderes_horni:0.5665659406)100:0.0366966967)100:0.0362616383,((Isodiametra_pulchra:0.6926473969,(Symsagittifera_roscoffensis:0.1733224841,Convolutriloba_longifissura:0.2217691287)100:0.3739305121)100:0.9722224371,(Meara_stichopi:0.9680640130,Nemertoderma_westbladi:0.6413359342)100:0.2644866391)97:0.0723210036)100:0.0203495270)100:0.1214245943,((((Acropora_palmata:0.0465224136,Acropora_millepora:0.0293113742)100:0.0960906196,(Porites_astreoides:0.0887641778,Montastraea_faveolata:0.1262739138)100:0.0238567613)100:0.1102504010,(Nematostella_vectensis:0.1404264525,(Anemonia_viridis:0.1306688272,(Metridium_senile:0.0980009953,Aiptasia_pallida:0.2914718247)100:0.0239615155)100:0.0608766549)100:0.0715343268)100:0.1201271483,(((Hydra_magnipapillata:0.2970480609,(Hydractinia_echinata:0.1141276262,Podocoryna_carnea:0.0808516670)100:0.0949840149)100:0.0278721173,Clytia_hemisphaerica:0.3608351040)100:0.1762102804,Cyanea_capillata:0.3261724670)100:0.2051696070)100:0.0575009472)99:0.0144831983,Trichoplax_adhaerens:0.7038752846)79:0.0063040614,((Mnemiopsis_leidyi:0.1011352750,Mertensiid_sp:0.0916685492)99:0.0358560518,Pleurobrachia_pileus:0.1891849879)100:1.2251492050)59:0.0026923558,((Monosiga_brevicollis:0.8946777760,Salpingoeca_rosetta:0.9420628530)100:0.5638505244,Monosiga_ovata:0.9165285029)100:0.8429342689)98:0.0320843306,(((Amphimedon_queenslandica:0.5207974532,((Lubomirskia_baicalensis:0.0704096207,Ephydatia_muelleri:0.0108889468)100:0.3605391037,Suberites_domuncula:0.2992896380)98:0.0330094244)100:0.1514027918,Carteriospongia_foliascens:0.6430454071)95:0.0853172399,Oopsacas_minuta:1.4570990197)100:0.1456700423)99:0.0928988183,(Sycon_raphanus:0.5337319006,Leucetta_chagosensis:0.3712347566)100:0.3231537539)100:0.4852840669,Oscarella_lobularis:0.1178748510);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 5000 bootstrap trees
+Log-likelihood of consensus tree: -1856258.130812
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Oscarella_carmela
+|
+|                                      +---Asterina_pectinifera
+|                                   +--| (100)
+|                                   |  +----Strongylocentrotus_purpuratus
+|                                +--| (100)
+|                                |  |  +--Saccoglossus_kowalevskii
+|                                |  +--| (100)
+|                                |     +--Ptychodera_flava
+|                             +--| (51)
+|                             |  +---------Xenoturbella_bocki
+|                          +--| (89)
+|                          |  |  +-----Branchiostoma_floridae
+|                          |  +--| (99)
+|                          |     |     +-----Petromyzon_marinus
+|                          |     |  +--| (100)
+|                          |     |  |  +--Gallus_gallus
+|                          |     +--| (100)
+|                          |        |      +-----Ciona_intestinalis
+|                          |        +------| (100)
+|                          |               +------Halocynthia_roretzi
+|                       +--| (100)
+|                       |  |                 +-----Capitella_telata
+|                       |  |              +--| (100)
+|                       |  |              |  +----------Helobdella_robusta
+|                       |  |           +--| (98)
+|                       |  |           |  |  +----Cerebratulus_lacteus
+|                       |  |           |  +--| (91)
+|                       |  |           |     +----Terebratalia_transversa
+|                       |  |        +--| (100)
+|                       |  |        |  |     +-----Lottia_gigantea
+|                       |  |        |  |  +--| (100)
+|                       |  |        |  |  |  +-----Crassostrea_virginica
+|                       |  |        |  +--| (100)
+|                       |  |        |     +-------Euprymna_scolopes
+|                       |  |     +--| (100)
+|                       |  |     |  |       +----------------------------Schmidtea_mediterranea
+|                       |  |     |  +-------| (100)
+|                       |  |     |          +---------Paraplanocera_oligoglena
+|                       |  |  +--| (100)
+|                       |  |  |  |              +------------Drosophila_melanogaster
+|                       |  |  |  |           +--| (100)
+|                       |  |  |  |           |  +-------Daphnia_pulex
+|                       |  |  |  |        +--| (100)
+|                       |  |  |  |        |  |  +-----Anoplodactylus_eroticus
+|                       |  |  |  |        |  +--| (100)
+|                       |  |  |  |        |     +-------Boophilus_microplus
+|                       |  |  |  |     +--| (100)
+|                       |  |  |  |     |  +----Euperipatoides_kanangrensis
+|                       |  |  |  |  +--| (92)
+|                       |  |  |  |  |  +------------------Xiphinema_index
+|                       |  |  |  +--| (100)
+|                       |  |  |     +----------Echinoderes_horni
+|                       |  +--| (100)
+|                       |     |                     +-------------Isodiametra_pulchra
+|                       |     |  +------------------| (100)
+|                       |     |  |                  |      +--Symsagittifera_roscoffensis
+|                       |     |  |                  +------| (100)
+|                       |     |  |                         +---Convolutriloba_longifissura
+|                       |     +--| (97)
+|                       |        |    +------------------Meara_stichopi
+|                       |        +----| (100)
+|                       |             +-----------Nemertoderma_westbladi
+|                    +--| (99)
+|                    |  |           +--Acropora_palmata
+|                    |  |        +--| (100)
+|                    |  |        |  +--Acropora_millepora
+|                    |  |     +--| (100)
+|                    |  |     |  |  +--Porites_astreoides
+|                    |  |     |  +--| (100)
+|                    |  |     |     +--Montastraea_faveolata
+|                    |  |  +--| (100)
+|                    |  |  |  |  +--Nematostella_vectensis
+|                    |  |  |  +--| (100)
+|                    |  |  |     |  +--Anemonia_viridis
+|                    |  |  |     +--| (100)
+|                    |  |  |        |  +--Metridium_senile
+|                    |  |  |        +--| (100)
+|                    |  |  |           +----Aiptasia_pallida
+|                    |  +--| (100)
+|                    |     |         +-----Hydra_magnipapillata
+|                    |     |      +--| (100)
+|                    |     |      |  |  +--Hydractinia_echinata
+|                    |     |      |  +--| (100)
+|                    |     |      |     +--Podocoryna_carnea
+|                    |     |   +--| (100)
+|                    |     |   |  +------Clytia_hemisphaerica
+|                    |     +---| (100)
+|                    |         +-----Cyanea_capillata
+|                 +--| (79)
+|                 |  +-------------Trichoplax_adhaerens
+|              +--| (59)
+|              |  |                          +--Mnemiopsis_leidyi
+|              |  |                       +--| (99)
+|              |  |                       |  +--Mertensiid_sp
+|              |  +-----------------------| (100)
+|              |                          +--Pleurobrachia_pileus
+|           +--| (98)
+|           |  |                           +-----------------Monosiga_brevicollis
+|           |  |                +----------| (100)
+|           |  |                |          +------------------Salpingoeca_rosetta
+|           |  +----------------| (100)
+|           |                   +-----------------Monosiga_ovata
+|        +--| (99)
+|        |  |        +---------Amphimedon_queenslandica
+|        |  |     +--| (100)
+|        |  |     |  |         +--Lubomirskia_baicalensis
+|        |  |     |  |  +------| (100)
+|        |  |     |  |  |      +--Ephydatia_muelleri
+|        |  |     |  +--| (98)
+|        |  |     |     +-----Suberites_domuncula
+|        |  |  +--| (95)
+|        |  |  |  +------------Carteriospongia_foliascens
+|        |  +--| (100)
+|        |     +----------------------------Oopsacas_minuta
++--------| (100)
+|        |     +---------Sycon_raphanus
+|        +-----| (100)
+|              +------Leucetta_chagosensis
+|
++--Oscarella_lobularis
+
+
+Consensus tree in newick format: 
+
+(Oscarella_carmela:0.1854440127,(((((((((((Asterina_pectinifera:0.2374498528,Strongylocentrotus_purpuratus:0.2781748895)100:0.1251772474,(Saccoglossus_kowalevskii:0.1489066996,Ptychodera_flava:0.1160667165)100:0.0930131312)100:0.0377818995,Xenoturbella_bocki:0.5007874675)51:0.0155588631,(Branchiostoma_floridae:0.3302742571,((Petromyzon_marinus:0.3113872449,Gallus_gallus:0.1544877950)100:0.1565122788,(Ciona_intestinalis:0.3438822827,Halocynthia_roretzi:0.3598499528)100:0.3688572477)100:0.0317245800)99:0.0271179280)89:0.0089908974,((((((Capitella_telata:0.2985967485,Helobdella_robusta:0.5787535820)100:0.0542769037,(Cerebratulus_lacteus:0.2833682661,Terebratalia_transversa:0.2812092266)91:0.0127177757)98:0.0124306067,((Lottia_gigantea:0.2989373703,Crassostrea_virginica:0.3251114820)100:0.0270340374,Euprymna_scolopes:0.4157049405)100:0.0403416807)100:0.0163040460,(Schmidtea_mediterranea:1.4337947005,Paraplanocera_oligoglena:0.5066509455)100:0.4353499703)100:0.0416839882,(((((Drosophila_melanogaster:0.6752238952,Daphnia_pulex:0.3991268753)100:0.0913089469,(Anoplodactylus_eroticus:0.3042853855,Boophilus_microplus:0.4248711684)100:0.0221226357)100:0.0407656522,Euperipatoides_kanangrensis:0.2626841520)100:0.0390606167,Xiphinema_index:0.9426885904)92:0.0068218657,Echinoderes_horni:0.5665653276)100:0.0367125653)100:0.0361562770,((Isodiametra_pulchra:0.6926498062,(Symsagittifera_roscoffensis:0.1733079668,Convolutriloba_longifissura:0.2217873980)100:0.3739625406)100:0.9723505609,(Meara_stichopi:0.9678337509,Nemertoderma_westbladi:0.6409590270)100:0.2650246196)97:0.0721730256)100:0.0204339966)100:0.1214244238,((((Acropora_palmata:0.0465229728,Acropora_millepora:0.0293112596)100:0.0960918582,(Porites_astreoides:0.0887642962,Montastraea_faveolata:0.1262745351)100:0.0238579192)100:0.1102515698,(Nematostella_vectensis:0.1404285456,(Anemonia_viridis:0.1306708367,(Metridium_senile:0.0979933785,Aiptasia_pallida:0.2914702217)100:0.0239714445)100:0.0608758682)100:0.0715347317)100:0.1201299245,(((Hydra_magnipapillata:0.2970478928,(Hydractinia_echinata:0.1141280356,Podocoryna_carnea:0.0808521385)100:0.0949863021)100:0.0278763632,Clytia_hemisphaerica:0.3608381364)100:0.1761278730,Cyanea_capillata:0.3261687796)100:0.2052693326)100:0.0575024949)99:0.0144786273,Trichoplax_adhaerens:0.7038885765)79:0.0062998872,((Mnemiopsis_leidyi:0.1011359304,Mertensiid_sp:0.0916695853)99:0.0358592157,Pleurobrachia_pileus:0.1891842633)100:1.2251697837)59:0.0027127776,((Monosiga_brevicollis:0.8946884025,Salpingoeca_rosetta:0.9420736918)100:0.5638541826,Monosiga_ovata:0.9165403409)100:0.8429336140)98:0.0316691976,(((Amphimedon_queenslandica:0.5207708582,((Lubomirskia_baicalensis:0.0704116328,Ephydatia_muelleri:0.0108876416)100:0.3605446019,Suberites_domuncula:0.2992931177)98:0.0330120830)100:0.1514856029,Carteriospongia_foliascens:0.6430664282)95:0.0801754518,Oopsacas_minuta:1.4545873158)100:0.1512330074)99:0.0937724487,(Sycon_raphanus:0.5336330264,Leucetta_chagosensis:0.3711962474)100:0.3227244975)100:0.4847836267,Oscarella_lobularis:0.1178773220);
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun 12 04:51:58 2020
+Total CPU time used: 602240.7469 seconds (167h:17m:20s)
+Total wall-clock time used: 41742.87001 seconds (11h:35m:42s)
+

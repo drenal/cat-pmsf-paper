@@ -1,0 +1,185 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 21 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius05 (AVX512, FMA3, 376 GB RAM)
+Command: /scratch/local/bin/iqtree2_icc -nt 48 -s allconcsimion.reduced_outgroup.phylip -m Poisson+G4 -fs poisson_allconcsimion_icc_chain1.sitefreq -B 1000 --wbtl --undo -wslr
+Seed:    360302 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb 16 11:17:40 2021
+Kernel:  AVX+FMA - 48 threads (48 CPU cores detected)
+
+WARNING: Command-line argument `-B` differs from checkpoint `-wslr`
+WARNING: Number of command-line arguments differs from checkpoint
+WARNING: Command-line differs from checkpoint!
+Reading alignment file allconcsimion.reduced_outgroup.phylip ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 90 sequences with 401632 columns, 394553 distinct patterns
+307085 parsimony-informative, 34458 singleton sites, 60089 constant sites
+                               Gap/Ambiguity  Composition  p-value
+   1  Leuconia_nivea                  66.80%    failed      0.00%
+   2  Ircinia_fasciculata             61.03%    failed      0.00%
+   3  Aiptasia_pallida                26.81%    failed      0.00%
+   4  Diaphanoeca_grandis_RI_01       29.05%    failed      0.00%
+   5  Pelagia_noctiluca               47.63%    failed      0.00%
+   6  Aurelia_aurita                  29.79%    failed      0.00%
+   7  Sycon_coactum                   67.03%    failed      0.00%
+   8  Chondrilla_nucula               60.06%    failed      0.00%
+   9  Spongilla_lacustris             47.27%    failed      0.00%
+  10  Cestum_veneris                  64.28%    failed      0.00%
+  11  Capitella_teleta                 9.22%    failed      0.00%
+  12  Choanoeca_perplexa_11           26.51%    failed      0.00%
+  13  Pleurobrachia_species            9.99%    failed      0.00%
+  14  Salpingoeca_qvevrii_09          25.79%    failed      0.00%
+  15  Coeloplana_species              11.01%    failed      0.00%
+  16  Salpingoeca_dolichothecata_16   25.89%    failed      0.00%
+  17  Bolocera_tuedia                 57.09%    failed      0.00%
+  18  Salpingoeca_infusionum_12       30.27%    failed      0.00%
+  19  Beroe_sp.                       78.28%    failed      0.00%
+  20  Euplokamis_dunlapae             48.92%    failed      0.00%
+  21  Homo_sapiens                    17.03%    failed      0.00%
+  22  Montastraea_faveolata           27.80%    failed      0.00%
+  23  Clytia_hemisphaerica            40.50%    failed      0.00%
+  24  Pleraplysilla_spinifera         52.22%    failed      0.00%
+  25  Stephanoeca_diplocostata_AUFR   25.65%    failed      0.00%
+  26  Grantia_compressa               61.92%    failed      0.00%
+  27  Plakina_jani                    48.23%    failed      0.00%
+  28  Craspedacusta_sowerbyi          32.23%    failed      0.00%
+  29  Aphrocallistes_vastus           62.52%    failed      0.00%
+  30  Ephydatia_muelleri              38.71%    failed      0.00%
+  31  Nanomia_bijuga                  26.03%    failed      0.00%
+  32  Oscarella_carmela               52.49%    failed      0.00%
+  33  Sycon_ciliatum                  64.49%    failed      0.00%
+  34  Mnemiopsis_leidyi                8.65%    failed      0.00%
+  35  Hydractinia_polyclina           26.42%    failed      0.00%
+  36  Liriope_tetraphylla             36.85%    failed      0.00%
+  37  Vallicula_multiformis           10.67%    failed      0.00%
+  38  Acanthoeca_spectabilis_VA_02    28.67%    failed      0.00%
+  39  Daphnia_pulex                   21.18%    failed      0.00%
+  40  Kirkpatrickia_variolosa         40.23%    failed      0.00%
+  41  Bolinopsis_infundibulum         54.19%    failed      0.00%
+  42  Pennatula_rubra                 84.36%    failed      0.00%
+  43  Oscarella_species               25.38%    failed      0.00%
+  44  Lucernariopsis_campanulata      39.96%    failed      0.00%
+  45  Edwardsiella_lineata            38.15%    failed      0.00%
+  46  Salpingoeca_macrocollata_06     25.33%    failed      0.00%
+  47  Hyalonema_populiferum           82.76%    failed      0.00%
+  48  Ixodes_scapularis               38.22%    failed      0.00%
+  49  Rossella_fibulata               45.70%    failed      0.00%
+  50  Latrunculia_apicalis            47.42%    failed      0.00%
+  51  Corticium_candelabrum           50.49%    failed      0.00%
+  52  Dryodora_glandiformis           37.48%    failed      0.00%
+  53  Monosiga_brevicollis_mx1        34.51%    failed      0.00%
+  54  Petrosia_ficiformis             30.14%    failed      0.00%
+  55  Helobdella_robusta              21.52%    failed      0.00%
+  56  Branchiostoma_floridae          17.55%    failed      0.00%
+  57  Saccoglossus_kowalevskii        10.24%    failed      0.00%
+  58  Mycale_phyllophila              42.72%    failed      0.00%
+  59  Euplectella_aspergillum         51.21%    failed      0.00%
+  60  Salpingoeca_rosetta             28.06%    failed      0.00%
+  61  Strongylocentrotus_purpuratus   18.73%    failed      0.00%
+  62  Amphimedon_queenslandica        21.49%    failed      0.00%
+  63  Lampea_pancerina                12.29%    failed      0.00%
+  64  Atolla_vanhoeffeni              60.73%    failed      0.00%
+  65  Gorgonia_ventalina              41.38%    failed      0.00%
+  66  Sympagella_nux                  40.40%    failed      0.00%
+  67  Acanthoeca_sp._10tr             32.85%    failed      0.00%
+  68  Plumapathes_pennacea            36.85%    failed      0.00%
+  69  Didymoeca_costata_10            30.00%    failed      0.00%
+  70  Periphylla_periphylla           69.99%    failed      0.00%
+  71  Salpingoeca_punica_03           30.71%    failed      0.00%
+  72  Trichoplax_adhaerens            14.76%    failed      0.00%
+  73  Leucosolenia_complicata         67.92%    failed      0.00%
+  74  Clathrina_coriacea              75.71%    failed      0.00%
+  75  Antipathes_caribbeana           36.50%    failed      0.00%
+  76  Stomolophus_meleagris           29.57%    failed      0.00%
+  77  Tribolium_castaneum             23.61%    failed      0.00%
+  78  Codosiga_hollandica_17          33.48%    failed      0.00%
+  79  Nematostella_vectensis          36.66%    failed      0.00%
+  80  Salpingoeca_urceolata_04        25.85%    failed      0.00%
+  81  Hormiphora_californensis        23.69%    failed      0.00%
+  82  Mylnosiga_fluctuans_19          31.96%    failed      0.00%
+  83  Porites_australiensis           35.82%    failed      0.00%
+  84  Crassostrea_gigas               17.61%    failed      0.00%
+  85  Alatina_alata                   33.44%    failed      0.00%
+  86  Salpingoeca_helianthica_18      27.80%    failed      0.00%
+  87  Salpingoeca_roanoka_13          24.26%    failed      0.00%
+  88  Aplysia_californica             10.44%    failed      0.00%
+  89  Hydra_magnipapillata            33.15%    failed      0.00%
+  90  Beroe_abyssicola                26.21%    failed      0.00%
+WARNING: 21 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           37.27%  90 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Reading site-specific state frequency file poisson_allconcsimion_icc_chain1.sitefreq ...
+Regrouping alignment sites...
+401632 distinct per-site state frequency vectors detected
+NOTE: minimal branch length is reduced to 0.000000248984 for long alignment
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 360302)...
+
+NOTE: 27609 MB RAM (26 GB) is required!
+CHECKPOINT: Model parameters restored, LogL: -16007334.366
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+CHECKPOINT: Candidate tree set restored, best LogL: -16007334.366
+Finish initializing candidate tree set (3)
+Current best tree score: -16007334.366 / CPU time: 0.000
+Number of iterations: 102
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 110 / LogL: -16007378.716 / Time: 0h:51m:9s (0h:42m:14s left)
+Iteration 120 / LogL: -16007360.680 / Time: 1h:53m:28s (1h:16m:16s left)
+Iteration 130 / LogL: -16007344.328 / Time: 2h:58m:27s (1h:36m:49s left)
+Iteration 140 / LogL: -16007360.917 / Time: 4h:0m:41s (1h:43m:53s left)
+Iteration 150 / LogL: -16007345.135 / Time: 5h:5m:45s (1h:42m:36s left)
+Log-likelihood cutoff on original alignment: -16007375.767
+UFBoot trees printed to allconcsimion.reduced_outgroup.phylip.ufboot
+Iteration 160 / LogL: -16007343.686 / Time: 6h:6m:20s (1h:32m:9s left)
+Iteration 170 / LogL: -16007396.805 / Time: 7h:16m:49s (1h:17m:32s left)
+Iteration 180 / LogL: -16007365.991 / Time: 8h:18m:59s (0h:55m:45s left)
+Iteration 190 / LogL: -16007386.377 / Time: 9h:19m:22s (0h:29m:35s left)
+Iteration 200 / LogL: -16007433.800 / Time: 10h:20m:26s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -16007375.767
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+UFBoot trees printed to allconcsimion.reduced_outgroup.phylip.ufboot
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 10h:20m:27s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+CHECKPOINT: Final model parameters restored
+BEST SCORE FOUND : -16007334.366
+Site log-likelihoods per category printed to allconcsimion.reduced_outgroup.phylip.sitelh
+Creating bootstrap support values...
+Split supports printed to NEXUS file allconcsimion.reduced_outgroup.phylip.splits.nex
+Total tree length: 33.902
+
+Total number of iterations: 200
+CPU time used for tree search: 1782595.315 sec (495h:9m:55s)
+Wall-clock time used for tree search: 37170.753 sec (10h:19m:30s)
+Total CPU time used: 1783055.759 sec (495h:17m:35s)
+Total wall-clock time used: 37233.123 sec (10h:20m:33s)
+UFBoot trees printed to allconcsimion.reduced_outgroup.phylip.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file allconcsimion.reduced_outgroup.phylip.splits.nex...
+90 taxa and 183 splits.
+Consensus tree written to allconcsimion.reduced_outgroup.phylip.contree
+Reading input trees file allconcsimion.reduced_outgroup.phylip.contree
+Log-likelihood of consensus tree: -16007334.367
+
+Analysis results written to: 
+  IQ-TREE report:                allconcsimion.reduced_outgroup.phylip.iqtree
+  Maximum-likelihood tree:       allconcsimion.reduced_outgroup.phylip.treefile
+  Likelihood distances:          allconcsimion.reduced_outgroup.phylip.mldist
+  Site log-likelihoods:          allconcsimion.reduced_outgroup.phylip.sitelh
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          allconcsimion.reduced_outgroup.phylip.splits.nex
+  Consensus tree:                allconcsimion.reduced_outgroup.phylip.contree
+  UFBoot trees:                  allconcsimion.reduced_outgroup.phylip.ufboot
+  Screen log file:               allconcsimion.reduced_outgroup.phylip.log
+
+Date and Time: Tue Feb 16 21:46:32 2021

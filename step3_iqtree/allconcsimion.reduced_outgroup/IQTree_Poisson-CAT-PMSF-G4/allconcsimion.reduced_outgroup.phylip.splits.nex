@@ -1,0 +1,288 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=90;
+TAXLABELS
+[1] 'Leuconia_nivea'
+[2] 'Ircinia_fasciculata'
+[3] 'Aiptasia_pallida'
+[4] 'Diaphanoeca_grandis_RI_01'
+[5] 'Pelagia_noctiluca'
+[6] 'Aurelia_aurita'
+[7] 'Sycon_coactum'
+[8] 'Chondrilla_nucula'
+[9] 'Spongilla_lacustris'
+[10] 'Cestum_veneris'
+[11] 'Capitella_teleta'
+[12] 'Choanoeca_perplexa_11'
+[13] 'Pleurobrachia_species'
+[14] 'Salpingoeca_qvevrii_09'
+[15] 'Coeloplana_species'
+[16] 'Salpingoeca_dolichothecata_16'
+[17] 'Bolocera_tuedia'
+[18] 'Salpingoeca_infusionum_12'
+[19] 'Beroe_sp.'
+[20] 'Euplokamis_dunlapae'
+[21] 'Homo_sapiens'
+[22] 'Montastraea_faveolata'
+[23] 'Clytia_hemisphaerica'
+[24] 'Pleraplysilla_spinifera'
+[25] 'Stephanoeca_diplocostata_AUFR'
+[26] 'Grantia_compressa'
+[27] 'Plakina_jani'
+[28] 'Craspedacusta_sowerbyi'
+[29] 'Aphrocallistes_vastus'
+[30] 'Ephydatia_muelleri'
+[31] 'Nanomia_bijuga'
+[32] 'Oscarella_carmela'
+[33] 'Sycon_ciliatum'
+[34] 'Mnemiopsis_leidyi'
+[35] 'Hydractinia_polyclina'
+[36] 'Liriope_tetraphylla'
+[37] 'Vallicula_multiformis'
+[38] 'Acanthoeca_spectabilis_VA_02'
+[39] 'Daphnia_pulex'
+[40] 'Kirkpatrickia_variolosa'
+[41] 'Bolinopsis_infundibulum'
+[42] 'Pennatula_rubra'
+[43] 'Oscarella_species'
+[44] 'Lucernariopsis_campanulata'
+[45] 'Edwardsiella_lineata'
+[46] 'Salpingoeca_macrocollata_06'
+[47] 'Hyalonema_populiferum'
+[48] 'Ixodes_scapularis'
+[49] 'Rossella_fibulata'
+[50] 'Latrunculia_apicalis'
+[51] 'Corticium_candelabrum'
+[52] 'Dryodora_glandiformis'
+[53] 'Monosiga_brevicollis_mx1'
+[54] 'Petrosia_ficiformis'
+[55] 'Helobdella_robusta'
+[56] 'Branchiostoma_floridae'
+[57] 'Saccoglossus_kowalevskii'
+[58] 'Mycale_phyllophila'
+[59] 'Euplectella_aspergillum'
+[60] 'Salpingoeca_rosetta'
+[61] 'Strongylocentrotus_purpuratus'
+[62] 'Amphimedon_queenslandica'
+[63] 'Lampea_pancerina'
+[64] 'Atolla_vanhoeffeni'
+[65] 'Gorgonia_ventalina'
+[66] 'Sympagella_nux'
+[67] 'Acanthoeca_sp._10tr'
+[68] 'Plumapathes_pennacea'
+[69] 'Didymoeca_costata_10'
+[70] 'Periphylla_periphylla'
+[71] 'Salpingoeca_punica_03'
+[72] 'Trichoplax_adhaerens'
+[73] 'Leucosolenia_complicata'
+[74] 'Clathrina_coriacea'
+[75] 'Antipathes_caribbeana'
+[76] 'Stomolophus_meleagris'
+[77] 'Tribolium_castaneum'
+[78] 'Codosiga_hollandica_17'
+[79] 'Nematostella_vectensis'
+[80] 'Salpingoeca_urceolata_04'
+[81] 'Hormiphora_californensis'
+[82] 'Mylnosiga_fluctuans_19'
+[83] 'Porites_australiensis'
+[84] 'Crassostrea_gigas'
+[85] 'Alatina_alata'
+[86] 'Salpingoeca_helianthica_18'
+[87] 'Salpingoeca_roanoka_13'
+[88] 'Aplysia_californica'
+[89] 'Hydra_magnipapillata'
+[90] 'Beroe_abyssicola'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=90 nsplits=183;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 24,
+	100	 2 24,
+	100	 8,
+	100	 2 8 24,
+	100	 9,
+	100	 30,
+	100	 9 30,
+	100	 40,
+	100	 50,
+	100	 40 50,
+	100	 58,
+	100	 40 50 58,
+	100	 9 30 40 50 58,
+	100	 54,
+	100	 62,
+	100	 54 62,
+	100	 9 30 40 50 54 58 62,
+	100	 2 8 9 24 30 40 50 54 58 62,
+	100	 29,
+	100	 49,
+	100	 66,
+	100	 49 66,
+	100	 59,
+	100	 49 59 66,
+	100	 29 49 59 66,
+	100	 47,
+	100	 29 47 49 59 66,
+	100	 2 8 9 24 29 30 40 47 49 50 54 58 59 62 66,
+	100	 3,
+	100	 17,
+	100	 3 17,
+	100	 45,
+	100	 79,
+	100	 45 79,
+	100	 3 17 45 79,
+	100	 22,
+	100	 83,
+	100	 22 83,
+	100	 68,
+	100	 75,
+	100	 68 75,
+	100	 22 68 75 83,
+	100	 3 17 22 45 68 75 79 83,
+	100	 42,
+	100	 65,
+	100	 42 65,
+	100	 3 17 22 42 45 65 68 75 79 83,
+	100	 5,
+	100	 6,
+	100	 76,
+	100	 6 76,
+	100	 5 6 76,
+	100	 64,
+	100	 70,
+	100	 64 70,
+	100	 5 6 64 70 76,
+	100	 85,
+	100	 5 6 64 70 76 85,
+	100	 23,
+	100	 31,
+	100	 35,
+	100	 31 35,
+	100	 23 31 35,
+	100	 89,
+	100	 23 31 35 89,
+	100	 28,
+	100	 36,
+	100	 28 36,
+	100	 23 28 31 35 36 89,
+	100	 44,
+	100	 23 28 31 35 36 44 89,
+	100	 5 6 23 28 31 35 36 44 64 70 76 85 89,
+	100	 3 5 6 17 22 23 28 31 35 36 42 44 45 64 65 68 70 75 76 79 83 85 89,
+	100	 11,
+	100	 55,
+	100	 11 55,
+	100	 84,
+	100	 88,
+	100	 84 88,
+	100	 11 55 84 88,
+	100	 39,
+	100	 77,
+	100	 39 77,
+	100	 48,
+	100	 39 48 77,
+	100	 11 39 48 55 77 84 88,
+	100	 21,
+	100	 56,
+	100	 21 56,
+	100	 57,
+	100	 61,
+	100	 57 61,
+	100	 21 56 57 61,
+	100	 11 21 39 48 55 56 57 61 77 84 88,
+	100	 3 5 6 11 17 21 22 23 28 31 35 36 39 42 44 45 48 55 56 57 61 64 65 68 70 75 76 77 79 83 84 85 88 89,
+	100	 72,
+	100	 3 5 6 11 17 21 22 23 28 31 35 36 39 42 44 45 48 55 56 57 61 64 65 68 70 72 75 76 77 79 83 84 85 88 89,
+	100	 10,
+	100	 34,
+	100	 10 34,
+	100	 41,
+	100	 10 34 41,
+	100	 19,
+	100	 90,
+	100	 19 90,
+	100	 10 19 34 41 90,
+	100	 52,
+	100	 10 19 34 41 52 90,
+	100	 13,
+	100	 81,
+	100	 13 81,
+	100	 10 13 19 34 41 52 81 90,
+	100	 15,
+	100	 37,
+	100	 15 37,
+	100	 10 13 15 19 34 37 41 52 81 90,
+	100	 63,
+	100	 10 13 15 19 34 37 41 52 63 81 90,
+	100	 20,
+	100	 10 13 15 19 20 34 37 41 52 63 81 90,
+	88	 1 2 4 7 8 9 12 14 16 18 24 25 26 27 29 30 32 33 38 40 43 46 47 49 50 51 53 54 58 59 60 62 66 67 69 71 73 74 78 80 82 86 87,
+	100	 4,
+	100	 25,
+	100	 38,
+	100	 67,
+	100	 38 67,
+	100	 25 38 67,
+	100	 4 25 38 67,
+	100	 69,
+	100	 4 25 38 67 69,
+	100	 16,
+	100	 4 16 25 38 67 69,
+	100	 12,
+	100	 53,
+	100	 12 53,
+	100	 18,
+	100	 60,
+	100	 87,
+	100	 60 87,
+	100	 18 60 87,
+	100	 12 18 53 60 87,
+	100	 46,
+	100	 71,
+	100	 46 71,
+	100	 82,
+	100	 86,
+	100	 82 86,
+	100	 46 71 82 86,
+	41	 12 18 46 53 60 71 82 86 87,
+	100	 14,
+	100	 80,
+	100	 14 80,
+	100	 12 14 18 46 53 60 71 80 82 86 87,
+	100	 78,
+	58	 12 14 18 46 53 60 71 78 80 82 86 87,
+	100	 4 12 14 16 18 25 38 46 53 60 67 69 71 78 80 82 86 87,
+	100	 1 2 7 8 9 24 26 27 29 30 32 33 40 43 47 49 50 51 54 58 59 62 66 73 74,
+	100	 1 7 26 27 32 33 43 51 73 74,
+	100	 27,
+	100	 51,
+	100	 27 51,
+	100	 32,
+	100	 43,
+	100	 32 43,
+	100	 27 32 43 51,
+	100	 1 7 26 33 73 74,
+	100	 74,
+	100	 1 7 26 33 73,
+	100	 73,
+	100	 1 7 26 33,
+	100	 7,
+	100	 33,
+	100	 7 33,
+	100	 26,
+	100	 7 26 33,
+	100	 1,
+	50	 12 14 18 53 60 80 87,
+	19	 4 12 14 16 18 25 38 46 53 60 67 69 71 80 82 86 87,
+	9	 1 2 7 8 9 10 13 15 19 20 24 26 27 29 30 32 33 34 37 40 41 43 47 49 50 51 52 54 58 59 62 63 66 73 74 81 90,
+	23	 4 16 25 38 67 69 78,
+	9	 14 46 71 80 82 86,
+	3	 4 10 12 13 14 15 16 18 19 20 25 34 37 38 41 46 52 53 60 63 67 69 71 78 80 81 82 86 87 90,
+;
+END; [Splits]
+

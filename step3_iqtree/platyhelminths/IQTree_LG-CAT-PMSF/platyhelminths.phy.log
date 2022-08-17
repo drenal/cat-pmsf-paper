@@ -1,0 +1,146 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Jun  4 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius03 (AVX512, FMA3, 503 GB RAM)
+Command: /scratch/local/bin/iqtree2 -nt 16 -s platyhelminths.phy -m LG+G4 -B 5000 -wbtl -wslr -fs lg_platyhelminths_icc_chain1.sitefreq
+Seed:    343778 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug  6 21:58:37 2020
+Kernel:  AVX+FMA - 16 threads (16 CPU cores detected)
+
+Reading alignment file platyhelminths.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+WARNING: 4 sites contain only gaps or ambiguous characters.
+Alignment has 32 sequences with 35371 columns, 30500 distinct patterns
+19112 parsimony-informative, 5026 singleton sites, 11232 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  S0japonicu   27.81%    failed      0.23%
+   2  Schistosom   10.52%    failed      0.00%
+   3  Fasciola0h   79.66%    failed      0.00%
+   4  Echinococc   76.43%    failed      0.00%
+   5  Dugesia0ja   62.20%    failed      0.00%
+   6  Coleoptera   56.91%    failed      0.00%
+   7  Apis0melli   51.29%    passed     36.75%
+   8  Siphonapte   72.76%    failed      0.00%
+   9  Bombyx0mor   23.44%    passed      5.48%
+  10  Drosophila    0.58%    passed      5.89%
+  11  Glossina0m   44.77%    passed     17.42%
+  12  Anopheles0    2.69%    failed      0.62%
+  13  Hemiptera0   54.27%    failed      0.00%
+  14  Crustacea0   48.27%    failed      0.00%
+  15  Chelicerat   52.22%    failed      0.00%
+  16  Echinoderm   22.63%    passed      5.99%
+  17  Cephalocho   52.37%    failed      0.00%
+  18  Urochordat    4.33%    failed      0.00%
+  19  Mammalia00    0.21%    failed      0.01%
+  20  Actinopter    5.50%    failed      0.69%
+  21  Neurospora    0.74%    failed      0.00%
+  22  Magnaporth    4.71%    failed      0.00%
+  23  Gibberella   20.23%    failed      0.04%
+  24  Eurotiomyc   39.14%    failed      0.00%
+  25  Candida0al    4.40%    failed      0.00%
+  26  Saccharomy    0.38%    failed      0.00%
+  27  Schizosacc    0.27%    failed      0.00%
+  28  Ustilago0m    8.20%    failed      0.00%
+  29  Homobasidi   12.03%    failed      0.00%
+  30  Cryptococc    3.73%    failed      0.00%
+  31  Glomales00   77.71%    failed      0.00%
+  32  Chytridiom   63.31%    failed      0.00%
+WARNING: 11 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        30.74%  27 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Reading site-specific state frequency file lg_platyhelminths_icc_chain1.sitefreq ...
+Regrouping alignment sites...
+35371 distinct per-site state frequency vectors detected
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.114 seconds
+Generating 5000 samples for ultrafast bootstrap (seed: 343778)...
+
+NOTE: 1704 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -517376.804
+2. Current log-likelihood: -497337.268
+3. Current log-likelihood: -497107.700
+4. Current log-likelihood: -497106.935
+Optimal log-likelihood: -497106.932
+Gamma shape alpha: 0.549
+Parameters optimization took 4 rounds (24.086 sec)
+Computing ML distances based on estimated model parameters... 76.518 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -497166.675
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 25.379 second
+Computing log-likelihood of 98 initial trees ... 144.403 seconds
+Current best score: -497106.932
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -497011.574
+Iteration 10 / LogL: -497019.702 / Time: 0h:8m:2s
+Iteration 20 / LogL: -497013.845 / Time: 0h:12m:43s
+Finish initializing candidate tree set (1)
+Current best tree score: -497011.574 / CPU time: 711.588
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -497012.448 / Time: 0h:17m:23s (0h:42m:33s left)
+Iteration 40 / LogL: -497041.413 / Time: 0h:21m:32s (0h:33m:40s left)
+Iteration 50 / LogL: -497014.040 / Time: 0h:25m:43s (0h:26m:45s left)
+Log-likelihood cutoff on original alignment: -497080.316
+UFBoot trees printed to platyhelminths.phy.ufboot
+Iteration 60 / LogL: -497032.510 / Time: 0h:29m:54s (0h:20m:46s left)
+Iteration 70 / LogL: -497021.754 / Time: 0h:33m:48s (0h:15m:11s left)
+Iteration 80 / LogL: -497012.907 / Time: 0h:37m:43s (0h:10m:1s left)
+Iteration 90 / LogL: -497011.886 / Time: 0h:42m:1s (0h:5m:11s left)
+Iteration 100 / LogL: -497021.228 / Time: 0h:46m:17s (0h:0m:28s left)
+Log-likelihood cutoff on original alignment: -497080.316
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UFBoot trees printed to platyhelminths.phy.ufboot
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:47m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -497011.574
+Optimal log-likelihood: -497011.574
+Gamma shape alpha: 0.549
+Parameters optimization took 1 rounds (3.788 sec)
+BEST SCORE FOUND : -497011.574
+Site log-likelihoods per category printed to platyhelminths.phy.sitelh
+Creating bootstrap support values...
+Split supports printed to NEXUS file platyhelminths.phy.splits.nex
+Total tree length: 8.338
+
+Total number of iterations: 102
+CPU time used for tree search: 44447.745 sec (12h:20m:47s)
+Wall-clock time used for tree search: 2791.057 sec (0h:46m:31s)
+Total CPU time used: 45135.847 sec (12h:32m:15s)
+Total wall-clock time used: 2847.245 sec (0h:47m:27s)
+UFBoot trees printed to platyhelminths.phy.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file platyhelminths.phy.splits.nex...
+32 taxa and 79 splits.
+Consensus tree written to platyhelminths.phy.contree
+Reading input trees file platyhelminths.phy.contree
+Log-likelihood of consensus tree: -497011.574
+
+Analysis results written to: 
+  IQ-TREE report:                platyhelminths.phy.iqtree
+  Maximum-likelihood tree:       platyhelminths.phy.treefile
+  Likelihood distances:          platyhelminths.phy.mldist
+  Site log-likelihoods:          platyhelminths.phy.sitelh
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          platyhelminths.phy.splits.nex
+  Consensus tree:                platyhelminths.phy.contree
+  UFBoot trees:                  platyhelminths.phy.ufboot
+  Screen log file:               platyhelminths.phy.log
+
+Date and Time: Thu Aug  6 22:46:18 2020

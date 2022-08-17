@@ -1,0 +1,248 @@
+IQ-TREE 2.0.6 built Jun  4 2020
+
+Input file name: nematode.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (5000 replicates)
+Random seed number: 337186
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used site-specific frequency model please also cite: 
+
+Huai-Chun Wang, Edward Susko, Bui Quang Minh, and Andrew J. Roger (2018)
+Modeling site heterogeneity with posterior mean site frequency profiles
+accelerates accurate phylogenomic estimation. Syst. Biol., 67:216–235.
+https://doi.org/10.1093/sysbio/syx068
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 37 sequences with 35371 amino-acid sites
+Number of constant sites: 10544 (= 29.8097% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 10544 (= 29.8097% of all sites)
+Number of parsimony informative sites: 19983
+Number of distinct site patterns: 35371
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+SSF+F+G4
+
+State frequencies: (site specific frequencies)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.6071
+
+ Category  Relative_rate  Proportion
+  1         0.0546         0.2500
+  2         0.3162         0.2500
+  3         0.8849         0.2500
+  4         2.7443         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -570544.4454 (s.e. 2808.4159)
+Unconstrained log-likelihood (without tree): -370463.3876
+Number of free parameters (#branches + #model parameters): 91
+Akaike information criterion (AIC) score: 1141270.8908
+Corrected Akaike information criterion (AICc) score: 1141271.3654
+Bayesian information criterion (BIC) score: 1142041.9927
+
+Total tree length (sum of branch lengths): 9.2154
+Sum of internal branch lengths: 3.0652 (33.2617% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Caenorhabd' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Caenorhabd
+|
++--C0briggsae
+|
+|  +--Ancylostom
++--| (100)
+   |  +---Pristionch
+   +--| (100)
+      |     +--Brugia_mal
+      |  +--| (100)
+      |  |  +--Ascaris0su
+      +--| (100)
+         |         +---Meloidogyn
+         |     +---| (100)
+         |     |   +--Heteroderi
+         |  +--| (100)
+         |  |  +---------Strongyloi
+         +--| (99)
+            |     +-----------Trichoceph
+            +-----| (100)
+                  |                     +--Coleoptera
+                  |                  +--| (98)
+                  |                  |  +--Apis0melli
+                  |               +--| (72)
+                  |               |  |  +--Siphonapte
+                  |               |  +--| (89)
+                  |               |     +--Bombyx0mor
+                  |            +--| (87)
+                  |            |  |     +--Drosophila
+                  |            |  |  +--| (100)
+                  |            |  |  |  +--Glossina0m
+                  |            |  +--| (100)
+                  |            |     +--Anopheles0
+                  |         +--| (100)
+                  |         |  +----Hemiptera0
+                  |      +--| (100)
+                  |      |  +-------Crustacea0
+                  |   +--| (100)
+                  |   |  +----Chelicerat
+                  +---| (100)
+                      |        +-----Echinoderm
+                      |     +--| (59)
+                      |     |  +----Cephalocho
+                      |  +--| (100)
+                      |  |  |  +-------Urochordat
+                      |  |  +--| (100)
+                      |  |     |  +--Mammalia00
+                      |  |     +--| (100)
+                      |  |        +--Actinopter
+                      +--| (100)
+                         |                                      +--Neurospora
+                         |                                   +--| (100)
+                         |                                   |  +--Magnaporth
+                         |                                +--| (100)
+                         |                                |  +--Gibberella
+                         |                           +----| (100)
+                         |                           |    +--Eurotiomyc
+                         |                        +--| (100)
+                         |                        |  |       +---Candida0al
+                         |                        |  +-------| (100)
+                         |                        |          +-----Saccharomy
+                         |                     +--| (100)
+                         |                     |  +---------Schizosacc
+                         |                  +--| (100)
+                         |                  |  |  +-------Ustilago0m
+                         |                  |  +--| (100)
+                         |                  |     |  +----Homobasidi
+                         |                  |     +--| (100)
+                         |                  |        +-------Cryptococc
+                         |               +--| (93)
+                         |               |  +----Glomales00
+                         +---------------| (100)
+                                         +------------Chytridiom
+
+Tree in newick format:
+
+(Caenorhabd:0.0184477317,C0briggsae:0.0162256150,(Ancylostom:0.0815765243,(Pristionch:0.1602829567,((Brugia_mal:0.0878379261,Ascaris0su:0.0526275439)100:0.0618783399,(((Meloidogyn:0.1589578764,Heteroderi:0.1187840347)100:0.1651194317,Strongyloi:0.3520460447)100:0.0342792214,(Trichoceph:0.4153845363,(((((((Coleoptera:0.1002037068,Apis0melli:0.0947987793)98:0.0144730074,(Siphonapte:0.0632592061,Bombyx0mor:0.1178971164)89:0.0111233659)72:0.0118470409,((Drosophila:0.0545089857,Glossina0m:0.0614913411)100:0.0736698972,Anopheles0:0.1155221904)100:0.0613562444)87:0.0119860593,Hemiptera0:0.2058293058)100:0.0639773175,Crustacea0:0.3072715546)100:0.0371206933,Chelicerat:0.1840062424)100:0.0255003689,(((Echinoderm:0.2266712191,Cephalocho:0.1752514789)59:0.0116997208,(Urochordat:0.2929484050,(Mammalia00:0.0399347962,Actinopter:0.0556357104)100:0.1037720149)100:0.0235765159)100:0.0261707871,((((((((Neurospora:0.0864288422,Magnaporth:0.0987471101)100:0.0231498533,Gibberella:0.1070817017)100:0.0730840508,Eurotiomyc:0.1275893955)100:0.1945261494,(Candida0al:0.1725683354,Saccharomy:0.2182093855)100:0.2919468923)100:0.0895597437,Schizosacc:0.3621148924)100:0.1145014165,(Ustilago0m:0.2844439835,(Homobasidi:0.1876000612,Cryptococc:0.3017169310)100:0.0464243945)100:0.1321029162)100:0.1102856200,Glomales00:0.1928085439)93:0.0286300517,Chytridiom:0.4535165687)100:0.5597213772)100:0.0383761408)100:0.1686001107)100:0.2102066238)99:0.0146969957)100:0.0481910449)100:0.0722935318)100:0.1113641733);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 5000 bootstrap trees
+Log-likelihood of consensus tree: -570544.445413
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Caenorhabd
+|
++--C0briggsae
+|
+|  +--Ancylostom
++--| (100)
+   |  +---Pristionch
+   +--| (100)
+      |     +--Brugia_mal
+      |  +--| (100)
+      |  |  +--Ascaris0su
+      +--| (100)
+         |         +---Meloidogyn
+         |     +---| (100)
+         |     |   +--Heteroderi
+         |  +--| (100)
+         |  |  +---------Strongyloi
+         +--| (99)
+            |     +-----------Trichoceph
+            +-----| (100)
+                  |                     +--Coleoptera
+                  |                  +--| (98)
+                  |                  |  +--Apis0melli
+                  |               +--| (72)
+                  |               |  |  +--Siphonapte
+                  |               |  +--| (89)
+                  |               |     +--Bombyx0mor
+                  |            +--| (87)
+                  |            |  |     +--Drosophila
+                  |            |  |  +--| (100)
+                  |            |  |  |  +--Glossina0m
+                  |            |  +--| (100)
+                  |            |     +--Anopheles0
+                  |         +--| (100)
+                  |         |  +----Hemiptera0
+                  |      +--| (100)
+                  |      |  +-------Crustacea0
+                  |   +--| (100)
+                  |   |  +----Chelicerat
+                  +---| (100)
+                      |        +-----Echinoderm
+                      |     +--| (59)
+                      |     |  +----Cephalocho
+                      |  +--| (100)
+                      |  |  |  +-------Urochordat
+                      |  |  +--| (100)
+                      |  |     |  +--Mammalia00
+                      |  |     +--| (100)
+                      |  |        +--Actinopter
+                      +--| (100)
+                         |                                      +--Neurospora
+                         |                                   +--| (100)
+                         |                                   |  +--Magnaporth
+                         |                                +--| (100)
+                         |                                |  +--Gibberella
+                         |                           +----| (100)
+                         |                           |    +--Eurotiomyc
+                         |                        +--| (100)
+                         |                        |  |       +---Candida0al
+                         |                        |  +-------| (100)
+                         |                        |          +-----Saccharomy
+                         |                     +--| (100)
+                         |                     |  +---------Schizosacc
+                         |                  +--| (100)
+                         |                  |  |  +-------Ustilago0m
+                         |                  |  +--| (100)
+                         |                  |     |  +----Homobasidi
+                         |                  |     +--| (100)
+                         |                  |        +-------Cryptococc
+                         |               +--| (93)
+                         |               |  +----Glomales00
+                         +---------------| (100)
+                                         +------------Chytridiom
+
+
+Consensus tree in newick format: 
+
+(Caenorhabd:0.0184486586,C0briggsae:0.0162243525,(Ancylostom:0.0815759166,(Pristionch:0.1602803201,((Brugia_mal:0.0878356679,Ascaris0su:0.0526264435)100:0.0618772502,(((Meloidogyn:0.1589563891,Heteroderi:0.1187819129)100:0.1651164743,Strongyloi:0.3520410072)100:0.0342811601,(Trichoceph:0.4153787468,(((((((Coleoptera:0.1002012084,Apis0melli:0.0947967398)98:0.0144737097,(Siphonapte:0.0632570180,Bombyx0mor:0.1178946154)89:0.0111246294)72:0.0118472159,((Drosophila:0.0545085583,Glossina0m:0.0614902084)100:0.0736684960,Anopheles0:0.1155206242)100:0.0613547875)87:0.0119853701,Hemiptera0:0.2058264993)100:0.0639752471,Crustacea0:0.3072672148)100:0.0371215414,Chelicerat:0.1840033102)100:0.0255002887,(((Echinoderm:0.2266662975,Cephalocho:0.1752472375)59:0.0117021794,(Urochordat:0.2929444838,(Mammalia00:0.0399352081,Actinopter:0.0556334492)100:0.1037699544)100:0.0235764126)100:0.0261638391,((((((((Neurospora:0.0864270774,Magnaporth:0.0987449548)100:0.0231487094,Gibberella:0.1070795226)100:0.0730884404,Eurotiomyc:0.1275837909)100:0.1945213232,(Candida0al:0.1725664657,Saccharomy:0.2182041875)100:0.2919399053)100:0.0895583975,Schizosacc:0.3621066336)100:0.1144986761,(Ustilago0m:0.2844386746,(Homobasidi:0.1875963469,Cryptococc:0.3017111567)100:0.0464245160)100:0.1321098482)100:0.1102459126,Glomales00:0.1928120987)93:0.0286442364,Chytridiom:0.4535084840)100:0.5597221866)100:0.0383798683)100:0.1686050883)100:0.2102004444)99:0.0146951081)100:0.0481916662)100:0.0722919788)100:0.1113614179);
+
+TIME STAMP
+----------
+
+Date and time: Thu Aug  6 22:52:42 2020
+Total CPU time used: 51284.26973 seconds (14h:14m:44s)
+Total wall-clock time used: 3243.966027 seconds (0h:54m:3s)
+

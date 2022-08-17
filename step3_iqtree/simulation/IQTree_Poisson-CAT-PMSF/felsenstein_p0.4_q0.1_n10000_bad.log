@@ -1,0 +1,97 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 21 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius28 (AVX512, FMA3, 251 GB RAM)
+Command: /scratch/local/bin/iqtree2 -nt 4 -s felsenstein_p0.4_q0.1_n10000.phylip -m Poisson+G4 -fs felsenstein_p0.4_q0.1_n10000_bad.sitefreq -wslr --prefix felsenstein_p0.4_q0.1_n10000_bad
+Seed:    585881 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 17 10:47:07 2022
+Kernel:  AVX+FMA - 4 threads (4 CPU cores detected)
+
+Reading alignment file felsenstein_p0.4_q0.1_n10000.phylip ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 4 sequences with 10000 columns, 2676 distinct patterns
+518 parsimony-informative, 4258 singleton sites, 5224 constant sites
+   Gap/Ambiguity  Composition  p-value
+   1  2    0.00%    passed    100.00%
+   2  3    0.00%    passed     91.04%
+   3  5    0.00%    passed    100.00%
+   4  6    0.00%    passed     99.72%
+****  TOTAL    0.00%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Reading site-specific state frequency file felsenstein_p0.4_q0.1_n10000_bad.sitefreq ...
+Regrouping alignment sites...
+10000 distinct per-site state frequency vectors detected
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 117 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -42460.786
+2. Current log-likelihood: -42071.707
+3. Current log-likelihood: -42063.992
+4. Current log-likelihood: -42063.450
+Optimal log-likelihood: -42063.395
+Gamma shape alpha: 0.683
+Parameters optimization took 4 rounds (1.467 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.096159 sec (of wall-clock time) 0.330544 sec(of CPU time)
+Computing RapidNJ tree took 0.000430 sec (of wall-clock time) 0.000871 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -42063.395
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.238 second
+Computing log-likelihood of 2 initial trees ... 0.187 seconds
+Current best score: -42063.395
+
+Do NNI search on 3 best initial trees
+Finish initializing candidate tree set (3)
+Current best tree score: -42063.395 / CPU time: 1.290
+Number of iterations: 3
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -42063.395
+Iteration 10 / LogL: -42065.796 / Time: 0h:0m:6s
+Iteration 20 / LogL: -42066.471 / Time: 0h:0m:11s
+UPDATE BEST LOG-LIKELIHOOD: -42063.395
+Iteration 30 / LogL: -42063.395 / Time: 0h:0m:15s (0h:0m:36s left)
+UPDATE BEST LOG-LIKELIHOOD: -42063.395
+Iteration 40 / LogL: -42065.796 / Time: 0h:0m:19s (0h:0m:29s left)
+UPDATE BEST LOG-LIKELIHOOD: -42063.395
+Iteration 50 / LogL: -42066.080 / Time: 0h:0m:23s (0h:0m:23s left)
+Iteration 60 / LogL: -42066.471 / Time: 0h:0m:27s (0h:0m:18s left)
+Iteration 70 / LogL: -42066.471 / Time: 0h:0m:31s (0h:0m:13s left)
+Iteration 80 / LogL: -42065.796 / Time: 0h:0m:35s (0h:0m:8s left)
+Iteration 90 / LogL: -42065.796 / Time: 0h:0m:39s (0h:0m:4s left)
+Iteration 100 / LogL: -42066.080 / Time: 0h:0m:43s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -42063.395
+Optimal log-likelihood: -42063.392
+Gamma shape alpha: 0.681
+Parameters optimization took 1 rounds (0.226 sec)
+BEST SCORE FOUND : -42063.392
+Site log-likelihoods per category printed to felsenstein_p0.4_q0.1_n10000_bad.sitelh
+Total tree length: 1.290
+
+Total number of iterations: 101
+CPU time used for tree search: 161.832 sec (0h:2m:41s)
+Wall-clock time used for tree search: 40.477 sec (0h:0m:40s)
+Total CPU time used: 171.447 sec (0h:2m:51s)
+Total wall-clock time used: 43.753 sec (0h:0m:43s)
+
+Analysis results written to: 
+  IQ-TREE report:                felsenstein_p0.4_q0.1_n10000_bad.iqtree
+  Maximum-likelihood tree:       felsenstein_p0.4_q0.1_n10000_bad.treefile
+  Likelihood distances:          felsenstein_p0.4_q0.1_n10000_bad.mldist
+  Site log-likelihoods:          felsenstein_p0.4_q0.1_n10000_bad.sitelh
+  Screen log file:               felsenstein_p0.4_q0.1_n10000_bad.log
+
+Date and Time: Wed Aug 17 10:47:51 2022

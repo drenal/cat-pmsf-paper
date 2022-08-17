@@ -1,0 +1,159 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 21 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    operarius28 (AVX512, FMA3, 251 GB RAM)
+Command: /scratch/local/bin/iqtree2 -nt 4 -s felsenstein_p1.6_q0.1_n10000.phylip -m Poisson+G4 -fs felsenstein_p1.6_q0.1_n10000_bad.sitefreq -wslr --prefix felsenstein_p1.6_q0.1_n10000_bad
+Seed:    827035 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 17 10:47:55 2022
+Kernel:  AVX+FMA - 4 threads (4 CPU cores detected)
+
+Reading alignment file felsenstein_p1.6_q0.1_n10000.phylip ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 4 sequences with 10000 columns, 3724 distinct patterns
+663 parsimony-informative, 6258 singleton sites, 3079 constant sites
+   Gap/Ambiguity  Composition  p-value
+   1  2    0.00%    passed     99.96%
+   2  3    0.00%    passed     95.94%
+   3  5    0.00%    passed    100.00%
+   4  6    0.00%    passed     99.75%
+****  TOTAL    0.00%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Reading site-specific state frequency file felsenstein_p1.6_q0.1_n10000_bad.sitefreq ...
+Regrouping alignment sites...
+10000 distinct per-site state frequency vectors detected
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 117 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -55979.656
+2. Current log-likelihood: -55007.051
+3. Current log-likelihood: -54992.467
+4. Current log-likelihood: -54984.997
+5. Current log-likelihood: -54981.250
+6. Current log-likelihood: -54979.220
+7. Current log-likelihood: -54978.039
+8. Current log-likelihood: -54977.372
+9. Current log-likelihood: -54976.963
+10. Current log-likelihood: -54976.725
+11. Current log-likelihood: -54976.603
+Optimal log-likelihood: -54976.477
+Gamma shape alpha: 0.685
+Parameters optimization took 11 rounds (4.441 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.132642 sec (of wall-clock time) 0.448438 sec(of CPU time)
+Computing RapidNJ tree took 0.004328 sec (of wall-clock time) 0.000878 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -54976.475
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.378 second
+Computing log-likelihood of 2 initial trees ... 0.210 seconds
+Current best score: -54976.475
+
+Do NNI search on 3 best initial trees
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -54973.007
+Finish initializing candidate tree set (3)
+Current best tree score: -54973.007 / CPU time: 3.731
+Number of iterations: 3
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -54972.931
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -54972.908
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+UPDATE BEST LOG-LIKELIHOOD: -54972.905
+Iteration 10 / LogL: -54974.830 / Time: 0h:0m:14s
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+Iteration 20 / LogL: -54975.317 / Time: 0h:0m:22s
+UPDATE BEST LOG-LIKELIHOOD: -54972.903
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+Iteration 30 / LogL: -54975.317 / Time: 0h:0m:28s (0h:1m:8s left)
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+UPDATE BEST LOG-LIKELIHOOD: -54972.902
+UPDATE BEST LOG-LIKELIHOOD: -54972.901
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+UPDATE BEST LOG-LIKELIHOOD: -54972.900
+UPDATE BEST LOG-LIKELIHOOD: -54972.900
+Iteration 40 / LogL: -54972.900 / Time: 0h:0m:34s (0h:0m:53s left)
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+UPDATE BEST LOG-LIKELIHOOD: -54972.900
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+UPDATE BEST LOG-LIKELIHOOD: -54972.900
+Iteration 50 / LogL: -54973.152 / Time: 0h:0m:40s (0h:0m:41s left)
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+UPDATE BEST LOG-LIKELIHOOD: -54972.899
+Iteration 60 / LogL: -54972.899 / Time: 0h:0m:47s (0h:0m:32s left)
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+Iteration 70 / LogL: -54975.317 / Time: 0h:0m:54s (0h:0m:23s left)
+UPDATE BEST LOG-LIKELIHOOD: -54972.899
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+UPDATE BEST LOG-LIKELIHOOD: -54972.899
+Iteration 80 / LogL: -54972.899 / Time: 0h:1m:0s (0h:0m:15s left)
+UPDATE BEST LOG-LIKELIHOOD: -54972.899
+UPDATE BEST LOG-LIKELIHOOD: -54972.899
+UPDATE BEST LOG-LIKELIHOOD: -54972.899
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+Iteration 90 / LogL: -54974.830 / Time: 0h:1m:5s (0h:0m:7s left)
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+WARNING: NNI search needs unusual large number of steps (4) to converge!
+Iteration 100 / LogL: -54973.146 / Time: 0h:1m:10s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:1m:11s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -54972.899
+Optimal log-likelihood: -54972.898
+Gamma shape alpha: 0.679
+Parameters optimization took 1 rounds (0.216 sec)
+BEST SCORE FOUND : -54972.898
+Site log-likelihoods per category printed to felsenstein_p1.6_q0.1_n10000_bad.sitelh
+Total tree length: 4.074
+
+Total number of iterations: 101
+CPU time used for tree search: 258.510 sec (0h:4m:18s)
+Wall-clock time used for tree search: 64.655 sec (0h:1m:4s)
+Total CPU time used: 282.017 sec (0h:4m:42s)
+Total wall-clock time used: 71.485 sec (0h:1m:11s)
+
+Analysis results written to: 
+  IQ-TREE report:                felsenstein_p1.6_q0.1_n10000_bad.iqtree
+  Maximum-likelihood tree:       felsenstein_p1.6_q0.1_n10000_bad.treefile
+  Likelihood distances:          felsenstein_p1.6_q0.1_n10000_bad.mldist
+  Site log-likelihoods:          felsenstein_p1.6_q0.1_n10000_bad.sitelh
+  Screen log file:               felsenstein_p1.6_q0.1_n10000_bad.log
+
+Date and Time: Wed Aug 17 10:49:07 2022
