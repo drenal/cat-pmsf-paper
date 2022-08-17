@@ -2,7 +2,7 @@ IQ-TREE 2.1.2 COVID-edition built Oct 22 2020
 
 Input file name: CPMSF/felsenstein_p1.5_q0.1_n10000.fasta
 Type of analysis: tree reconstruction
-Random seed number: 555468
+Random seed number: 251943
 
 REFERENCES
 ----------
@@ -19,10 +19,10 @@ SEQUENCE ALIGNMENT
 ------------------
 
 Input data: 4 sequences with 10000 amino-acid sites
-Number of constant sites: 3130 (= 31.3% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 3130 (= 31.3% of all sites)
-Number of parsimony informative sites: 687
-Number of distinct site patterns: 3420
+Number of constant sites: 3196 (= 31.96% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 3196 (= 31.96% of all sites)
+Number of parsimony informative sites: 645
+Number of distinct site patterns: 3667
 
 SUBSTITUTION PROCESS
 --------------------
@@ -31,68 +31,68 @@ Model of substitution: LG+F+G4
 
 State frequencies: (empirical counts from alignment)
 
-  pi(A) = 0.0901
-  pi(R) = 0.0462
-  pi(N) = 0.0387
-  pi(D) = 0.0430
-  pi(C) = 0.0160
-  pi(Q) = 0.0337
-  pi(E) = 0.0533
-  pi(G) = 0.0633
-  pi(H) = 0.0226
-  pi(I) = 0.0797
-  pi(L) = 0.1021
-  pi(K) = 0.0463
-  pi(M) = 0.0306
-  pi(F) = 0.0471
-  pi(P) = 0.0283
-  pi(S) = 0.0763
-  pi(T) = 0.0515
-  pi(W) = 0.0101
-  pi(Y) = 0.0362
-  pi(V) = 0.0847
+  pi(A) = 0.0884
+  pi(R) = 0.0491
+  pi(N) = 0.0361
+  pi(D) = 0.0421
+  pi(C) = 0.0173
+  pi(Q) = 0.0336
+  pi(E) = 0.0505
+  pi(G) = 0.0600
+  pi(H) = 0.0209
+  pi(I) = 0.0817
+  pi(L) = 0.1083
+  pi(K) = 0.0515
+  pi(M) = 0.0321
+  pi(F) = 0.0424
+  pi(P) = 0.0294
+  pi(S) = 0.0749
+  pi(T) = 0.0532
+  pi(W) = 0.0085
+  pi(Y) = 0.0339
+  pi(V) = 0.0860
 
 Model of rate heterogeneity: Gamma with 4 categories
-Gamma shape alpha: 1.0682
+Gamma shape alpha: 1.0255
 
  Category  Relative_rate  Proportion
-  1         0.1504         0.2500
-  2         0.4963         0.2500
-  3         1.0104         0.2500
-  4         2.3429         0.2500
+  1         0.1420         0.2500
+  2         0.4843         0.2500
+  3         1.0041         0.2500
+  4         2.3696         0.2500
 Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -77364.7410 (s.e. 326.5694)
-Unconstrained log-likelihood (without tree): -67758.5562
+Log-likelihood of the tree: -76726.9356 (s.e. 329.2268)
+Unconstrained log-likelihood (without tree): -67922.5336
 Number of free parameters (#branches + #model parameters): 25
-Akaike information criterion (AIC) score: 154779.4819
-Corrected Akaike information criterion (AICc) score: 154779.6123
-Bayesian information criterion (BIC) score: 154959.7404
+Akaike information criterion (AIC) score: 153503.8711
+Corrected Akaike information criterion (AICc) score: 153504.0015
+Bayesian information criterion (BIC) score: 153684.1297
 
-Total tree length (sum of branch lengths): 2.2380
-Sum of internal branch lengths: 0.2370 (10.5906% of tree length)
+Total tree length (sum of branch lengths): 2.2001
+Sum of internal branch lengths: 0.2352 (10.6895% of tree length)
 
 NOTE: Tree is UNROOTED although outgroup taxon '2' is drawn at root
 
 +--------2
 |
-|            +--------------------------------------------3
+|            +---------------------------------------------3
 +------------|
-|            +---------------------------------------------6
+|            +-------------------------------------------6
 |
 +-------5
 
 Tree in newick format:
 
-(2:0.1707676747,(3:0.8251335892,6:0.8483150516):0.2370127091,5:0.1567248542);
+(2:0.1622942392,(3:0.8466670392,6:0.8033959887):0.2351840870,5:0.1525932120);
 
 TIME STAMP
 ----------
 
-Date and time: Wed Feb 24 08:09:27 2021
-Total CPU time used: 18.5319 seconds (0h:0m:18s)
-Total wall-clock time used: 5.01946 seconds (0h:0m:5s)
+Date and time: Mon Jul 11 11:56:21 2022
+Total CPU time used: 20.9412 seconds (0h:0m:20s)
+Total wall-clock time used: 5.2855 seconds (0h:0m:5s)
 
