@@ -1,0 +1,77 @@
+#!/usr/bin/env stack
+{- stack
+runghc
+--package bytestring
+--package elynx-tree
+-}
+
+import Data.Bifunctor
+import qualified Data.ByteString.Lazy.Char8 as BL
+import ELynx.Tree
+import Text.Printf
+
+-- See Leuchtenberger2020, Figure 1.
+
+felsenstein :: Double -> Double -> Tree Phylo Int
+felsenstein p q =
+  toPhyloTree $
+    first toLengthUnsafe $
+      identify $
+        Node
+          0.0
+          ()
+          [ Node
+              q2
+              ()
+              [Node q () [], Node p () []],
+            Node
+              q2
+              ()
+              [Node q () [], Node p () []]
+          ]
+  where
+    q2 = q / 2.0
+
+farris :: Double -> Double -> Tree Phylo Int
+farris p q =
+  toPhyloTree $
+    first toLengthUnsafe $
+      identify $
+        Node
+          0.0
+          ()
+          [ Node
+              q2
+              ()
+              [Node q () [], Node q () []],
+            Node
+              q2
+              ()
+              [Node p () [], Node p () []]
+          ]
+  where
+    q2 = q / 2.0
+
+qs = [0.1]
+
+ps = [0.1, 0.2 .. 2.0]
+
+getSuffix :: Double -> Double -> String
+getSuffix p q = "_p" <> pr p <> "_q" <> pr q <> ".tree"
+  where
+    pr x = printf "%3.1f" x
+
+main :: IO ()
+main = do
+  sequence_
+    [ BL.writeFile fn $ toNewick (farris p q)
+      | p <- ps,
+        q <- qs,
+        let fn = "CPMSF/farris" <> getSuffix p q
+    ]
+  sequence_
+    [ BL.writeFile fn $ toNewick (felsenstein p q)
+      | p <- ps,
+        q <- qs,
+        let fn = "CPMSF/felsenstein" <> getSuffix p q
+    ]

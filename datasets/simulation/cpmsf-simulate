@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -eu
+
+export N_SITES=10000
+
+simulate() {
+    tf="$1"
+    tfb="${tf%.*}"
+    outf="${tfb}_n${N_SITES}"
+    profs=(Siteprofiles/*.sitestat)
+    opts=(-t "$tf"
+          -m "EDM(Poisson-Custom)"
+          -p "${profs[*]}"
+          -g "(4,0.78)"         # Alpha taken from GTR20+CPMSF Microsporidia chain 1 run.
+          -l "$N_SITES"
+          -S 0)
+    slynx -o "${outf}" -f --no-elynx-file simulate "${opts[@]}" +RTS -N4
+}
+export -f simulate
+
+parallel -j 4 simulate {} ::: CPMSF/*.tree

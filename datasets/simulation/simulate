@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+
+usage() {
+    echo "Usage: $(basename "$0") -n N -t FILE [-p] [-T] (b|r)"
+    echo "  Simulate an alignment with across-site compositional heterogeneity."
+    echo
+    echo "  Build with 'b'."
+    echo "  Run with 'r'."
+    echo "  -n N     Simulate an alignment of length N."
+    echo "  -t FILE  Tree file in Newick format."
+    echo "  -h       Print usage."
+    echo "  -p       Build or run with profiling support (automatically activates -T)."
+    echo "  -T       Test with a sub-set of stationary profiles."
+}
+
+# Initialize option variables.
+PROFILING=""
+TEST=""
+N_SITES=""
+TREE=""
+
+# Options.
+OPTIND=1
+while getopts "h?pTn:t:" opt; do
+    case "$opt" in
+        h|\?)
+            usage
+            exit 0
+            ;;
+        p)  PROFILING="TRUE"
+            ;;
+        T)  TEST="TRUE"
+            ;;
+        n)  N_SITES=$OPTARG
+            ;;
+        t)  TREE=$OPTARG
+            ;;
+    esac
+done
+shift $((OPTIND-1))
+[ "${1:-}" = "--" ] && shift
+
+# Arguments.
+if [[ $# -ne 1 ]]
+then
+    usage
+    exit 1
+fi
+
+# First check if we have to build the executable.
+if [[ $1 = "b" ]]
+then
+    if $PROFILING
+    then
+        stack build slynx
+    else
+        stack build --profile slynx
+    fi
+    exit 0
+fi
+
+# Otherwise, check if all options are given correctly.
+if [ -z "$N_SITES" ]
+then
+    echo "Number of sites not given."
+    usage
+    exit 1
+fi
+
+if ! [[ "$N_SITES" =~ ^[0-9]+$ ]]
+then
+    echo "Error: Not a number $N_SITES." >&2
+    exit 1
+fi
+
+if [ -z "$TREE" ]
+then
+    echo "Tree file not given."
+    usage
+    exit 1
+fi
+
+if [ -n "$PROFILING" ]
+then
+    siteprofiles=(Siteprofiles-Test-Few/*.sitestat)
+    rts_flags=("-p" "-hc" "-l" "-s")
+    flags=("--profile")
+elif [ -n "$TEST" ]
+then
+    siteprofiles=(Siteprofiles-Test-Few/*.sitestat)
+    rts_flags=("-s")
+    flags=()
+else
+    siteprofiles=(Siteprofiles/*.sitestat)
+    rts_flags=()
+    flags=()
+fi
+
+if [[ $1 == "r" ]]
+then
+    options=(-t "$TREE" -m "EDM(Poisson-Custom)" -p "${siteprofiles[*]}" -l "$N_SITES" -S [0])
+    bn=$(basename $TREE)
+    outfile="${bn%.*}"
+
+    stack exec "${flags[@]}" slynx -- \
+          -o ${outfile} -f --no-elynx-file \
+          simulate "${options[@]}" \
+          +RTS "${rts_flags[@]}"
+else
+    echo "Given operation is not available."
+    usage
+    exit 1
+fi
+

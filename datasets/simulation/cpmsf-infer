@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+parallel -j 4 iqtree2 -nt 4 -s {} -m LG+F+G4 ::: CPMSF/*.fasta
